@@ -43,7 +43,7 @@ We might also want some minimal connectivity between the nRF54 and the nRF91
 when the latter is mostly wired into a PC --
 even if it's just so the 91 can tell the 54 that it's under PC control now,
 or to relay data to non-solder-jumpered peripherals.
-(Or would those just be under direct USB control?)
+(Or would those just be under the nRF54's and thus USB control, viewe by the host as separate from the SPI parts?)
 Maybe the I2C to the antenna could also be wired to the nRF54, which can then also inspect the antennas?
 
 Antenna domain
