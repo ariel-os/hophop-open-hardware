@@ -45,7 +45,7 @@ Antenna domain
 
 * Direct line to 1.9GHz chip antenna,
   broken only by on-by-default solder jumpers.
-* Solder jumpers allow diverting the signal into a pair of (spring-loaded?) connectors instead.
+* Solder jumpers allow diverting the signal into a pair of connectors (eg. MMCX) instead.
 
   When switched to this configuration,
   it provides several options to be explored later:
@@ -81,7 +81,8 @@ Peripherals
 
 * Break-out of the nRF91 SPI bus (on a dedicated CS) and UART with HW flow control (ideally separate, otherwise shared with protection against nRF54 and external sending at the same time) to Board Control Bus at 3.3V level.
 
-  Which connectors do we best pick to go into a SPI and UART capable Linux system such as a RasPi?
+  Which connectors do we best pick to go into a SPI and UART capable PC style / Linux system such as a RasPi?
+  Maybe Molex KK 254?
   
 * Break-out connectors.
 
@@ -93,8 +94,8 @@ Peripherals
   * 1x UEXT (don't share I2C, those are often also used as GPIO)
   * 1x mikroBUS (especially the analog pin is really best-effort)
 
-  We could also consider Arduino shield, feather modules, but at some point it gets too much.
-  What are your favorite form factors?
+  * Maybe Arduino UNO headers
+    (Or what are your favorite form factors?)
 
 * "The usual buttons and LEDs":
   all connected to the nRF54,
