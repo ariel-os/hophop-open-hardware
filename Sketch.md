@@ -11,7 +11,8 @@ Main cores
 ----------
 
 * nRF9151, with DECT radio core firmware flashed on before shipping
-  * Antenna, 4x antenna selector GPIO and I2C master routed to Antenna domain
+  * Antenna, 4x antenna selector GPIO routed to Antenna domain
+  * I2C participation in Board Control Bus
   * SPI master and UART with HW flow control to nRF54
 
     UART may not technically be necessary because we can frame SPI as we like,
@@ -26,6 +27,7 @@ Main cores
 
 * nRF54H20 (or nRF54LM20A, if H20 is not available?)
   * SPI slave and UART to 9151
+  * I2C participation in Board Control Bus
   * Co-exist from nRF9151
   * The full set of USB connectivity, including PD (but see also Power domain)
   * SWD 10-pin header and 6-pin Tag-Connect
@@ -37,14 +39,6 @@ Main cores
   * Any pins needed for the Peripherals group.
 
 * Mutual RST connections.
-
-TBD:
-We might also want some minimal connectivity between the nRF54 and the nRF91
-when the latter is mostly wired into a PC --
-even if it's just so the 91 can tell the 54 that it's under PC control now,
-or to relay data to non-solder-jumpered peripherals.
-(Or would those just be under the nRF54's and thus USB control, viewe by the host as separate from the SPI parts?)
-Maybe the I2C to the antenna could also be wired to the nRF54, which can then also inspect the antennas?
 
 Antenna domain
 --------------
@@ -67,7 +61,7 @@ Antenna domain
 * Screw terminals that allow any of the above to be put in place on the board,
   rather than setting up flimsy wires.
 
-* 4 GPIOs and one I2C (plus GND/VCC) for antenna selection and metadata.
+* 4 GPIOs and the I2C Board Control Bus (plus GND/VCC) for antenna selection and metadata.
 
   These could be connected by an 8-pin IDC block, or anything that works both for screw-on daughter boards
   and for wiring up the external antenna components separately.
@@ -85,7 +79,7 @@ with strict instructions to only change all three solder bridges or risk damage 
 Peripherals
 -----------
 
-* Break-out of the nRF91 SPI bus (on a dedicated CS) and UART with HW flow control (ideally separate, otherwise shared with protection against nRF54 and external sending at the same time) line at 3.3V level.
+* Break-out of the nRF91 SPI bus (on a dedicated CS) and UART with HW flow control (ideally separate, otherwise shared with protection against nRF54 and external sending at the same time) to Board Control Bus at 3.3V level.
 
   Which connectors do we best pick to go into a SPI and UART capable Linux system such as a RasPi?
   
@@ -168,6 +162,10 @@ Other features
 --------------
 
 Many test points don't hurt.
+
+The purpose of the Board Control Bus is that no matter how an application uses the board
+(e.g. from USB, from the direct-to-PC SPI-UART-I2C connector, or in standalone mode driven by either controller),
+application developers can reach all involved components.
 
 This is an evaluation and testing tool.
 Other similar boards have labels such as "For evaluation only; not FCC approved for resale".
