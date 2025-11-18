@@ -170,22 +170,3 @@ application developers can reach all involved components.
 
 This is an evaluation and testing tool.
 Other similar boards have labels such as "For evaluation only; not FCC approved for resale".
-
-Open questions
---------------
-
-This is all a lot of solder jumpers going to either nRF core.
-Is this practical?
-Alternatives:
-
-* Just route it to the nRF54.
-
-  There will be users who want to do as much as possible on the nRF91,
-  but those may just need to limit themselves to fewer hardware options.
-
-* If there's a cheap many-pin component that can do fan-out pins that don't need tri-stating or bidirectionality
-  (LEDs, MOSI, TX; buttons and RX/MISO don't need jumpering necessarily),
-  it might be an option to switch them all through this.
-
-We should check if the Thingy:91X has anything cool that we'd like to have too,
-especially on MCU-MCU connections.
