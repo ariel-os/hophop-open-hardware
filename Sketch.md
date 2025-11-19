@@ -128,7 +128,7 @@ Audio domain
 
 * 3.5mm TRRS connector, with insertion detection
 
-  TBD: Theose have different pinouts used in different environments (CTIA vs. OMTP);
+  TBD: Those have different pinouts used in different environments (CTIA vs. OMTP);
   can we cater for both, if so, how do we route it,
   and can we auto-detect it?
 
