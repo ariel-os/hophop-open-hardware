@@ -1,3 +1,13 @@
+Purpose
+=======
+
+The development board should facilitate the development of open mobile communication applications
+based on DECT-2020 NR+.
+
+It should allow users to try out hophop,
+explore audio and IP applications on it,
+and gather experience with mobile use based on battery or other power sources.
+
 Components
 ==========
 
