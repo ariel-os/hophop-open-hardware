@@ -18,7 +18,7 @@ Main cores
     UART may not technically be necessary because we can frame SPI as we like,
     but it can be convenient for some development scenarios.
 
-  * I2S bi-directional (plus any GPIO we need there) routed to audio domain with off-by-default solder jumpers.
+  * I2S bi-directional (plus PDM any GPIO we need there) routed to audio domain with off-by-default solder jumpers.
 
   * Co-exist pin to nRF54
   * SWD 10-pin header and 6-pin Tag-Connect
@@ -32,7 +32,7 @@ Main cores
   * The full set of USB connectivity, including PD (but see also Power domain)
   * SWD 10-pin header and 6-pin Tag-Connect
 
-  * I2S bi-directional (plus any GPIO we need there) routed to audio domain with on-by-default solder jumpers.
+  * I2S bi-directional (plus PDM any GPIO we need there) routed to audio domain with on-by-default solder jumpers.
 
   * 2.4GHz chip antenna
 
@@ -120,6 +120,12 @@ Audio domain
 
   TBD: Do we need to do any gain control?
 
+* PDM on-board MEMS microphone (something in the ballpark of MP34DB02)
+
+  Data and VCC wired through on-by-default solder jumper
+  (doesn't need to be R0, suffices to have easy place to cut)
+  so users who run firmware they do not trust can disable it.
+
 * 3.5mm TRRS connector, with insertion detection
 
   TBD: Theose have different pinouts used in different environments (CTIA vs. OMTP);
@@ -129,8 +135,6 @@ Audio domain
   TBD: Should we have another TRS to have split mic/phone headsets, are they still a thing?
 
 TBD: There are headsets with PTT; how is that signalled?
-
-TBD: Do we want to add PDM, typically from an on-board microphone?
 
 Power domain
 ------------
