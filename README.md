@@ -7,7 +7,7 @@ for hardware developed for hophop as inside the Ariel OS project.
 Items
 -----
 
-* [HopHop Devkit 1](hophop-devkit-1.md)
+* [HopHop Devkit 1](./design-decisions/hophop-devkit-1.md)
 
   Status: Currently, this is a sketch, while precise requirements are drafted.
 

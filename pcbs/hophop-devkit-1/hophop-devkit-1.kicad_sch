@@ -1,0 +1,1316 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "e00b09f4-44d7-4938-ad8b-530aa7e6a54a")
+	(paper "A3")
+	(title_block
+		(title "HopHop Devkit 1")
+		(date "2025-11-25")
+		(rev "0.1.0")
+		(company "Ariel OS")
+		(comment 1 "Project: HopHop")
+	)
+	(lib_symbols
+		(symbol "Connector:Conn_ARM_SWD_TagConnect_TC2030-NL"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 2.54 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_ARM_SWD_TagConnect_TC2030-NL"
+				(at 2.54 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2030-CTX_1.pdf"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Tag-Connect ARM Cortex SWD JTAG connector, 6 pin, no legs"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Cortex Debug Connector ARM SWD JTAG"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*TC2030*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_ARM_SWD_TagConnect_TC2030-NL_0_0"
+				(pin power_in line
+					(at -2.54 10.16 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 7.62 5.08 180)
+					(length 2.54)
+					(name "~{RESET}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "SWCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "TCK" output line)
+				)
+				(pin bidirectional line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "SWDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "TMS" bidirectional line)
+				)
+				(pin input line
+					(at 7.62 -5.08 180)
+					(length 2.54)
+					(name "SWO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "TDO" input line)
+				)
+			)
+			(symbol "Conn_ARM_SWD_TagConnect_TC2030-NL_0_1"
+				(rectangle
+					(start -5.08 7.62)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:Conn_Coaxial_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0.254 3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_Coaxial_Small"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_Coaxial_Small_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Conn_Coaxial_Small_1_1"
+				(arc
+					(start 1.3484 0.0039)
+					(mid 0.327 -1.308)
+					(end -1.1916 -0.6311)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.1916 0.6311)
+					(mid 0.327 1.3081)
+					(end 1.3484 -0.0039)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "In"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "Ext"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial_Small")
+		(at 332.74 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1699877f-b816-4799-9037-c377e32ecfa8")
+		(property "Reference" "J2"
+			(at 332.2204 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_Coaxial_Small"
+			(at 332.2204 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 332.74 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 332.74 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 332.74 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85333936-f519-428f-a5a3-89659a8e981a")
+		)
+		(pin "2"
+			(uuid "b79c6157-3d02-493a-b6a0-2b0f75a65a03")
+		)
+		(instances
+			(project "hophop-devkit-1"
+				(path "/e00b09f4-44d7-4938-ad8b-530aa7e6a54a"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial_Small")
+		(at 332.74 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34cfc860-52f6-4509-a12c-5e94de3812d0")
+		(property "Reference" "J1"
+			(at 332.2204 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_Coaxial_Small"
+			(at 332.2204 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 332.74 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 332.74 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 332.74 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e5185e8-10d7-409b-992c-0e61146c11d4")
+		)
+		(pin "2"
+			(uuid "095cdb89-dff0-4750-9809-eee2bbef67ba")
+		)
+		(instances
+			(project ""
+				(path "/e00b09f4-44d7-4938-ad8b-530aa7e6a54a"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 16.51 280.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4294a2f4-3052-4152-8179-97caf2341bb7")
+		(property "Reference" "H3"
+			(at 19.05 279.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MH"
+			(at 19.05 281.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 16.51 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 16.51 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 16.51 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hophop-devkit-1"
+				(path "/e00b09f4-44d7-4938-ad8b-530aa7e6a54a"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 16.51 265.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94b2ff35-42ce-4d1e-8ef1-78295b5fc8a8")
+		(property "Reference" "H1"
+			(at 19.05 264.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MH"
+			(at 19.05 266.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 16.51 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 16.51 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 16.51 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/e00b09f4-44d7-4938-ad8b-530aa7e6a54a"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 24.13 280.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96071765-d277-486a-adeb-3b110b680d18")
+		(property "Reference" "H6"
+			(at 26.67 279.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MH"
+			(at 26.67 281.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.13 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 24.13 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hophop-devkit-1"
+				(path "/e00b09f4-44d7-4938-ad8b-530aa7e6a54a"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 43.18 280.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac927851-2d82-4ded-9a45-37d1a24c7c10")
+		(property "Reference" "H8"
+			(at 45.72 279.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MH"
+			(at 45.72 281.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 43.18 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hophop-devkit-1"
+				(path "/e00b09f4-44d7-4938-ad8b-530aa7e6a54a"
+					(reference "H8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 24.13 273.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1725c8d-d0b8-4de7-ab80-b0d31842c51d")
+		(property "Reference" "H5"
+			(at 26.67 271.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MH"
+			(at 26.67 274.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.13 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 24.13 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hophop-devkit-1"
+				(path "/e00b09f4-44d7-4938-ad8b-530aa7e6a54a"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 16.51 273.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d617ff96-5cc9-4d63-95ab-14502c6e7f9d")
+		(property "Reference" "H2"
+			(at 19.05 271.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MH"
+			(at 19.05 274.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 16.51 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 16.51 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 16.51 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hophop-devkit-1"
+				(path "/e00b09f4-44d7-4938-ad8b-530aa7e6a54a"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 35.56 280.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6f675dc-e1ca-4299-9878-f7c5c7d9b269")
+		(property "Reference" "H7"
+			(at 38.1 279.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MH"
+			(at 38.1 281.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 35.56 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hophop-devkit-1"
+				(path "/e00b09f4-44d7-4938-ad8b-530aa7e6a54a"
+					(reference "H7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_ARM_SWD_TagConnect_TC2030-NL")
+		(at 104.14 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef419dbe-1a0b-453c-bdf2-ce97f582cb4e")
+		(property "Reference" "J3"
+			(at 97.79 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_ARM_SWD_TagConnect_TC2030-NL"
+			(at 97.79 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical"
+			(at 104.14 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2030-CTX_1.pdf"
+			(at 104.14 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tag-Connect ARM Cortex SWD JTAG connector, 6 pin, no legs"
+			(at 104.14 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c38888cf-3ccb-47c6-a08c-f6b46a73e2ec")
+		)
+		(pin "3"
+			(uuid "c1c97beb-044a-4e2d-ac9c-5cc281cbeab3")
+		)
+		(pin "1"
+			(uuid "836c4f57-cd90-4f6b-9d25-a0a7bf9cd77b")
+		)
+		(pin "5"
+			(uuid "6b0086f9-1cb8-48df-bdca-9842a9967633")
+		)
+		(pin "6"
+			(uuid "73c58463-a606-4b48-a836-6d3e8287490e")
+		)
+		(pin "4"
+			(uuid "2a2c8553-2453-4b55-b61b-51526db54c18")
+		)
+		(instances
+			(project ""
+				(path "/e00b09f4-44d7-4938-ad8b-530aa7e6a54a"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 24.13 265.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7c91788-dacf-40d4-a4cc-7fe72ac4c329")
+		(property "Reference" "H4"
+			(at 26.67 264.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MH"
+			(at 26.67 266.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.13 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 24.13 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "hophop-devkit-1"
+				(path "/e00b09f4-44d7-4938-ad8b-530aa7e6a54a"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "sheet-a3.kicad_wks")
+			(type worksheet)
+			(data |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|
+			)
+			(checksum "305D872CAD0169C930CDF5061B87A0ED")
+		)
+	)
+)
