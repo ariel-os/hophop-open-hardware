@@ -826,7 +826,7 @@
 			(net 1 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "31d938ee-c9d8-40f2-8de9-88132615bb84")
+			(uuid "e30f1ad8-5994-4e90-83a6-eea4fa6c0a18")
 		)
 		(pad "2" smd roundrect
 			(at -0.25 2.825 90)
@@ -836,7 +836,7 @@
 			(net 1 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "31d938ee-c9d8-40f2-8de9-88132615bb84")
+			(uuid "340edf12-d46d-49b5-914f-ce5bc93f0054")
 		)
 		(pad "2" smd roundrect
 			(at -0.25 2.825 90)
@@ -846,7 +846,7 @@
 			(net 1 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "31d938ee-c9d8-40f2-8de9-88132615bb84")
+			(uuid "c5bd4312-f338-419d-ba0c-b1f7cf24bf33")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/../../libs/3dmodels/HopHop_Connector_Coaxial/CON-SMA-EDGE-S.step"
@@ -1445,7 +1445,7 @@
 			(net 1 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "f476a224-2ee5-46a5-b353-01c3bcd6e15f")
+			(uuid "5caac64a-5036-4633-918b-e374b802c523")
 		)
 		(pad "2" smd roundrect
 			(at -0.25 2.825 90)
@@ -1455,7 +1455,7 @@
 			(net 1 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "f476a224-2ee5-46a5-b353-01c3bcd6e15f")
+			(uuid "30811e1a-434f-4afc-9af1-360d446f970b")
 		)
 		(pad "2" smd roundrect
 			(at -0.25 2.825 90)
@@ -1465,7 +1465,7 @@
 			(net 1 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "f476a224-2ee5-46a5-b353-01c3bcd6e15f")
+			(uuid "ab0af200-fbf5-47ae-8b2c-c1047a8a46ff")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/../../libs/3dmodels/HopHop_Connector_Coaxial/CON-SMA-EDGE-S.step"
@@ -4339,7 +4339,7 @@
 		(layer "Edge.Cuts")
 		(uuid "b6dfc9c9-b6ad-423b-92e3-720ad0bce8a3")
 	)
-	(gr_text "${PROJECTNAME}\n${COMMENT1}\n${COMPANY}\n${ISSUE_DATE}\n${COMMIT_HASH}"
+	(gr_text "daughterboard-testing-top\n${COMMENT1}\n${COMPANY}\n${ISSUE_DATE}\n${COMMIT_HASH}"
 		(at 121.15 103.75 270)
 		(layer "B.SilkS")
 		(uuid "d60be2ad-3d5f-4496-a07a-f569279eda08")

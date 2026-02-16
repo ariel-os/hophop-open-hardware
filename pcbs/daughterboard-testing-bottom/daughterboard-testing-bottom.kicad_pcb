@@ -5547,7 +5547,7 @@
 			(net 1 "GND")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "8a533ac1-665b-4020-8bb8-29ebe7553f5b")
+			(uuid "a93db327-5321-42a4-a5d2-1e05925a6d35")
 		)
 		(pad "2" thru_hole circle
 			(at 0.635 2.54)
@@ -5567,7 +5567,7 @@
 			(net 16 "unconnected-(J11-Pin_2-Pad2)_1")
 			(pinfunction "Pin_2")
 			(pintype "passive+no_connect")
-			(uuid "4d9724ee-a8b2-459c-bb7a-26fdaebbab26")
+			(uuid "2c88f482-e3ca-4e34-b41b-abb18ee252b2")
 		)
 		(pad "3" smd rect
 			(at -1.875 1.27)
@@ -5587,7 +5587,7 @@
 			(net 17 "unconnected-(J11-Pin_3-Pad3)")
 			(pinfunction "Pin_3")
 			(pintype "passive+no_connect")
-			(uuid "b6a3fad3-a2b3-4ddd-beef-4dcdb323e12c")
+			(uuid "a1ddf411-784d-44eb-b777-996eee35c110")
 		)
 		(pad "4" thru_hole circle
 			(at 0.635 1.27)
@@ -5607,7 +5607,7 @@
 			(net 13 "unconnected-(J11-Pin_4-Pad4)")
 			(pinfunction "Pin_4")
 			(pintype "passive+no_connect")
-			(uuid "ad0de65a-3807-41ab-b338-e2a7e934d3a1")
+			(uuid "85b36257-6e8e-4325-9e62-a3440169c729")
 		)
 		(pad "5" smd rect
 			(at -1.875 0)
@@ -5627,7 +5627,7 @@
 			(net 11 "unconnected-(J11-Pin_5-Pad5)")
 			(pinfunction "Pin_5")
 			(pintype "passive+no_connect")
-			(uuid "9ccaa290-bf46-48dd-b453-523827fed48f")
+			(uuid "7be9eaae-7530-4e6e-a9f6-8d156c0f2290")
 		)
 		(pad "6" thru_hole circle
 			(at 0.635 0)
@@ -5647,7 +5647,7 @@
 			(net 10 "unconnected-(J11-Pin_6-Pad6)")
 			(pinfunction "Pin_6")
 			(pintype "passive+no_connect")
-			(uuid "232afd88-56b0-4deb-86a1-1da5849484b0")
+			(uuid "911db1e5-ab5a-4ce8-9796-717886f0b9a2")
 		)
 		(pad "7" smd rect
 			(at -1.875 -1.27)
@@ -5667,7 +5667,7 @@
 			(net 15 "/D-")
 			(pinfunction "Pin_7")
 			(pintype "passive")
-			(uuid "7c39dadc-6dc9-4305-940b-8007fd88991f")
+			(uuid "734aafcd-b33c-4148-9769-c7093ce2323f")
 		)
 		(pad "8" thru_hole circle
 			(at 0.635 -1.27)
@@ -5687,7 +5687,7 @@
 			(net 12 "unconnected-(J11-Pin_8-Pad8)")
 			(pinfunction "Pin_8")
 			(pintype "passive+no_connect")
-			(uuid "aeb6647d-2e17-4f84-b409-e291e48240b6")
+			(uuid "91da51ce-e05a-4a01-9bd6-b73005ccd3ef")
 		)
 		(pad "9" smd rect
 			(at -1.875 -2.54)
@@ -5707,7 +5707,7 @@
 			(net 14 "/D+")
 			(pinfunction "Pin_9")
 			(pintype "passive")
-			(uuid "4e64910f-ffbf-478e-a30d-52d44e616020")
+			(uuid "125002d2-268e-499f-9dae-9ad1af4b4bd8")
 		)
 		(pad "10" thru_hole circle
 			(at 0.635 -2.54)
@@ -5727,7 +5727,7 @@
 			(net 1 "GND")
 			(pinfunction "Pin_10")
 			(pintype "passive")
-			(uuid "15736e70-9448-4310-adb8-a5070da88e25")
+			(uuid "2e654bfe-f697-4ee4-b74a-2e4810b6e6d9")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_PinSocket_1.27mm.3dshapes/PinSocket_2x05_P1.27mm_Vertical_SMD.step"
@@ -9495,7 +9495,7 @@
 		(layer "User.7")
 		(uuid "a998d2b3-9182-44e1-8ce9-bd901f01b558")
 	)
-	(gr_text "${PROJECTNAME}\n${COMMENT1}\n${COMPANY}\n${ISSUE_DATE}\n${COMMIT_HASH}"
+	(gr_text "daughterboard-testing-bottom\n${COMMENT1}\n${COMPANY}\n${ISSUE_DATE}\n${COMMIT_HASH}"
 		(at 120 115.5 0)
 		(layer "B.SilkS")
 		(uuid "22f78cbe-d1be-4f6a-a0a5-d31c18be879b")
