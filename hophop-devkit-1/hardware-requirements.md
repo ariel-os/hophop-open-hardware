@@ -12,7 +12,7 @@
 3. **Portable Use:** Operate from battery and external power (e.g. 6-48 V DC or USB-C) including solar MPP input. This allows developers to easily test a mobile mesh (power controller has USB Power Delivery and board can also charge the battery)
 4. **I/O & Expansion:** Include robust audio interfaces (headset, mic, PDM mic), multiple debug and breakout connectors (SWD, SPI/UART-to-PC, Grove/UEXT/mikroBUS), and user controls (LEDs, buttons).
 5. **Modular Antenna Testing:** Flexible antenna domain for on-board and external antennas, dummy loads, analyzers, and diversity tests (via jumper configuration and connectors).
-6. **Open Hardware & Branding:** Board designed for development/evaluation only (will not be CE/FCC/etc.-certified). Silk-screen with **Ariel-OS** logo, "open source hardware" label, and evaluation disclaimers. Color scheme: black PCB with white silkscreen and signature orange LEDs (Ariel-OS branding).
+6. **Open Hardware & Branding:** Board designed for development/evaluation only (will not be CE/FCC/etc.-certified). Silk-screen with **Ariel-OS** logo, "open source hardware" label, and evaluation disclaimers. Tentative color scheme: black PCB with white silkscreen and signature orange LEDs (Ariel-OS branding).
 
 ## 2. Core Processors
 
