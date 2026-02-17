@@ -39,3 +39,5 @@ fp-info-cache
 # Local project settings
 *.kicad_prl
 
+# Makefile outputs (gerbers, PDFs, Aisler uploads)
+**/outputs/
