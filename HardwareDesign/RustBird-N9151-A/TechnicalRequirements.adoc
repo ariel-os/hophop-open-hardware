@@ -1,0 +1,40 @@
+== Requirements for Dect 2020
+The board must use a SOC which supports the full ETSI TS 103 636-1 DECT-2020 New Radio (NR)).
+
+The SoC must have a network core and an application core. This implies that the only chip which can be used NR9151. Since this chip complies to the HLD demands.
+
+The Nordic 9151 is the communication SOC. The Nordic nrf52820 is the application SOC. The connection between these soc's are: 1 SPI, 1 UART, 1 I2C.
+
+Both SOC'S have their own SWD for a connection to a Segger Jlink.
+
+The Dect NR+ stack will be written bij members of the Ariel_OS team https://ariel-os.org/. The name for this stack is HopHop https://github.com/ariel-os/hophop. They need this and the other boards for developing of this code.
+
+===  Expansion board
+The optional Expansion development boards or baseboard are Feather wings.
+
+=== Communication interface to the base board
+For current design is SPI sufficient, however future development within the Dect NR+ hardware may require to use QuadSSPI. Since this also improves faster writing speeds to the Soc itself, and it's future-proof therefore QuadSPI SHOULD be used.
+
+But this may depend on the pin configuration of the other expansion boards. So the best option for SPI would be to make it configurable by using cut through traces.
+
+A UART connection to the baseboard provides shell access to the modem part of the nRF9151 System on a Chip (SoC) in the network core. At the Application SOC needs to run at least a bridge for USB to UART of both SOC's
+
+=== Hardware debugging
+The Expansion board must provide a connector to measure the power consumption. This makes it possible to use the Nordic power measurement solution.
+
+The board must also contain test points for hardware debugging.
+
+The board needs to have a UF.L connector for the nrf9151.
+
+THe board must contain the 2 SWD connector to make hardware debugging possible. Or one SWD is this can be shared at the same time with 2 segger jlink debuggers.
+
+==== Power
+The board needs to taking DC from USB, DC or small solar panel. The board needs to be able to charge 1S1P Litium Ion cell like NRC18650.
+
+==== Components required
+The board must only contain components for NR+. This means that the antenna and for GPS and a SIM cardholder is not needed.
+
+==== Markings other legal notices
+The board should mention it is for development only, so it doesn't comply to any CE or FCC regulations. It is also meant to be open hardware. So a nice open hardware logo would be very nice to have. Board may have orange color and Ariel-OS logo to comply to Ariel-OS.
+
+

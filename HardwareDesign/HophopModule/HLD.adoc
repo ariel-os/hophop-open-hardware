@@ -4,7 +4,7 @@
 * Supports and complies to ETSI TS 103 636-1
 * Complies with Dect 2020 standard frequency range
 * DECT NR+ operation is enabled on frequency bands 1, 2, 4, 9, and 22
-* With own basic onboard Antenne
+* With own basic onboard Antenna
 * Provide communication protocol to communicate with other boards.
 * Does not run application software.
 * Expansion board must provide a way to make hardware debugging possible regardless of the base board.
