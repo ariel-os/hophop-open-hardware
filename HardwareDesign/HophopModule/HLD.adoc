@@ -1,0 +1,10 @@
+== High Level Design
+* Expansion board of an existing base board
+* Send and receive for the NR+ protocol (DECT-2020 New Radio (NR))
+* Supports and complies to ETSI TS 103 636-1
+* Complies with Dect 2020 standard frequency range
+* DECT NR+ operation is enabled on frequency bands 1, 2, 4, 9, and 22
+* With own basic onboard Antenne
+* Provide communication protocol to communicate with other boards.
+* Does not run application software.
+
