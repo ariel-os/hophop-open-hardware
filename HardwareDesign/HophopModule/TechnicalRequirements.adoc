@@ -1,0 +1,33 @@
+== Requirements for Dect 2020
+Expansion board must use a SOC which supports the full ETSI TS 103 636-1 DECT-2020 New Radio (NR)).
+
+The SoC must have a network core and an application core. This implies that the only chip which can be used NR9151. Since this chip complies to the HLD demands.
+
+By using this board the only communication protocols between this expansion board and the base board are: SPI, I2C,
+
+===  Expansion board
+The Expansion development board is ment to be placed on the NRF54LM20-DK base board.
+
+=== Communication interface to the base board
+For current design is SPI sufficient, however future development within the Dect NR+ hardware may require to use QuadSSPI. Since this also improves faster writing speeds to the Soc itself, and it's future-proof therefore QuadSPI SHOULD be used.
+
+But this may depend on the pin configuration of the other expansion boards. So the best option for SPI would be to make it configurable by using cut through traces.
+
+The connector must comply to connector standard base board. This means a small power connector and signal connector. Compatible with port P1 data P2 power.
+
+The base board provides the Port 0,2,3 which must be used for this Expansion board.
+
+=== Hardware debugging
+The Expansion board must provide a connector to measure the power consumption. This makes it possible to use the Nordic power measurement solution.
+
+Expansion must also contain test points for hardware debugging.
+
+Expansion board must also contain an HF connector to probe the HF output directly disabling the external antenne.
+
+THe Expansion board must contain the SWD connector to make hardware debugging possible. Therefore, the Expansion board doesn't have to supply UART or serial to the base board.
+
+==== Components required
+The Expansion board must only contain components for NR+. This means that any LTE, GPS or SIM cardholder is not needed.
+
+==== Markings other legal notices
+The board should mention it is for development only, so it doesn't comply to any CE or FCC regulations. It is also meant to be open hardware. So an nice open hardware logo would be very nice to have. Board may have orange color to comply to Ariel-OS colors.
