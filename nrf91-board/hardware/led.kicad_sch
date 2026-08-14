@@ -2377,16 +2377,6 @@
 		)
 		(uuid "494fa2c5-03c2-42c5-8205-7d7f673cbc4d")
 	)
-	(label "VSYS"
-		(at 185.42 26.67 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5d422e81-a5f6-45d0-92b0-73d6c076656d")
-	)
 	(label "DFU"
 		(at 151.13 105.41 0)
 		(effects
@@ -2396,16 +2386,6 @@
 			(justify left bottom)
 		)
 		(uuid "74e529e1-7967-488f-a04e-20d2c798f262")
-	)
-	(label "VSYS"
-		(at 101.6 129.54 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9a020f30-4706-4d61-9615-992f6457fdc1")
 	)
 	(label "LED_G"
 		(at 148.59 43.18 0)
@@ -2466,6 +2446,54 @@
 			(justify left bottom)
 		)
 		(uuid "f6d4a4aa-a826-46c4-928e-5f22a327846e")
+	)
+	(global_label "VSYS"
+		(shape input)
+		(at 101.6 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "85db7e35-4287-4808-9832-c828e6af4ede")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 109.1814 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "VSYS"
+		(shape input)
+		(at 185.42 26.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9d8dcb54-2bd6-42c3-b7de-fb084ce19d87")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.0014 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(hierarchical_label "IF_LED_BLUE"
 		(shape input)

@@ -1510,6 +1510,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 105.41) (xy 162.56 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4525e2c3-b4ec-4d23-8026-7d663fc25458")
+	)
+	(wire
+		(pts
 			(xy 151.13 97.79) (xy 163.83 97.79)
 		)
 		(stroke
@@ -1717,16 +1727,6 @@
 			(type default)
 		)
 		(uuid "994441d1-b7dc-46a9-8eb7-864c8af0f6a4")
-	)
-	(wire
-		(pts
-			(xy 151.13 105.41) (xy 167.64 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b360956-53a4-4334-a839-1415337923f8")
 	)
 	(wire
 		(pts
@@ -1998,16 +1998,6 @@
 		)
 		(uuid "074df97b-2d45-498a-9f32-4b7bcf915abc")
 	)
-	(label "VBUS"
-		(at 123.19 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1a780a3b-b938-4bd3-8918-b01caec38b1c")
-	)
 	(label "P0.00"
 		(at 151.13 72.39 0)
 		(effects
@@ -2097,16 +2087,6 @@
 			(justify left bottom)
 		)
 		(uuid "4c74b9b2-6bd1-428a-b6a2-e1427ece28f6")
-	)
-	(label "VSYS"
-		(at 166.37 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "54bfb87c-defb-44d5-b89e-09d6efb51444")
 	)
 	(label "P0.06"
 		(at 152.4 64.77 0)
@@ -2348,15 +2328,77 @@
 		)
 		(uuid "fb60b677-0645-4e16-9683-2fe24de08f67")
 	)
-	(label "VDD_GPIO"
-		(at 167.64 105.41 0)
+	(global_label "VDD_GPIO"
+		(shape input)
+		(at 162.56 105.41 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "fc9057c5-6109-4ff4-96c9-8abee940fbbb")
+		(uuid "0a70b71c-367d-43b1-b1ae-a8b1459ca453")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 174.6167 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "VBUS"
+		(shape input)
+		(at 123.19 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "40dae493-dde6-44ad-aceb-15d559575051")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 131.0738 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "VSYS"
+		(shape input)
+		(at 166.37 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "528aed8d-54eb-4c46-bf73-fa394379db08")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.9514 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(hierarchical_label "P0.14{slash}AIN1"
 		(shape input)

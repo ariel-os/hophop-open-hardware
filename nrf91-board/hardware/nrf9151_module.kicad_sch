@@ -4014,112 +4014,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "test_project-eagle-import:VBUS"
-			(power global)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#NetPort"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "VBUS_1_0"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.25)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "VEE"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(junction
 		(at 58.42 31.75)
@@ -4218,12 +4112,6 @@
 		(uuid "55162f9e-f082-44ec-9229-a7271da83e50")
 	)
 	(junction
-		(at 38.1 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "56123a31-23cb-4290-8c68-bcfdb7bf5bc2")
-	)
-	(junction
 		(at 163.83 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4242,10 +4130,10 @@
 		(uuid "6e8b6ad3-d53b-4a67-b8cc-a92b4a5b2746")
 	)
 	(junction
-		(at 71.12 17.78)
+		(at 30.48 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7f3ff732-a953-44c3-a6ff-4f6fd851f528")
+		(uuid "85fb4cb6-b84a-4b8e-ad72-e39836f93fb3")
 	)
 	(junction
 		(at 52.07 113.03)
@@ -4266,10 +4154,10 @@
 		(uuid "98cb5334-884d-413d-b508-3aa39bf952dd")
 	)
 	(junction
-		(at 199.39 109.22)
+		(at 86.36 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a9e9b659-01ff-4e60-ba1f-cf405c7b21bc")
+		(uuid "9f7bf674-7bda-4303-b076-a197c74a9558")
 	)
 	(junction
 		(at 53.34 80.01)
@@ -4300,6 +4188,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf401e48-7161-4ad7-bb19-1a1fa7d83a6c")
+	)
+	(junction
+		(at 71.12 17.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d443010d-919d-4957-92f3-872ddf123e00")
 	)
 	(junction
 		(at 49.53 161.29)
@@ -4419,6 +4313,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 17.78) (xy 71.12 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09c9a5eb-268d-4fa9-b024-be8546bea6ca")
+	)
+	(wire
+		(pts
 			(xy 132.08 146.05) (xy 163.83 146.05)
 		)
 		(stroke
@@ -4529,6 +4433,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 31.75) (xy 39.37 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18d8c131-5cc4-400e-97cf-efb8aa1992d8")
+	)
+	(wire
+		(pts
 			(xy 52.07 111.76) (xy 52.07 113.03)
 		)
 		(stroke
@@ -4579,16 +4493,6 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 107.95) (xy 199.39 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1dbb7a80-e448-48ae-a928-a264c98326f0")
-	)
-	(wire
-		(pts
 			(xy 205.74 81.28) (xy 212.09 81.28)
 		)
 		(stroke
@@ -4596,16 +4500,6 @@
 			(type default)
 		)
 		(uuid "1e8bd99b-c29b-4151-8c00-999376c392eb")
-	)
-	(wire
-		(pts
-			(xy 25.4 31.75) (xy 38.1 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f6975b4-e5ed-42d8-bf40-4f234216e8d7")
 	)
 	(wire
 		(pts
@@ -4739,6 +4633,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 29.21) (xy 30.48 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "379b0ae0-7589-4c23-94d9-bb9bd99656fd")
+	)
+	(wire
+		(pts
 			(xy 49.53 161.29) (xy 49.53 167.64)
 		)
 		(stroke
@@ -4859,16 +4763,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 27.94) (xy 38.1 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e6bb90a-aeb9-445d-a83b-c194f419cfed")
-	)
-	(wire
-		(pts
 			(xy 71.12 17.78) (xy 81.28 17.78)
 		)
 		(stroke
@@ -4949,13 +4843,23 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 17.78) (xy 71.12 17.78)
+			(xy 60.96 15.24) (xy 62.23 15.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "64e0c398-e4c4-43d1-ac86-49c5dce7d512")
+	)
+	(wire
+		(pts
+			(xy 86.36 29.21) (xy 86.36 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6899cec1-3607-413a-be21-cbf44a1b1b32")
 	)
 	(wire
 		(pts
@@ -5079,7 +4983,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 31.75) (xy 39.37 31.75)
+			(xy 25.4 31.75) (xy 30.48 31.75)
 		)
 		(stroke
 			(width 0)
@@ -5096,6 +5000,16 @@
 			(type default)
 		)
 		(uuid "810ed01b-f6f5-476f-b6e8-28311e44391e")
+	)
+	(wire
+		(pts
+			(xy 62.23 15.24) (xy 62.23 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "810ed678-4e5f-46b9-8acc-a0c1e1a82dcd")
 	)
 	(wire
 		(pts
@@ -5319,7 +5233,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 31.75) (xy 96.52 31.75)
+			(xy 63.5 31.75) (xy 86.36 31.75)
 		)
 		(stroke
 			(width 0)
@@ -5366,16 +5280,6 @@
 			(type default)
 		)
 		(uuid "b7d37722-c798-4da5-acbc-e63b81298dfc")
-	)
-	(wire
-		(pts
-			(xy 199.39 109.22) (xy 199.39 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc324986-6627-4e5a-b566-028079c5b8b8")
 	)
 	(wire
 		(pts
@@ -5599,7 +5503,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 105.41) (xy 199.39 109.22)
+			(xy 199.39 106.68) (xy 199.39 111.76)
 		)
 		(stroke
 			(width 0)
@@ -5626,6 +5530,16 @@
 			(type default)
 		)
 		(uuid "f6531f97-6df5-491d-a840-ccd4747cf49b")
+	)
+	(wire
+		(pts
+			(xy 86.36 31.75) (xy 96.52 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7137934-2a06-49d4-bfe4-27ffcac1469c")
 	)
 	(wire
 		(pts
@@ -5666,26 +5580,6 @@
 			(type default)
 		)
 		(uuid "fa9191ba-1fea-402e-b19c-ce5e2a365c6a")
-	)
-	(label "VSYS"
-		(at 30.48 27.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0c064cfb-d838-43ce-ab59-5c5d36bb00b2")
-	)
-	(label "VDD_GPIO"
-		(at 194.31 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0e7a1441-f6fe-45a3-9e06-750ac8841640")
 	)
 	(label "P0.30"
 		(at 43.18 118.11 0)
@@ -5977,16 +5871,6 @@
 		)
 		(uuid "982951b9-d90a-46e9-81df-b29faed91aff")
 	)
-	(label "VDD_GPIO"
-		(at 64.77 17.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a2024dfb-a37c-4a0e-b788-daa1baf49f9b")
-	)
 	(label "P0.05"
 		(at 43.18 67.31 0)
 		(effects
@@ -6046,16 +5930,6 @@
 			(justify left bottom)
 		)
 		(uuid "c0dd8f4a-0137-41be-b303-3dd0c0fc4857")
-	)
-	(label "VSYS"
-		(at 90.17 31.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c3f6b8c0-8d37-4b2e-a987-c2b4b60162e5")
 	)
 	(label "P0.27"
 		(at 43.18 110.49 0)
@@ -6216,6 +6090,102 @@
 			(justify left bottom)
 		)
 		(uuid "ffd0b376-986c-4a56-b769-568d82f4e54f")
+	)
+	(global_label "VSYS"
+		(shape input)
+		(at 86.36 29.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "20764c22-ece4-488e-9fe9-7e9da407a611")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.9414 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "VSYS"
+		(shape input)
+		(at 30.48 29.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "96636909-8320-4ce2-9bf8-cd3022a5b417")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 38.0614 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "VDD_GPIO"
+		(shape input)
+		(at 60.96 15.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b33b45be-30be-4cb0-a623-7745b90efeab")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 73.0167 15.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "VDD_GPIO"
+		(shape input)
+		(at 199.39 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "be2f4344-b8f5-48d7-b0a1-bafe6f15be09")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.4467 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(hierarchical_label "P0.15{slash}AIN2"
 		(shape input)
@@ -8533,84 +8503,6 @@
 			(project "hophopdevelopmentboard"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/bd8cfe04-1488-41b5-8430-2dccaca50007"
 					(reference "C25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "test_project-eagle-import:VBUS")
-		(at 199.39 105.41 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "81a9c355-e92b-40fb-ab1e-f99861cffe9a")
-		(property "Reference" "VSYS07"
-			(at 195.58 109.728 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VSYS"
-			(at 205.994 103.124 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 199.39 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 199.39 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 199.39 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d4efe9e8-3a15-46da-8c36-67fedbc51c83")
-		)
-		(instances
-			(project "hophopdevelopmentboard"
-				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/bd8cfe04-1488-41b5-8430-2dccaca50007"
-					(reference "VSYS07")
 					(unit 1)
 				)
 			)
