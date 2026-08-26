@@ -1914,12 +1914,6 @@
 		(uuid "c2037535-8cd7-4a77-b005-69b3dc6ed0b9")
 	)
 	(junction
-		(at 157.48 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fa0dc29e-57e3-45e4-a238-dba425a03013")
-	)
-	(junction
 		(at 179.07 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1982,16 +1976,6 @@
 			(type default)
 		)
 		(uuid "0e709133-075a-424a-82f1-4e0971b0edbb")
-	)
-	(wire
-		(pts
-			(xy 153.67 81.28) (xy 157.48 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "183b432c-2430-4384-97cc-c60785547c1d")
 	)
 	(wire
 		(pts
@@ -2515,6 +2499,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 81.28) (xy 163.83 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91a4c788-2490-4f7c-bff7-5472a072d29e")
+	)
+	(wire
+		(pts
 			(xy 118.11 58.42) (xy 118.11 52.07)
 		)
 		(stroke
@@ -2542,16 +2536,6 @@
 			(type default)
 		)
 		(uuid "9b32846b-8dac-4ade-8151-3bca8472538c")
-	)
-	(wire
-		(pts
-			(xy 157.48 78.74) (xy 157.48 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f244b8b-472c-4b64-80ac-30730bd8c6c7")
 	)
 	(wire
 		(pts
@@ -2702,16 +2686,6 @@
 			(type default)
 		)
 		(uuid "c6bd10f8-1503-4812-8ef8-0c308d30c361")
-	)
-	(wire
-		(pts
-			(xy 157.48 81.28) (xy 163.83 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9d36211-e3a9-42db-a97d-396c0ca68fb1")
 	)
 	(wire
 		(pts
@@ -3292,30 +3266,6 @@
 			(justify left bottom)
 		)
 		(uuid "f4ff863c-8699-4dc5-88af-63dddd6f4457")
-	)
-	(global_label "VDD_GPIO"
-		(shape input)
-		(at 157.48 78.74 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3ba1851b-6624-42ef-85f4-3fcc10acaffd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.5367 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 	)
 	(global_label "VDD_GPIO"
 		(shape input)

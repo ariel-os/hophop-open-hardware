@@ -366,12 +366,30 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "PROD_ID",
+          "name": "PROD_ID",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -416,7 +434,7 @@
         "uuid": "18409950-a1da-4356-97dd-5c7c844a6b0c"
       }
     ],
-    "used_designators": "VSYS1-12,TP1-16,SW1-2,C1-34,U1-3,U5-6,Q1-8,D1-8,#PWR1-61,X1,L1-5,#Q2,J1-5,R1-37,#NetPort13,#NetPort15-17,#NetPort23,#FLG1-3",
+    "used_designators": "#FLG1-3,#NetPort13,#NetPort15-17,#NetPort23,R1-37,J1-5,#Q2,L1-5,X1,#PWR1-61,D1-8,Q1-8,U1-3,U5-6,C1-34,SW1-2,TP1-16,VSYS1-12",
     "variants": []
   },
   "sheets": [

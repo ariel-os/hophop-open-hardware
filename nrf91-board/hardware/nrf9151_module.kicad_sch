@@ -516,7 +516,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "For_makeDiary:DMN2990UFA"
+		(symbol "GrassHopperNymph:DMN2990UFA"
 			(pin_numbers
 				(hide yes)
 			)
@@ -819,7 +819,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "For_makeDiary:DMP22D4UFA"
+		(symbol "GrassHopperNymph:DMP22D4UFA"
 			(pin_numbers
 				(hide yes)
 			)
@@ -7384,7 +7384,7 @@
 		)
 	)
 	(symbol
-		(lib_id "For_makeDiary:DMN2990UFA")
+		(lib_id "GrassHopperNymph:DMN2990UFA")
 		(at 196.85 143.51 0)
 		(unit 1)
 		(body_style 1)
@@ -7417,7 +7417,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "For_makeDiary:DMN2990UFA"
+		(property "Footprint" "GrassHopperNymph:DMN2990UFA"
 			(at 201.93 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -7547,7 +7547,7 @@
 		)
 	)
 	(symbol
-		(lib_id "For_makeDiary:DMN2990UFA")
+		(lib_id "GrassHopperNymph:DMN2990UFA")
 		(at 218.44 137.16 0)
 		(unit 1)
 		(body_style 1)
@@ -7580,7 +7580,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "For_makeDiary:DMN2990UFA"
+		(property "Footprint" "GrassHopperNymph:DMN2990UFA"
 			(at 223.52 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -9401,7 +9401,7 @@
 		)
 	)
 	(symbol
-		(lib_id "For_makeDiary:DMP22D4UFA")
+		(lib_id "GrassHopperNymph:DMP22D4UFA")
 		(at 196.85 129.54 0)
 		(unit 1)
 		(body_style 1)
@@ -9434,7 +9434,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "For_makeDiary:DMP22D4UFA"
+		(property "Footprint" "GrassHopperNymph:DMP22D4UFA"
 			(at 201.93 127 0)
 			(hide yes)
 			(show_name no)

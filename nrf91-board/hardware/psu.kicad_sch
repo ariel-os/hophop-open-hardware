@@ -1587,7 +1587,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "For_makeDiary:BQ25180YBGR"
+		(symbol "GrassHopperNymph:BQ25180YBGR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1854,7 +1854,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "For_makeDiary:DMN2990UFA"
+		(symbol "GrassHopperNymph:DMN2990UFA"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2157,7 +2157,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "For_makeDiary:TPS63901YCR"
+		(symbol "GrassHopperNymph:TPS63901YCR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2882,12 +2882,6 @@
 		(uuid "689341bc-3b0c-4bba-a0d1-25da46e4cb9b")
 	)
 	(junction
-		(at 261.62 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "71742cda-29f3-452f-b820-0835ec7e5143")
-	)
-	(junction
 		(at 220.98 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2930,6 +2924,12 @@
 		(uuid "9b604780-043f-4b90-bb4a-5d012851788c")
 	)
 	(junction
+		(at 261.62 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a74dd905-18eb-482e-b83b-84def38c91d3")
+	)
+	(junction
 		(at 138.43 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2946,12 +2946,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bf609e64-0a62-4d65-82d2-db9d2eeb7d24")
-	)
-	(junction
-		(at 83.82 22.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bfcea4eb-7e8c-4bc4-95ba-a307fbb04e21")
 	)
 	(junction
 		(at 116.84 41.91)
@@ -2982,6 +2976,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf55b366-0703-41cc-8b9e-1ff2bff3cc37")
+	)
+	(junction
+		(at 270.51 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d11e5117-ae71-41af-b93e-4014bdee882c")
+	)
+	(junction
+		(at 40.64 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfc89f8a-aa4b-4c48-a213-a06a8c2080aa")
 	)
 	(junction
 		(at 52.07 64.77)
@@ -3295,6 +3301,26 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 22.86) (xy 201.93 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3afa4986-b79b-4bb4-8629-526b8282c0ed")
+	)
+	(wire
+		(pts
+			(xy 40.64 68.58) (xy 52.07 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b0744b5-e29a-4b5c-bde5-5654655ce359")
+	)
+	(wire
+		(pts
 			(xy 181.61 93.98) (xy 181.61 96.52)
 		)
 		(stroke
@@ -3495,7 +3521,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 35.56) (xy 266.7 35.56)
+			(xy 261.62 35.56) (xy 270.51 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3562,6 +3588,16 @@
 			(type default)
 		)
 		(uuid "6b4f440f-0c2d-4113-8b98-f4aaf26856ec")
+	)
+	(wire
+		(pts
+			(xy 270.51 38.1) (xy 269.24 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cda9be6-ff1f-407b-9193-2a52dbfea3f8")
 	)
 	(wire
 		(pts
@@ -3675,6 +3711,16 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 38.1) (xy 270.51 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e085669-dfd3-4742-b79c-caae445e8def")
+	)
+	(wire
+		(pts
 			(xy 166.37 124.46) (xy 166.37 132.08)
 		)
 		(stroke
@@ -3745,7 +3791,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 68.58) (xy 52.07 68.58)
+			(xy 24.13 68.58) (xy 40.64 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3915,13 +3961,13 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 22.86) (xy 83.82 22.86)
+			(xy 271.78 41.91) (xy 271.78 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d0999f3c-cd40-464a-86a7-660cad03ef8c")
+		(uuid "d098861a-659c-4e9d-96e7-888009fdbd6a")
 	)
 	(wire
 		(pts
@@ -3945,16 +3991,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 22.86) (xy 201.93 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d56c0868-446f-416f-b5f6-aaebf161f8b7")
-	)
-	(wire
-		(pts
 			(xy 181.61 96.52) (xy 181.61 100.33)
 		)
 		(stroke
@@ -3965,6 +4001,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 35.56) (xy 270.51 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db23860b-99d2-4dd6-8c66-ee1b2593642e")
+	)
+	(wire
+		(pts
 			(xy 205.74 40.64) (xy 205.74 68.58)
 		)
 		(stroke
@@ -3972,16 +4018,6 @@
 			(type default)
 		)
 		(uuid "db2dfe3b-fe07-4f0c-b8e1-133baf2f9281")
-	)
-	(wire
-		(pts
-			(xy 83.82 20.32) (xy 83.82 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dcc1ccba-e818-4d9d-a182-429fdb285fd4")
 	)
 	(wire
 		(pts
@@ -4015,6 +4051,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 41.91) (xy 271.78 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0fdcf1c-46b6-4153-b587-2485ad0fff04")
+	)
+	(wire
+		(pts
 			(xy 142.24 100.33) (xy 153.67 100.33)
 		)
 		(stroke
@@ -4035,13 +4081,23 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 38.1) (xy 271.78 43.18)
+			(xy 269.24 40.64) (xy 269.24 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e6dc82a0-f706-4f4a-88b3-ec3bb081081c")
+	)
+	(wire
+		(pts
+			(xy 273.05 38.1) (xy 273.05 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e87af944-aff9-4a24-ae69-38fb092d9894")
 	)
 	(wire
 		(pts
@@ -4279,7 +4335,7 @@
 	)
 	(global_label "VBAT"
 		(shape input)
-		(at 271.78 35.56 0)
+		(at 273.05 35.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4289,7 +4345,7 @@
 		)
 		(uuid "3537aaea-4a76-498f-b713-e0e7ecc21cf6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 279.18 35.56 0)
+			(at 280.45 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4351,7 +4407,7 @@
 	)
 	(global_label "VBUS"
 		(shape input)
-		(at 83.82 20.32 0)
+		(at 80.01 22.86 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4361,7 +4417,7 @@
 		)
 		(uuid "971a12c9-78d0-41e3-b72a-82012a26f842")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.7038 20.32 0)
+			(at 87.8938 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4495,7 +4551,7 @@
 	)
 	(global_label "USB_DM"
 		(shape input)
-		(at 134.62 36.83 0)
+		(at 135.89 36.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4505,7 +4561,7 @@
 		)
 		(uuid "f64a75b7-ebf1-43d7-bdfb-41d1fa4c3a7d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 145.1042 36.83 0)
+			(at 146.3742 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4870,7 +4926,85 @@
 		)
 	)
 	(symbol
-		(lib_id "For_makeDiary:BQ25180YBGR")
+		(lib_id "power:PWR_FLAG")
+		(at 40.64 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2586e815-fb43-48b1-9895-edd8a187207f")
+		(property "Reference" "#FLG02"
+			(at 40.64 66.675 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 40.64 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 40.64 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f5b140ee-dcd0-47d9-83ba-5e165b8c5163")
+		)
+		(instances
+			(project "hophopdevelopmentboard"
+				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GrassHopperNymph:BQ25180YBGR")
 		(at 222.25 33.02 0)
 		(unit 1)
 		(body_style 1)
@@ -4900,7 +5034,7 @@
 				)
 			)
 		)
-		(property "Footprint" "test_project:IC_BQ25180YBGR"
+		(property "Footprint" "Package_BGA:Texas_DSBGA-8_0.705x1.468mm_Layout2x4_P0.4mm"
 			(at 222.25 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -5451,7 +5585,7 @@
 		)
 	)
 	(symbol
-		(lib_id "For_makeDiary:DMN2990UFA")
+		(lib_id "GrassHopperNymph:DMN2990UFA")
 		(at 226.06 55.88 0)
 		(unit 1)
 		(body_style 1)
@@ -5483,7 +5617,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "For_makeDiary:DMN2990UFA"
+		(property "Footprint" "GrassHopperNymph:DMN2990UFA"
 			(at 231.14 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -6453,7 +6587,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 266.7 35.56 0)
+		(at 264.16 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6464,7 +6598,7 @@
 		(fields_autoplaced yes)
 		(uuid "7c479796-3114-4906-af60-24d6a042fd64")
 		(property "Reference" "J2"
-			(at 267.335 30.48 0)
+			(at 264.795 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6474,7 +6608,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 267.335 33.02 0)
+			(at 264.795 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6485,7 +6619,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 266.7 35.56 0)
+			(at 264.16 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6496,7 +6630,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 266.7 35.56 0)
+			(at 264.16 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6507,7 +6641,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 266.7 35.56 0)
+			(at 264.16 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7099,7 +7233,7 @@
 		)
 	)
 	(symbol
-		(lib_id "For_makeDiary:TPS63901YCR")
+		(lib_id "GrassHopperNymph:TPS63901YCR")
 		(at 153.67 142.24 0)
 		(unit 1)
 		(body_style 1)
