@@ -4,6 +4,13 @@
 	(generator_version "10.0")
 	(uuid "f74928d9-b3fb-4ec6-aa4a-06b4106fc527")
 	(paper "A4")
+	(title_block
+		(title "nRF9151 Development Kit")
+		(date "2026-06-10")
+		(rev "0.9")
+		(company "HopHop")
+		(comment 1 "Designer: Edwin Schokkenbroek")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers

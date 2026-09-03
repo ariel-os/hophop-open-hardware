@@ -4,6 +4,13 @@
 	(generator_version "10.0")
 	(uuid "cc4cfafb-2d31-4d6f-8f0a-1d7ae92a23ec")
 	(paper "A4")
+	(title_block
+		(title "nRF9151 Development Kit")
+		(date "2026-06-10")
+		(rev "0.9")
+		(company "HopHop")
+		(comment 1 "Designer: Edwin Schokkenbroek")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_02x20_Odd_Even"
 			(pin_names
