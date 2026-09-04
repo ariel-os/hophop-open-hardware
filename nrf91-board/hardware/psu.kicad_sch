@@ -1594,7 +1594,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "GrassHopperNymph:BQ25180YBGR"
+		(symbol "HopHop_Battery_Management:BQ25180YBG"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1621,7 +1621,7 @@
 					)
 				)
 			)
-			(property "Footprint" "GrassHopperNymph:Texas_YBG0008-C01_DSBGA-8_1.04x1.59mm_Layout2x4_P0.4mm"
+			(property "Footprint" "HopHop_Package_BGA:Texas_YBG0008-C01_DSBGA-8_1.04x1.59mm_Layout2x4_P0.4mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1664,7 +1664,7 @@
 					)
 				)
 			)
-			(symbol "BQ25180YBGR_1_0"
+			(symbol "BQ25180YBG_1_0"
 				(polyline
 					(pts
 						(xy -10.16 12.7) (xy -10.16 -12.7)
@@ -1860,7 +1860,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "GrassHopperNymph:DMN2990UFA" (pin_numbers (hide yes))
+		(symbol "HopHop_Transistor_FET:DMN2990UFA" (pin_numbers (hide yes))
 		(pin_names
 			(offset 0)
 			(hide yes)
@@ -1892,7 +1892,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "GrassHopperNymph:Diodes_X2-DFN0806-3_0.8x0.6mm_P0.35mm_GSD" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Footprint" "HopHop_Package_DFN_QFN:Diodes_X2-DFN0806-3_0.8x0.6mm_P0.35mm_GSD" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMN2990UFA.pdf" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(property "Description" "20V, 0.51A N-channel MOSFET with body diode and bidirectional gate ESD protection, X2-DFN0806-3" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(property "ki_keywords" "N-MOSFET transistor ESD" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
@@ -2204,7 +2204,7 @@
 		)
 		(embedded_fonts no)
 	)
-		(symbol "GrassHopperNymph:TPS63901YCJR"
+		(symbol "HopHop_Regulator_Switching:TPS63901YCJ"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2230,7 +2230,7 @@
 					)
 				)
 			)
-			(property "Footprint" "GrassHopperNymph:Texas_YCJ0012-C02_DSBGA-12_1.15x1.5mm_Layout3x4_P0.35mm"
+			(property "Footprint" "HopHop_Package_BGA:Texas_YCJ0012-C02_DSBGA-12_1.15x1.5mm_Layout3x4_P0.35mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2263,7 +2263,7 @@
 					)
 				)
 			)
-			(symbol "TPS63901YCJR_0_1"
+			(symbol "TPS63901YCJ_0_1"
 				(rectangle
 					(start 2.032 50.8)
 					(end 25.4 20.066)
@@ -2276,7 +2276,7 @@
 					)
 				)
 			)
-			(symbol "TPS63901YCJR_1_1"
+			(symbol "TPS63901YCJ_1_1"
 				(pin power_out line
 					(at 27.94 35.56 180)
 					(length 2.54)
@@ -5101,7 +5101,7 @@
 			(uuid "d620815c-8606-450b-81ee-f8f2ac0297f1")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
 					(reference "R11")
 					(unit 1)
@@ -5179,7 +5179,7 @@
 			(uuid "59f78ef8-d55f-4c9a-b28e-c33475b9997f")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
 					(reference "#FLG01")
 					(unit 1)
@@ -5260,7 +5260,7 @@
 			(uuid "b4b8800d-c9e6-4dbe-846a-8a7048c01249")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
 					(reference "R10")
 					(unit 1)
@@ -5338,7 +5338,7 @@
 			(uuid "f5b140ee-dcd0-47d9-83ba-5e165b8c5163")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
 					(reference "#FLG02")
 					(unit 1)
@@ -5347,7 +5347,7 @@
 		)
 	)
 	(symbol
-		(lib_id "GrassHopperNymph:BQ25180YBGR")
+		(lib_id "HopHop_Battery_Management:BQ25180YBG")
 		(at 222.25 33.02 0)
 		(unit 1)
 		(body_style 1)
@@ -5377,7 +5377,7 @@
 				)
 			)
 		)
-		(property "Footprint" "GrassHopperNymph:Texas_YBG0008-C01_DSBGA-8_1.04x1.59mm_Layout2x4_P0.4mm"
+		(property "Footprint" "HopHop_Package_BGA:Texas_YBG0008-C01_DSBGA-8_1.04x1.59mm_Layout2x4_P0.4mm"
 			(at 222.25 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -5435,7 +5435,7 @@
 			(uuid "2260319c-d758-4756-af6c-06c73f0b8e40")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
 					(reference "U1")
 					(unit 1)
@@ -5513,7 +5513,7 @@
 			(uuid "3a77c2bb-02ca-43bd-965f-253638469f45")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
 					(reference "#PWR011")
 					(unit 1)
@@ -5594,7 +5594,7 @@
 			(uuid "266278a2-f13c-4a48-9bc4-45d9abf7a025")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
 					(reference "D3")
 					(unit 1)
@@ -5675,7 +5675,7 @@
 			(uuid "40b4e9e9-3e9c-4888-bd8a-dddb35d0a970")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
 					(reference "C4")
 					(unit 1)
@@ -5756,7 +5756,7 @@
 			(uuid "2638f6d5-81a6-4830-9f53-c06c262e85d4")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
 					(reference "C2")
 					(unit 1)
@@ -5837,7 +5837,7 @@
 			(uuid "c09883b5-eca1-41c8-9460-e11e45a2d5da")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
 					(reference "R3")
 					(unit 1)
@@ -5915,7 +5915,7 @@
 			(uuid "a4316dc5-8d5d-428f-9878-fcb89f91d25b")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
 					(reference "TP2")
 					(unit 1)
@@ -5924,7 +5924,7 @@
 		)
 	)
 	(symbol
-		(lib_id "GrassHopperNymph:DMN2990UFA")
+		(lib_id "HopHop_Transistor_FET:DMN2990UFA")
 		(at 226.06 55.88 0)
 		(unit 1)
 		(body_style 1)
@@ -5956,7 +5956,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "GrassHopperNymph:Diodes_X2-DFN0806-3_0.8x0.6mm_P0.35mm_GSD"
+		(property "Footprint" "HopHop_Package_DFN_QFN:Diodes_X2-DFN0806-3_0.8x0.6mm_P0.35mm_GSD"
 			(at 231.14 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -5999,7 +5999,7 @@
 			(uuid "4b0b0e27-524f-4039-be9c-df5f00846b1e")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
 					(reference "Q1")
 					(unit 1)
@@ -6080,7 +6080,7 @@
 			(uuid "e0eb1482-656b-479b-af41-8992c3676c86")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
 					(reference "C1")
 					(unit 1)
@@ -6158,7 +6158,7 @@
 			(uuid "29af4774-5194-46b1-ad1a-264e7465d3dc")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
 					(reference "#PWR056")
 					(unit 1)
@@ -6265,7 +6265,7 @@
 			(uuid "f2bf5c4e-e717-4137-b612-de249fbdb9cc")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
 					(reference "U4")
 					(unit 1)
@@ -6343,7 +6343,7 @@
 			(uuid "a95174dd-6ef3-4318-9bbb-0b4328117cb6")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
 					(reference "TP1")
 					(unit 1)
@@ -6420,7 +6420,7 @@
 			(uuid "c236689b-2d43-477b-bc22-c3395d2641fc")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
 					(reference "#PWR012")
 					(unit 1)
@@ -6544,7 +6544,7 @@
 			(uuid "c11bec87-da82-4d27-8e05-2cbed09f28bd")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
 					(reference "J1")
 					(unit 1)
@@ -6625,7 +6625,7 @@
 			(uuid "77191dc7-53b5-47a0-80df-68b8c92cbc3d")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
 					(reference "R8")
 					(unit 1)
@@ -6702,7 +6702,7 @@
 			(uuid "e2191a86-c157-4d04-a419-624f61c0a3c2")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
 					(reference "#PWR015")
 					(unit 1)
@@ -6783,7 +6783,7 @@
 			(uuid "9db6c2e4-ea0c-4f16-9e77-a6cd69de04a1")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
 					(reference "D2")
 					(unit 1)
@@ -6860,7 +6860,7 @@
 			(uuid "6c40cf7e-d59a-4669-a736-6ed36370d2e8")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
 					(reference "#PWR051")
 					(unit 1)
@@ -6941,7 +6941,7 @@
 			(uuid "40720dfb-c76a-499c-aa50-e5a7c09dfea5")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
 					(reference "R9")
 					(unit 1)
@@ -7018,7 +7018,7 @@
 			(uuid "ff5acd09-b8b5-4ea2-b8c1-af5abe1adb55")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
 					(reference "#FLG03")
 					(unit 1)
@@ -7098,7 +7098,7 @@
 			(uuid "6062bb3a-5ea3-4220-a0c9-0dc5e04e107c")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
 					(reference "J2")
 					(unit 1)
@@ -7179,7 +7179,7 @@
 			(uuid "ddf516fd-7cce-433a-af61-4e469f7aea4e")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
 					(reference "C3")
 					(unit 1)
@@ -7257,7 +7257,7 @@
 			(uuid "b089b7b9-2404-4856-bc67-6182ab9f7ea1")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
 					(reference "#PWR053")
 					(unit 1)
@@ -7336,7 +7336,7 @@
 			(uuid "e4a20292-1d93-4f25-8229-162f9edb0aa5")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
 					(reference "L1")
 					(unit 1)
@@ -7417,7 +7417,7 @@
 			(uuid "ba2bb9b8-649e-4037-ae27-648293245799")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
 					(reference "R2")
 					(unit 1)
@@ -7498,7 +7498,7 @@
 			(uuid "52b41091-8f22-492f-983f-840289ef3bc2")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
 					(reference "R4")
 					(unit 1)
@@ -7579,7 +7579,7 @@
 			(uuid "5183b93f-d092-471b-a35b-af656b52dcd8")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
 					(reference "R6")
 					(unit 1)
@@ -7660,7 +7660,7 @@
 			(uuid "c1ce4054-5340-4e39-826f-f610960101a7")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
 					(reference "D1")
 					(unit 1)
@@ -7669,7 +7669,7 @@
 		)
 	)
 	(symbol
-		(lib_id "GrassHopperNymph:TPS63901YCJR")
+		(lib_id "HopHop_Regulator_Switching:TPS63901YCJ")
 		(at 153.67 142.24 0)
 		(unit 1)
 		(body_style 1)
@@ -7699,7 +7699,7 @@
 				)
 			)
 		)
-		(property "Footprint" "GrassHopperNymph:Texas_YCJ0012-C02_DSBGA-12_1.15x1.5mm_Layout3x4_P0.35mm"
+		(property "Footprint" "HopHop_Package_BGA:Texas_YCJ0012-C02_DSBGA-12_1.15x1.5mm_Layout3x4_P0.35mm"
 			(at 153.67 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -7769,7 +7769,7 @@
 			(uuid "c87e2687-502a-4918-b932-09ef684b6ff0")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
 					(reference "U2")
 					(unit 1)
@@ -7850,7 +7850,7 @@
 			(uuid "426f68ad-431c-4135-b6d1-3c04eab2adff")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
 					(reference "R7")
 					(unit 1)
@@ -7927,7 +7927,7 @@
 			(uuid "535c2544-df06-4922-99c2-a41343137fcd")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
 					(reference "#PWR013")
 					(unit 1)
@@ -8005,7 +8005,7 @@
 			(uuid "1bebda04-1e3a-44f7-972b-1b92f4ce7f1e")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
 					(reference "#PWR016")
 					(unit 1)
@@ -8082,7 +8082,7 @@
 			(uuid "caa8fc54-6286-419f-a11b-cafa9b8398c9")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
 					(reference "#PWR052")
 					(unit 1)
@@ -8159,7 +8159,7 @@
 			(uuid "52d9be0b-579c-4ed8-b566-9e69bd6b3fb7")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
 					(reference "#PWR017")
 					(unit 1)
@@ -8240,7 +8240,7 @@
 			(uuid "4da95975-85b6-4c07-bf0d-f68ad1b213df")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
 					(reference "C5")
 					(unit 1)
@@ -8317,7 +8317,7 @@
 			(uuid "a17479c3-09cc-4d91-ad59-1eeb6eb84397")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
 					(reference "#PWR020")
 					(unit 1)
@@ -8398,7 +8398,7 @@
 			(uuid "15615d5b-914a-49b9-9ee5-e27f0ac26be3")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
 					(reference "R1")
 					(unit 1)
@@ -8476,7 +8476,7 @@
 			(uuid "bf75d3cd-c2dc-414c-b010-eaa647406674")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
 					(reference "#PWR055")
 					(unit 1)
@@ -8553,7 +8553,7 @@
 			(uuid "400ee739-d17d-4a8a-bafa-d22d4c0ae496")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
 					(reference "#PWR018")
 					(unit 1)
@@ -8630,7 +8630,7 @@
 			(uuid "9137cbf0-0ae0-4167-ba55-5e318c863739")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
 					(reference "#PWR019")
 					(unit 1)
@@ -8708,7 +8708,7 @@
 			(uuid "23c97abe-e74d-4589-a102-d36e2e5adf71")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
 					(reference "#PWR057")
 					(unit 1)
@@ -8785,7 +8785,7 @@
 			(uuid "3eff272f-53ad-4511-861c-603711cd34a1")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
 					(reference "#PWR054")
 					(unit 1)
@@ -8862,7 +8862,7 @@
 			(uuid "a025df31-a693-4e56-b1cb-422a35e3525c")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
 					(reference "#PWR014")
 					(unit 1)
@@ -8939,7 +8939,7 @@
 			(uuid "b61aa289-edf4-46d0-885e-c02efae0bc96")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
 					(reference "#PWR040")
 					(unit 1)
@@ -9017,7 +9017,7 @@
 			(uuid "d8becdfa-d252-41c8-b154-d4574ef78bf7")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
 					(reference "TP3")
 					(unit 1)

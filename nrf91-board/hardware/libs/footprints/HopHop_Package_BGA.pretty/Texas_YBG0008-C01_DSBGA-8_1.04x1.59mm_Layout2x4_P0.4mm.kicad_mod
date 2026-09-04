@@ -21,4 +21,6 @@
 (pad "C2" smd circle (at 0.2 0.2) (size 0.23 0.23) (layers "F.Cu" "F.Mask" "F.Paste") (solder_mask_margin 0.04))
 (pad "D1" smd circle (at -0.2 0.6) (size 0.23 0.23) (layers "F.Cu" "F.Mask" "F.Paste") (solder_mask_margin 0.04))
 (pad "D2" smd circle (at 0.2 0.6) (size 0.23 0.23) (layers "F.Cu" "F.Mask" "F.Paste") (solder_mask_margin 0.04))
+(model "${KICAD10_3DMODEL_DIR}/HopHop_Package_BGA.3dshapes/Texas_YBG0008-C01_DSBGA-8_1.04x1.59mm_Layout2x4_P0.4mm.step"
+  (offset (xyz 0 0 0)) (scale (xyz 1 1 1)) (rotate (xyz 0 0 0)))
 )

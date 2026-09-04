@@ -937,7 +937,7 @@
 			)
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c"
 					(page "4")
 				)
@@ -1333,7 +1333,7 @@
 			)
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c"
 					(page "6")
 				)
@@ -1439,7 +1439,7 @@
 			)
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c"
 					(page "3")
 				)
@@ -1565,7 +1565,7 @@
 			)
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c"
 					(page "2")
 				)
@@ -1970,7 +1970,7 @@
 			)
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c"
 					(page "5")
 				)

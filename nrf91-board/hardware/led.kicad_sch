@@ -201,7 +201,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "GrassHopperNymph:DMN2990UFA" (pin_numbers (hide yes))
+		(symbol "HopHop_Transistor_FET:DMN2990UFA" (pin_numbers (hide yes))
 		(pin_names
 			(offset 0)
 			(hide yes)
@@ -233,7 +233,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "GrassHopperNymph:Diodes_X2-DFN0806-3_0.8x0.6mm_P0.35mm_GSD" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Footprint" "HopHop_Package_DFN_QFN:Diodes_X2-DFN0806-3_0.8x0.6mm_P0.35mm_GSD" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMN2990UFA.pdf" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(property "Description" "20V, 0.51A N-channel MOSFET with body diode and bidirectional gate ESD protection, X2-DFN0806-3" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
 		(property "ki_keywords" "N-MOSFET transistor ESD" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
@@ -2610,7 +2610,7 @@
 		(uuid "9b0d7b1c-caba-4e53-85ce-633c64c6903e")
 	)
 	(symbol
-		(lib_id "GrassHopperNymph:DMN2990UFA")
+		(lib_id "HopHop_Transistor_FET:DMN2990UFA")
 		(at 74.93 43.18 0)
 		(unit 1)
 		(body_style 1)
@@ -2643,7 +2643,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "GrassHopperNymph:Diodes_X2-DFN0806-3_0.8x0.6mm_P0.35mm_GSD"
+		(property "Footprint" "HopHop_Package_DFN_QFN:Diodes_X2-DFN0806-3_0.8x0.6mm_P0.35mm_GSD"
 			(at 80.01 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -2686,7 +2686,7 @@
 			(uuid "cdd91874-932b-436d-9305-786bd3d87622")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/7f501c0b-af37-4662-879a-7c6bd745f962"
 					(reference "Q5")
 					(unit 1)
@@ -2767,7 +2767,7 @@
 			(uuid "03552559-c146-4aec-84c1-9dba985de40b")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/7f501c0b-af37-4662-879a-7c6bd745f962"
 					(reference "R27")
 					(unit 1)
@@ -2845,7 +2845,7 @@
 			(uuid "a420e35c-2e29-4bdb-9381-fe384321aafa")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/7f501c0b-af37-4662-879a-7c6bd745f962"
 					(reference "#PWR048")
 					(unit 1)
@@ -2926,7 +2926,7 @@
 			(uuid "5a835ab6-3fc8-4881-8c51-ec5ea0942fd5")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/7f501c0b-af37-4662-879a-7c6bd745f962"
 					(reference "R30")
 					(unit 1)
@@ -2935,7 +2935,7 @@
 		)
 	)
 	(symbol
-		(lib_id "GrassHopperNymph:DMN2990UFA")
+		(lib_id "HopHop_Transistor_FET:DMN2990UFA")
 		(at 74.93 77.47 0)
 		(unit 1)
 		(body_style 1)
@@ -2968,7 +2968,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "GrassHopperNymph:Diodes_X2-DFN0806-3_0.8x0.6mm_P0.35mm_GSD"
+		(property "Footprint" "HopHop_Package_DFN_QFN:Diodes_X2-DFN0806-3_0.8x0.6mm_P0.35mm_GSD"
 			(at 80.01 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -3011,7 +3011,7 @@
 			(uuid "2a1ea6c0-e87d-49f1-b506-4ae2df72f3e1")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/7f501c0b-af37-4662-879a-7c6bd745f962"
 					(reference "Q6")
 					(unit 1)
@@ -3092,7 +3092,7 @@
 			(uuid "f437306f-2801-423e-9788-f37ad628bd3b")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/7f501c0b-af37-4662-879a-7c6bd745f962"
 					(reference "R35")
 					(unit 1)
@@ -3178,7 +3178,7 @@
 			(uuid "4be0e2c0-0e75-4369-8ceb-438ac06bd10e")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/7f501c0b-af37-4662-879a-7c6bd745f962"
 					(reference "D6")
 					(unit 1)
@@ -3187,7 +3187,7 @@
 		)
 	)
 	(symbol
-		(lib_id "GrassHopperNymph:DMN2990UFA")
+		(lib_id "HopHop_Transistor_FET:DMN2990UFA")
 		(at 71.12 146.05 0)
 		(unit 1)
 		(body_style 1)
@@ -3220,7 +3220,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "GrassHopperNymph:Diodes_X2-DFN0806-3_0.8x0.6mm_P0.35mm_GSD"
+		(property "Footprint" "HopHop_Package_DFN_QFN:Diodes_X2-DFN0806-3_0.8x0.6mm_P0.35mm_GSD"
 			(at 76.2 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -3263,7 +3263,7 @@
 			(uuid "6d62a09f-2e51-4d16-8344-20833d0ff102")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/7f501c0b-af37-4662-879a-7c6bd745f962"
 					(reference "Q8")
 					(unit 1)
@@ -3341,7 +3341,7 @@
 			(uuid "6e1dfa6c-586f-4971-80a4-dd0740560fbd")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/7f501c0b-af37-4662-879a-7c6bd745f962"
 					(reference "#PWR046")
 					(unit 1)
@@ -3419,7 +3419,7 @@
 			(uuid "5ec604b2-029c-45c2-bd62-6fefc064fd21")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/7f501c0b-af37-4662-879a-7c6bd745f962"
 					(reference "#PWR045")
 					(unit 1)
@@ -3500,7 +3500,7 @@
 			(uuid "27e7a0de-a094-470b-862b-d384a7ec9a2b")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/7f501c0b-af37-4662-879a-7c6bd745f962"
 					(reference "R36")
 					(unit 1)
@@ -3578,7 +3578,7 @@
 			(uuid "009fa6ea-21d9-4fd2-b848-aa101e83f3d9")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/7f501c0b-af37-4662-879a-7c6bd745f962"
 					(reference "#PWR047")
 					(unit 1)
@@ -3659,7 +3659,7 @@
 			(uuid "b5e7e063-a67c-4ff5-9550-26c919d35510")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/7f501c0b-af37-4662-879a-7c6bd745f962"
 					(reference "R33")
 					(unit 1)
@@ -3745,7 +3745,7 @@
 			(uuid "21fe945d-c5e2-4287-b4e8-f890460a805e")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/7f501c0b-af37-4662-879a-7c6bd745f962"
 					(reference "SW1")
 					(unit 1)
@@ -3826,7 +3826,7 @@
 			(uuid "7a11bbcc-bbf4-45eb-a54a-4ef4af1bbfd4")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/7f501c0b-af37-4662-879a-7c6bd745f962"
 					(reference "R32")
 					(unit 1)
@@ -3904,7 +3904,7 @@
 			(uuid "71760b1f-ea75-43b3-8190-6302fb1baa07")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/7f501c0b-af37-4662-879a-7c6bd745f962"
 					(reference "#PWR060")
 					(unit 1)
@@ -3985,7 +3985,7 @@
 			(uuid "611781e0-a2d7-4cff-83e8-01499145775c")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/7f501c0b-af37-4662-879a-7c6bd745f962"
 					(reference "R31")
 					(unit 1)
@@ -4065,7 +4065,7 @@
 			(uuid "8dc67aa6-2487-4df7-be6c-15ed0297aa33")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/7f501c0b-af37-4662-879a-7c6bd745f962"
 					(reference "D7")
 					(unit 1)
@@ -4074,7 +4074,7 @@
 		)
 	)
 	(symbol
-		(lib_id "GrassHopperNymph:DMN2990UFA")
+		(lib_id "HopHop_Transistor_FET:DMN2990UFA")
 		(at 72.39 113.03 0)
 		(unit 1)
 		(body_style 1)
@@ -4107,7 +4107,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "GrassHopperNymph:Diodes_X2-DFN0806-3_0.8x0.6mm_P0.35mm_GSD"
+		(property "Footprint" "HopHop_Package_DFN_QFN:Diodes_X2-DFN0806-3_0.8x0.6mm_P0.35mm_GSD"
 			(at 77.47 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -4150,7 +4150,7 @@
 			(uuid "4debea2e-bd98-4daa-a04a-413de10db10b")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/7f501c0b-af37-4662-879a-7c6bd745f962"
 					(reference "Q7")
 					(unit 1)
@@ -4228,7 +4228,7 @@
 			(uuid "fb68aa84-8372-42b8-90f3-484a5d98271b")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/7f501c0b-af37-4662-879a-7c6bd745f962"
 					(reference "#PWR043")
 					(unit 1)
@@ -4309,7 +4309,7 @@
 			(uuid "fca679c5-3935-4dba-8172-b08725cbe403")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/7f501c0b-af37-4662-879a-7c6bd745f962"
 					(reference "R29")
 					(unit 1)
@@ -4395,7 +4395,7 @@
 			(uuid "5264a161-a068-4cc8-b8a9-83887eaa7c0f")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/7f501c0b-af37-4662-879a-7c6bd745f962"
 					(reference "SW2")
 					(unit 1)
@@ -4473,7 +4473,7 @@
 			(uuid "f17dae21-fbbb-4d6c-96cc-c841db94e4d7")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/7f501c0b-af37-4662-879a-7c6bd745f962"
 					(reference "#PWR044")
 					(unit 1)
@@ -4554,7 +4554,7 @@
 			(uuid "5edabe08-90e1-4f77-9837-e72dd0040fee")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/7f501c0b-af37-4662-879a-7c6bd745f962"
 					(reference "R28")
 					(unit 1)
@@ -4632,7 +4632,7 @@
 			(uuid "cd30a49c-ba63-4ea8-a92c-8ef95c108bbd")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/7f501c0b-af37-4662-879a-7c6bd745f962"
 					(reference "#PWR061")
 					(unit 1)

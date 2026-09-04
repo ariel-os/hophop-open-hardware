@@ -1,14 +1,20 @@
-# 3D models
+# 3D model status
 
-No project-owned STEP, STP, or WRL files existed in the original library directories.
-The two MOSFET footprints incorrectly referenced a system TI PicoStar model; that
-reference was removed because the actual package is Diodes X2-DFN0806-3.
+No verified models are supplied for the four custom footprints.
 
-Verified models for X2-DFN0806-3, YCJ0012-C02, YBG0008-C01, and YCH0004 are not
-included. Footprints intentionally have no model links until matching models are
-available. This is an outstanding KLC F9.3 checker finding.
+[KLC F9.3](https://klc.kicad.org/footprint/f9/f9.3/) explicitly requires model
+references even when models do not yet exist; supplying a model is optional.
+Each footprint now references a future file with its exact footprint basename:
 
-Place future models here and use `${HOPHOP_LIB_DIR}/3dmodels/<filename>.step`
-in footprint model paths for global-library use. Set HOPHOP_LIB_DIR as described
-in the library README. Include model source, provenance and licensing when adding
-models; do not substitute a different package merely to obtain a 3D preview.
+- `${KICAD10_3DMODEL_DIR}/HopHop_Package_BGA.3dshapes/<footprint>.step`
+- `${KICAD10_3DMODEL_DIR}/HopHop_Package_DFN_QFN.3dshapes/<footprint>.step`
+
+These are documented placeholders, **not files present in the installed KiCad
+libraries**. The parts will have no body in the 3D viewer until models are
+provided. Scale is 1:1:1; offset and rotation are zero. Do not substitute a similar
+package model without verifying dimensions and terminal orientation. The web
+KLC still mentions the KiCad 9 variable; the current checker and this KiCad 10
+project use `KICAD10_3DMODEL_DIR`.
+
+The temporarily imported nRF9151 symbol uses the installed official
+`Package_LGA` footprint and its upstream model reference.

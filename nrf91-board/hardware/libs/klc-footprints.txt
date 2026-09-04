@@ -1,20 +1,4 @@
-Checking footprint 'Diodes_X2-DFN0806-3_0.8x0.6mm_P0.35mm_GSD':
-  Violating F9.3 - https://klc.kicad.org/footprint/f9/f9.3/
-  Violating F9.3 - https://klc.kicad.org/footprint/f9/f9.3/
-    Footprint 3D model requirements - F9.3 - https://klc.kicad.org/footprint/f9/f9.3/
-    3D model file path missing from the 3D model settings of the footprint
-Checking footprint 'Texas_YBG0008-C01_DSBGA-8_1.04x1.59mm_Layout2x4_P0.4mm':
-  Violating F9.3 - https://klc.kicad.org/footprint/f9/f9.3/
-  Violating F9.3 - https://klc.kicad.org/footprint/f9/f9.3/
-    Footprint 3D model requirements - F9.3 - https://klc.kicad.org/footprint/f9/f9.3/
-    3D model file path missing from the 3D model settings of the footprint
-Checking footprint 'Texas_YCH0004_DSBGA-4_0.637x0.637mm_Layout2x2_P0.35mm':
-  Violating F9.3 - https://klc.kicad.org/footprint/f9/f9.3/
-  Violating F9.3 - https://klc.kicad.org/footprint/f9/f9.3/
-    Footprint 3D model requirements - F9.3 - https://klc.kicad.org/footprint/f9/f9.3/
-    3D model file path missing from the 3D model settings of the footprint
-Checking footprint 'Texas_YCJ0012-C02_DSBGA-12_1.15x1.5mm_Layout3x4_P0.35mm':
-  Violating F9.3 - https://klc.kicad.org/footprint/f9/f9.3/
-  Violating F9.3 - https://klc.kicad.org/footprint/f9/f9.3/
-    Footprint 3D model requirements - F9.3 - https://klc.kicad.org/footprint/f9/f9.3/
-    3D model file path missing from the 3D model settings of the footprint
+Checking footprint 'Texas_YBG0008-C01_DSBGA-8_1.04x1.59mm_Layout2x4_P0.4mm' - No errors
+Checking footprint 'Texas_YCH0004_DSBGA-4_0.637x0.637mm_Layout2x2_P0.35mm' - No errors
+Checking footprint 'Texas_YCJ0012-C02_DSBGA-12_1.15x1.5mm_Layout3x4_P0.35mm' - No errors
+Checking footprint 'Diodes_X2-DFN0806-3_0.8x0.6mm_P0.35mm_GSD' - No errors

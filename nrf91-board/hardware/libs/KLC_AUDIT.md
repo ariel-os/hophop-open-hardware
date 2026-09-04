@@ -1,6 +1,67 @@
 # Library audit — 2026-09-10
 
-Scope: the project's custom symbol and footprint libraries. KiCad 10.0.4 was used to load/render the files and export validation netlists. This is not a full schematic electrical-design review or PCB manufacturing signoff; the project PCB contains no placed footprints.
+Scope: project-owned symbols and footprints, plus the requested upstream nRF9151
+symbol. Replacements were checked against installed KiCad 10.0.4 and current
+official upstream sources; [PROVENANCE.md](PROVENANCE.md) pins the snapshots and
+[README.md](README.md) lists the resulting library IDs.
+
+## Current KLC results
+
+- Five retained custom physical symbols: **zero checker errors or warnings**.
+  Functional libraries replace the mixed library (G1.3/S1.1); packaging-only
+  suffixes are removed and the LDO package is explicit (S2.2/S2.3).
+- Four retained custom footprints: **zero checker errors or warnings**.
+  BGA and DFN footprints are grouped separately (F1.1); all now have F9.3 STEP
+  references with matching library/basename, unit scale, and zero transforms.
+  Models themselves are unavailable; F9.3 explicitly allows this. See
+  [3dmodels/README.md](3dmodels/README.md).
+- `VSYS` and `VDD_GPIO`: removed unused duplicates in favor of stock `power:VDD`
+  with edited Value, supported by KiCad 10. Existing schematic global labels are
+  unchanged. This also eliminates the old checker's power-symbol diagnostics.
+- Vendored nRF9151: kept byte-for-byte as requested. The checker reports S4.2
+  for power-pin grouping and S4.3 for its legacy GND stack. The MR explicitly
+  documents the S4.2 grouping decision; the current checker also requests native
+  stacks. Neither is silently corrected in this temporary upstream copy.
+
+Raw results: [custom symbols](klc-symbols.txt), [footprints](klc-footprints.txt),
+[upstream nRF9151](klc-nrf9151.txt). The custom-library checks pass without rule
+exclusions. This does not claim the unchanged upstream symbol is KLC-clean.
+Manufacturer mask/paste overrides below remain intentional under F4.1.
+
+## Validation and schematic impact
+
+- `python libs/validate.py`: custom pin maps, four land patterns, pin/pad identity,
+  model references, library tables, placed project references and exact nRF9151
+  source hash pass.
+- KiCad rendered all six library symbols and loaded all four footprints with
+  the expected 3/4/8/12 pads. The Python footprint loader emitted enum-choice
+  assertions during initialization but returned all four footprints successfully.
+- KiCad 10.0.4 exported the project netlist before and after migration:
+  **151 of 151 connectivity groups unchanged**, with **107 component Values
+  unchanged**. Library IDs and footprint assignments changed; pin identifiers,
+  wire geometry, instance UUIDs and BOM values did not.
+- Existing wired U1/U2 retain their cached drawings. Replacing those with the
+  library drawings requires rerouting their changed pin positions.
+- nRF9151 is imported into the chooser only; its existing Nordic-library
+  placement is unchanged. See provenance for later migration/removal.
+- Pre-existing project renames and schematic edits were preserved. This is not
+  a full circuit/ERC or PCB manufacturing review; the board has no placements.
+
+## Reproduce external checks
+
+Set `KICAD_LIBRARY_UTILS` to the checkout recorded in provenance:
+
+```sh
+python "$KICAD_LIBRARY_UTILS/klc-check/check_symbol.py" --nocolor -vv --footprints libs/footprints libs/symbols/HopHop_Battery_Management.kicad_sym libs/symbols/HopHop_Regulator*.kicad_sym libs/symbols/HopHop_Transistor_FET.kicad_sym
+python "$KICAD_LIBRARY_UTILS/klc-check/check_footprint.py" --nocolor -vv libs/footprints/*/*.kicad_mod
+python "$KICAD_LIBRARY_UTILS/klc-check/check_symbol.py" --nocolor -vv --footprints /usr/share/kicad/footprints libs/symbols/HopHop_MCU_Nordic.kicad_sym
+```
+
+## Retained manufacturer audit
+
+The following dimensional/pin-map findings predate this replacement pass. Part
+numbers below retain manufacturer ordering codes; current symbol IDs are in
+README.md. Geometry and electrical maps remain unchanged in this pass.
 
 ## Manufacturer checks and corrections
 
@@ -24,37 +85,3 @@ In the manufacturer's **top view**, drain is left, source upper right, gate lowe
 These follow the [Diodes package land-pattern drawing](https://www.diodes.com/assets/Package-Files/X2-DFN0806-3.pdf): 1.0 mm total span, 0.35 mm small-pad pitch, and 0.15 mm gap between drain and the small pads. Pads have KLC rounded corners. The geometric package drawing labels a feature “Pin#1”, while the device connection diagram labels terminals by function without a full numbered map. Named **G/S/D** identifiers avoid inventing a manufacturer numeric mapping. The old `1=G, 2=S, 3=D` identifiers were changed consistently in the symbols, placed copies, and footprint.
 
 Stock `Q_NMOS_GSD` / `Q_PMOS_GSD` can represent the basic transistor if deliberately paired with a numeric GSD footprint, but they omit the internal ESD network and cannot directly use this named-pad footprint. The existing DMG1012T drawing is a suitable **graphical template**, not a substitute part or footprint.
-
-## KLC findings
-
-Checked against the [current KLC](https://klc.kicad.org/), with [KiCad library-utils](https://gitlab.com/kicad/libraries/kicad-library-utils) master downloaded on the audit date. Raw output is in [klc-symbols.txt](klc-symbols.txt) and [klc-footprints.txt](klc-footprints.txt).
-
-| Area | Status |
-| --- | --- |
-| Five physical component symbols | Automated symbol checks pass after fixing geometry, fields, filters, and electrical types. |
-| Two power symbols | Manually verified against [current S7.1](https://klc.kicad.org/symbol/s7/s7.1/): global power definition, hidden `#PWR`, one visible zero-length `power_in` pin named `~`, visible matching value, no footprint. Both produce the correct global nets in an actual KiCad export. The checker still requires an invisible pin named after the rail and flags `#PWR` in this project library; those legacy S7.1/S6.1 diagnostics conflict with current power-symbol requirements. |
-| Footprint geometry and metadata | All four pass the automated checks except F9.3. Reviewed pad positions, paste/mask layers, nominal fab bodies, identification marks, 0.12 mm silk, 0.10 mm fab and 0.05 mm courtyard lines. Courtyards use a 0.01 mm grid and at least 0.25 mm package/pad clearance. |
-| 3D models, F9.3 | **Outstanding for all four footprints.** No verified local models were present. Removed incorrect PicoStar links; no fictional/missing model paths were added. |
-| Library organization, G1.3/S1.1/F1.1 | **Project convention retained:** one mixed-function `GrassHopperNymph` library for compatibility. Upstream KiCad submissions should instead use functional libraries. |
-| Symbol naming, S2.2 | **Requested names retained:** TPS63901YCJR and BQ25180YBGR include tape/reel ordering suffixes. Upstream submissions should omit packaging-only suffixes. TPS7A0228 remains a compatibility name and would need explicit package naming for upstream use. |
-| Manufacturer overrides | Negative mask/paste margins on YCJ/YCH implement TI's documented preferred SMD lands; they are intentional departures from default local settings under [F4.1](https://klc.kicad.org/footprint/f4/f4.1/). |
-
-**Verdict:** corrected and validated project libraries, with the listed exceptions; not an unconditional claim of full upstream KLC compliance.
-
-## Validation and project impact
-
-- `python libs/validate.py`: seven symbols, datasheet pin maps, native stack membership, all four land-pattern dimensions, pin/pad identity, footprint filters, visible values, power definitions and both table sets pass.
-- KiCad symbol SVG export: all seven symbols loaded and rendered; drawings visually reviewed.
-- KiCad footprint loader: all four footprints loaded with 3/8/4/12 pads as expected; a temporary board exported successfully.
-- A separate KiCad netlist fixture verified that TPS63901 stacks expand to **all 12 physical balls** and the new power symbols produce **VSYS** and **VDD_GPIO** global nets.
-- Before/after project netlist comparison: **151 of 151 net connectivity groups unchanged**, accounting only for the intentional MOSFET terminal-ID migration. All project custom footprint assignments resolve.
-- MOSFET placed copies include the corrected drawing and named pins. U1/U2 retain their existing cached drawing positions, with corrected footprint/data references and relevant electrical types. Replacing those cached drawings with the rebuilt library layouts requires rerouting their wires; it was not part of the library reorganization. The original separate TPS63900 placement remains unchanged.
-- Existing VSYS/VDD_GPIO global labels were preserved. New power symbols are available for placement.
-- Pre-existing edits to the project and unrelated sheets were preserved. No ERC-clean or production-ready claim is made for the wider circuit.
-
-To rerun the external checks (set `KICAD_LIBRARY_UTILS` to your checkout):
-
-```sh
-python "$KICAD_LIBRARY_UTILS/klc-check/check_symbol.py" --nocolor -vv --footprints libs/footprints libs/symbols/GrassHopperNymph.kicad_sym
-python "$KICAD_LIBRARY_UTILS/klc-check/check_footprint.py" --nocolor -vv libs/footprints/GrassHopperNymph.pretty/*.kicad_mod
-```

@@ -2817,7 +2817,7 @@
 			(uuid "a1104e62-fcc9-49c0-a025-41aee518885d")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/75ef7fec-155c-471e-8b5f-c1cc8c1494a2"
 					(reference "#PWR050")
 					(unit 1)
@@ -2895,7 +2895,7 @@
 			(uuid "88b6a286-44c7-4c72-8f99-d1b5f0539235")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/75ef7fec-155c-471e-8b5f-c1cc8c1494a2"
 					(reference "#PWR02")
 					(unit 1)
@@ -2973,7 +2973,7 @@
 			(uuid "bac723ef-463f-4e5c-9984-09b64e779807")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/75ef7fec-155c-471e-8b5f-c1cc8c1494a2"
 					(reference "#PWR049")
 					(unit 1)
@@ -3167,7 +3167,7 @@
 			(uuid "30ae54ba-251b-4882-ab32-25e3bc413c9d")
 		)
 		(instances
-			(project "hophopdevelopmentboard"
+			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/75ef7fec-155c-471e-8b5f-c1cc8c1494a2"
 					(reference "J6")
 					(unit 1)
