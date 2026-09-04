@@ -9,6 +9,26 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
+			(at -6.35 8.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BQ25180YBGR"
+			(at 6.35 8.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GrassHopperNymph:Texas_YBG0008-C01_DSBGA-8_1.04x1.59mm_Layout2x4_P0.4mm"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19,7 +39,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/bq25180.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30,7 +50,7 @@
 				)
 			)
 		)
-		(property "Footprint" "test_project:IC_BQ25180YBGR"
+		(property "Description" "I2C controlled 1-cell 1A linear battery charger with regulated power path and ship mode, DSBGA-8"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41,7 +61,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "ki_keywords" "battery charger I2C power path"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52,7 +72,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "ki_fp_filters" "Texas*YBG0008?C01*DSBGA*1.04x1.59mm*P0.4mm*"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -63,205 +83,158 @@
 				)
 			)
 		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(symbol "BQ25180YBGR_1_0"
-			(polyline
-				(pts
-					(xy -10.16 12.7) (xy -10.16 -12.7)
-				)
+		(symbol "BQ25180YBGR_1_1"
+			(rectangle
+				(start -7.62 7.62)
+				(end 7.62 -7.62)
 				(stroke
 					(width 0.254)
-					(type solid)
+					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-			(polyline
-				(pts
-					(xy -10.16 -12.7) (xy 10.16 -12.7)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 10.16 12.7) (xy -10.16 12.7)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 10.16 -12.7) (xy 10.16 12.7)
-				)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin output line
-				(at 12.7 2.54 180)
+			(pin open_collector line
+				(at 10.16 -2.54 180)
 				(length 2.54)
 				(name "~{INT}"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "A1"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin power_in line
-				(at -12.7 10.16 0)
+				(at -10.16 5.08 0)
 				(length 2.54)
 				(name "IN"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "A2"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
-			(pin bidirectional clock
-				(at -12.7 2.54 0)
+			(pin bidirectional line
+				(at -10.16 2.54 0)
 				(length 2.54)
 				(name "SCL"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "B1"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin power_out line
-				(at 12.7 10.16 180)
+				(at 10.16 5.08 180)
 				(length 2.54)
 				(name "SYS"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "B2"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at -12.7 0 0)
+				(at -10.16 0 0)
 				(length 2.54)
 				(name "SDA"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "C1"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
-			(pin power_in line
-				(at 12.7 7.62 180)
+			(pin passive line
+				(at 10.16 2.54 180)
 				(length 2.54)
 				(name "BAT"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "C2"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at -12.7 -5.08 0)
+				(at -10.16 -2.54 0)
 				(length 2.54)
 				(name "TS/MR"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "D1"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin power_in line
-				(at 12.7 -10.16 180)
+				(at 0 -10.16 90)
 				(length 2.54)
 				(name "GND"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "D2"
 					(effects
 						(font
-							(size 1.524 1.524)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -275,6 +248,7 @@
 		)
 		(pin_names
 			(offset 0)
+			(hide yes)
 		)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -282,7 +256,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "Q"
-			(at 5.08 1.27 0)
+			(at 5.08 1.905 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -293,7 +267,7 @@
 			)
 		)
 		(property "Value" "DMN2990UFA"
-			(at 5.08 -1.27 0)
+			(at 5.08 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -303,29 +277,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "For_makeDiary:DMN2990UFA"
-			(at 5.08 2.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://nl.mouser.com/datasheet/3/175/1/DMN2990UFA.pdf"
-			(at 0 -12.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
+		(property "Footprint" "GrassHopperNymph:Diodes_X2-DFN0806-3_0.8x0.6mm_P0.35mm_GSD"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -336,7 +288,40 @@
 				)
 			)
 		)
-		(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMN2990UFA.pdf"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "20V, 0.51A N-channel MOSFET with body diode and bidirectional gate ESD protection, X2-DFN0806-3"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "N-MOSFET transistor ESD"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "Diodes*X2?DFN0806*0.8x0.6mm*P0.35mm*GSD*"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -348,6 +333,55 @@
 			)
 		)
 		(symbol "DMN2990UFA_0_1"
+			(polyline
+				(pts
+					(xy 2.54 -3.81) (xy -2.286 -3.81) (xy -2.286 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "DMN2990UFA_1_1"
+			(circle
+				(center -2.286 0)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.016 -4.318) (xy -0.889 -4.191) (xy -0.889 -3.429) (xy -0.762 -3.302)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.889 -3.81) (xy -0.254 -4.191) (xy -0.254 -3.429) (xy -0.889 -3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(polyline
 				(pts
 					(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -432,6 +466,30 @@
 					(type outline)
 				)
 			)
+			(polyline
+				(pts
+					(xy 1.143 -3.81) (xy 0.508 -3.429) (xy 0.508 -4.191) (xy 1.143 -3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -3.302) (xy 1.143 -3.429) (xy 1.143 -4.191) (xy 1.016 -4.318)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(circle
 				(center 1.651 0)
 				(radius 2.794)
@@ -489,6 +547,17 @@
 					(type none)
 				)
 			)
+			(circle
+				(center 2.54 -3.81)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
 			(polyline
 				(pts
 					(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
@@ -513,8 +582,24 @@
 					(type none)
 				)
 			)
-		)
-		(symbol "DMN2990UFA_1_1"
+			(pin passive line
+				(at 2.54 5.08 270)
+				(length 2.54)
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin input line
 				(at -5.08 0 0)
 				(length 2.54)
@@ -525,7 +610,7 @@
 						)
 					)
 				)
-				(number "1"
+				(number "G"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -543,25 +628,7 @@
 						)
 					)
 				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 5.08 270)
-				(length 2.54)
-				(name "D"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
+				(number "S"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -578,6 +645,7 @@
 		)
 		(pin_names
 			(offset 0)
+			(hide yes)
 		)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -585,7 +653,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "Q"
-			(at 5.08 1.27 0)
+			(at 5.08 1.905 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -596,7 +664,7 @@
 			)
 		)
 		(property "Value" "DMP22D4UFA"
-			(at 5.08 -1.27 0)
+			(at 5.08 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -606,29 +674,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "For_makeDiary:DMP22D4UFA"
-			(at 5.08 2.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/ds/2/115/DMP22D4UFA-219166.pdf?srsltid=AfmBOop-z8qkWNOWWqztbbsXZ_av38kSY_l_oS41QTwX7HPVtx8er0ib"
-			(at 0 -12.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
+		(property "Footprint" "GrassHopperNymph:Diodes_X2-DFN0806-3_0.8x0.6mm_P0.35mm_GSD"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -639,7 +685,40 @@
 				)
 			)
 		)
-		(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET simulation"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMP22D4UFA.pdf"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "20V, 0.33A P-channel MOSFET with body diode and bidirectional gate ESD protection, X2-DFN0806-3"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "P-MOSFET transistor ESD"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "Diodes*X2?DFN0806*0.8x0.6mm*P0.35mm*GSD*"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -651,6 +730,55 @@
 			)
 		)
 		(symbol "DMP22D4UFA_0_1"
+			(polyline
+				(pts
+					(xy 2.54 -3.81) (xy -2.286 -3.81) (xy -2.286 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "DMP22D4UFA_1_1"
+			(circle
+				(center -2.286 0)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.016 -4.318) (xy -0.889 -4.191) (xy -0.889 -3.429) (xy -0.762 -3.302)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.889 -3.81) (xy -0.254 -4.191) (xy -0.254 -3.429) (xy -0.889 -3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(polyline
 				(pts
 					(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -689,18 +817,6 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 0.762 0.508) (xy 0.762 -0.508)
 				)
 				(stroke
@@ -717,6 +833,42 @@
 				)
 				(stroke
 					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.143 -3.81) (xy 0.508 -3.429) (xy 0.508 -4.191) (xy 1.143 -3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -3.302) (xy 1.143 -3.429) (xy 1.143 -4.191) (xy 1.016 -4.318)
+				)
+				(stroke
+					(width 0)
 					(type default)
 				)
 				(fill
@@ -792,6 +944,17 @@
 					(type none)
 				)
 			)
+			(circle
+				(center 2.54 -3.81)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
 			(polyline
 				(pts
 					(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
@@ -816,8 +979,24 @@
 					(type none)
 				)
 			)
-		)
-		(symbol "DMP22D4UFA_1_1"
+			(pin passive line
+				(at 2.54 5.08 270)
+				(length 2.54)
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin input line
 				(at -5.08 0 0)
 				(length 2.54)
@@ -828,7 +1007,7 @@
 						)
 					)
 				)
-				(number "1"
+				(number "G"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -846,25 +1025,7 @@
 						)
 					)
 				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 5.08 270)
-				(length 2.54)
-				(name "D"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
+				(number "S"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -875,24 +1036,25 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "TPS63901YCR"
+	(symbol "TPS63901YCJR"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "U3"
-			(at 13.716 53.34 0)
+		(property "Reference" "U"
+			(at -7.62 13.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "TPS63901YCJR"
-			(at 13.208 55.118 0)
+			(at 0 16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -901,7 +1063,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_BGA:Texas_DSBGA-12_1.36x1.86mm_Layout3x4_P0.5mm"
+		(property "Footprint" "GrassHopperNymph:Texas_YCJ0012-C02_DSBGA-12_1.15x1.5mm_Layout3x4_P0.35mm"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -912,7 +1074,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps63901.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -923,7 +1085,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1.8V to 5.5V input, 75nA IQ buck-boost converter with input current limit and dynamic voltage scaling, DSBGA-12"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -934,22 +1096,44 @@
 				)
 			)
 		)
-		(symbol "TPS63901YCR_0_1"
+		(property "ki_keywords" "Buck-Boost adjustable converter"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "Texas*YCJ0012?C02*DSBGA*1.15x1.5mm*P0.35mm*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "TPS63901YCJR_0_1"
 			(rectangle
-				(start 2.032 50.8)
-				(end 25.4 20.066)
+				(start -7.62 12.7)
+				(end 7.62 -12.7)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 		)
-		(symbol "TPS63901YCR_1_1"
-			(pin power_out line
-				(at 27.94 35.56 180)
+		(symbol "TPS63901YCJR_1_1"
+			(pin passive line
+				(at -10.16 0 0)
 				(length 2.54)
 				(name "LX1"
 					(effects
@@ -967,7 +1151,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 48.26 0)
+				(at -10.16 10.16 0)
 				(length 2.54)
 				(name "VIN"
 					(effects
@@ -985,7 +1169,7 @@
 				)
 			)
 			(pin input line
-				(at 0 41.91 0)
+				(at -10.16 5.08 0)
 				(length 2.54)
 				(name "EN"
 					(effects
@@ -1002,26 +1186,8 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 3.81 17.78 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "B1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
-				(at 12.7 17.78 90)
+				(at 10.16 0 180)
 				(length 2.54)
 				(name "CFG1"
 					(effects
@@ -1039,7 +1205,7 @@
 				)
 			)
 			(pin input line
-				(at 0 35.56 0)
+				(at -10.16 2.54 0)
 				(length 2.54)
 				(name "SEL"
 					(effects
@@ -1056,44 +1222,8 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 7.62 17.78 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "C1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 27.94 48.26 180)
-				(length 2.54)
-				(name "VOUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "C2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
-				(at 17.78 17.78 90)
+				(at 10.16 -2.54 180)
 				(length 2.54)
 				(name "CFG2"
 					(effects
@@ -1110,8 +1240,8 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 27.94 29.21 180)
+			(pin passive line
+				(at -10.16 -10.16 0)
 				(length 2.54)
 				(name "LX2"
 					(effects
@@ -1128,26 +1258,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 27.94 41.91 180)
-				(length 2.54)
-				(name "VOUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "D2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
-				(at 22.86 17.78 90)
+				(at 10.16 -5.08 180)
 				(length 2.54)
 				(name "CFG3"
 					(effects
@@ -1164,6 +1276,42 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at 0 -15.24 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "[B1,C1]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 10.16 10.16 180)
+				(length 2.54)
+				(name "VOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "[C2,D2]"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
 		(embedded_fonts no)
 	)
@@ -1173,8 +1321,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "U5"
-			(at 13.716 53.34 0)
+		(property "Reference" "U"
+			(at -5.08 6.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1183,8 +1331,8 @@
 				)
 			)
 		)
-		(property "Value" "TPS7A0228PYCHR"
-			(at 13.716 55.626 0)
+		(property "Value" "TPS7A0228"
+			(at 2.54 6.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1193,7 +1341,186 @@
 				)
 			)
 		)
-		(property "Footprint" "For_makeDiary:TPS7A0228PYCHR_YCH0004"
+		(property "Footprint" "GrassHopperNymph:Texas_YCH0004_DSBGA-4_0.637x0.637mm_Layout2x2_P0.35mm"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps7a02.pdf"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2.8V 200mA ultra-low-IQ LDO regulator with enable, DSBGA-4"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "low-dropout regulator fixed enable"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "Texas*YCH0004*DSBGA*0.637x0.637mm*P0.35mm*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "TPS7A0228_0_1"
+			(rectangle
+				(start -5.08 5.08)
+				(end 5.08 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "TPS7A0228_1_1"
+			(pin power_in line
+				(at -7.62 2.54 0)
+				(length 2.54)
+				(name "IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 7.62 2.54 180)
+				(length 2.54)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 0 0)
+				(length 2.54)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -7.62 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "VDD_GPIO"
+		(power global)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "#PWR"
+			(at 0 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD_GPIO"
+			(at 0 3.556 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1215,7 +1542,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Global GPIO supply power symbol"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1226,10 +1553,46 @@
 				)
 			)
 		)
-		(symbol "TPS7A0228_0_1"
-			(rectangle
-				(start 2.032 50.8)
-				(end 25.4 33.02)
+		(property "ki_keywords" "global power"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "VDD_GPIO_0_1"
+			(polyline
+				(pts
+					(xy -0.762 1.27) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 0.762 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 2.54)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -1239,36 +1602,18 @@
 				)
 			)
 		)
-		(symbol "TPS7A0228_1_1"
+		(symbol "VDD_GPIO_1_1"
 			(pin power_in line
-				(at 0 48.26 0)
-				(length 2.54)
-				(name "VIN"
+				(at 0 0 90)
+				(length 0)
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "A1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 27.94 48.26 180)
-				(length 2.54)
-				(name "VOUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "A2"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1276,35 +1621,138 @@
 					)
 				)
 			)
-			(pin input line
-				(at 0 34.29 0)
-				(length 2.54)
-				(name "EN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "B1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "VSYS"
+		(power global)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "#PWR"
+			(at 0 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "Value" "VSYS"
+			(at 0 3.556 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Global system supply power symbol"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "global power"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "VSYS_0_1"
+			(polyline
+				(pts
+					(xy -0.762 1.27) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 0.762 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "VSYS_1_1"
 			(pin power_in line
-				(at 27.94 34.29 180)
-				(length 2.54)
-				(name "GND"
+				(at 0 0 90)
+				(length 0)
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "B2"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)

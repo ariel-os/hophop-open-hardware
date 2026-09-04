@@ -666,7 +666,7 @@
         "uuid": "18409950-a1da-4356-97dd-5c7c844a6b0c"
       }
     ],
-    "used_designators": "C1-34,#PWR1-61,Q1-8,U1-3,U5-6,D1-8,SW1-2,VSYS1-12,J1-5,TP1-16,R1-37,#FLG1-3,#Q2,#NetPort13,#NetPort15-17,#NetPort23,L1-5,X1",
+    "used_designators": "SW1-2,U1-6,D1-8,TP1-16,R1-37,J1-5,VSYS1-12,#Q2,#FLG1-3,X1,L1-5,#NetPort13,#NetPort15-17,#NetPort23,C1-34,Y1,#PWR1-61,Q1-8",
     "variants": []
   },
   "sheets": [

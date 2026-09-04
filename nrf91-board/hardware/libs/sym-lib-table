@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "GrassHopperNymph") (type "KiCad") (uri "${HOPHOP_LIB_DIR}/symbols/GrassHopperNymph.kicad_sym") (options "") (descr "HopHop project libraries"))
+)

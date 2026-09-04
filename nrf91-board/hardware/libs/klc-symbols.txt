@@ -1,0 +1,21 @@
+Checking component 'GrassHopperNymph:BQ25180YBGR':
+Checking component 'GrassHopperNymph:DMN2990UFA':
+Checking component 'GrassHopperNymph:DMP22D4UFA':
+Checking component 'GrassHopperNymph:TPS63901YCJR':
+Checking component 'GrassHopperNymph:TPS7A0228':
+Checking component 'GrassHopperNymph:VDD_GPIO':
+  Violating S6.1 - https://klc.kicad.org/symbol/s6/s6.1/
+    Correct reference designators should be used - S6.1 - https://klc.kicad.org/symbol/s6/s6.1/
+    Component Reference designator not in list of allowed designators
+  Violating S7.1 - https://klc.kicad.org/symbol/s7/s7.1/
+    Power flag symbols - S7.1 - https://klc.kicad.org/symbol/s7/s7.1/
+    The pin in power-flag symbols has to be INVISIBLE
+    The pin name (~) in power-flag symbols has to be the same as the component name (VDD_GPIO)
+Checking component 'GrassHopperNymph:VSYS':
+  Violating S6.1 - https://klc.kicad.org/symbol/s6/s6.1/
+    Correct reference designators should be used - S6.1 - https://klc.kicad.org/symbol/s6/s6.1/
+    Component Reference designator not in list of allowed designators
+  Violating S7.1 - https://klc.kicad.org/symbol/s7/s7.1/
+    Power flag symbols - S7.1 - https://klc.kicad.org/symbol/s7/s7.1/
+    The pin in power-flag symbols has to be INVISIBLE
+    The pin name (~) in power-flag symbols has to be the same as the component name (VSYS)

@@ -80,7 +80,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 50.8) (xy 194.31 50.8)
+			(xy 165.1 50.8) (xy 194.31 50.8)
 		)
 		(stroke
 			(width 0)
@@ -100,7 +100,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 40.64) (xy 194.31 40.64)
+			(xy 165.1 40.64) (xy 194.31 40.64)
 		)
 		(stroke
 			(width 0)
@@ -120,7 +120,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 63.5) (xy 172.72 63.5)
+			(xy 165.1 63.5) (xy 172.72 63.5)
 		)
 		(stroke
 			(width 0)
@@ -330,7 +330,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 59.69) (xy 194.31 59.69)
+			(xy 165.1 59.69) (xy 194.31 59.69)
 		)
 		(stroke
 			(width 0)
@@ -430,7 +430,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 44.45) (xy 194.31 44.45)
+			(xy 165.1 44.45) (xy 194.31 44.45)
 		)
 		(stroke
 			(width 0)
@@ -540,7 +540,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 46.99) (xy 194.31 46.99)
+			(xy 165.1 46.99) (xy 194.31 46.99)
 		)
 		(stroke
 			(width 0)
@@ -580,7 +580,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 53.34) (xy 194.31 53.34)
+			(xy 165.1 53.34) (xy 194.31 53.34)
 		)
 		(stroke
 			(width 0)
@@ -690,7 +690,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 57.15) (xy 194.31 57.15)
+			(xy 165.1 57.15) (xy 194.31 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1447,7 +1447,7 @@
 		)
 	)
 	(sheet
-		(at 144.78 36.83)
+		(at 139.7 36.83)
 		(size 25.4 33.02)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1463,7 +1463,7 @@
 		)
 		(uuid "83b0296c-9313-4aa5-ba47-e2036a5a8231")
 		(property "Sheetname" "PSU Sheet"
-			(at 144.78 36.1184 0)
+			(at 139.7 36.1184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1474,7 +1474,7 @@
 			)
 		)
 		(property "Sheetfile" "psu.kicad_sch"
-			(at 144.78 70.4346 0)
+			(at 139.7 70.4346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1485,7 +1485,7 @@
 			)
 		)
 		(pin "IF_HW_RST" input
-			(at 170.18 50.8 0)
+			(at 165.1 50.8 0)
 			(uuid "64b848c6-ec9a-46f9-9b31-ddcbc8647041")
 			(effects
 				(font
@@ -1495,7 +1495,7 @@
 			)
 		)
 		(pin "IF_I2CL_SCL" input
-			(at 170.18 46.99 0)
+			(at 165.1 46.99 0)
 			(uuid "f14505e3-58d0-4c4f-a955-4175270f9ef2")
 			(effects
 				(font
@@ -1505,7 +1505,7 @@
 			)
 		)
 		(pin "IF_I2C_INT" input
-			(at 170.18 40.64 0)
+			(at 165.1 40.64 0)
 			(uuid "aa4ff709-2a86-4be5-9fe1-8b6e93f06291")
 			(effects
 				(font
@@ -1515,7 +1515,7 @@
 			)
 		)
 		(pin "IF_I2C_SDA" input
-			(at 170.18 44.45 0)
+			(at 165.1 44.45 0)
 			(uuid "4b6bbf5e-bb82-42a9-9dd1-c4152b14e802")
 			(effects
 				(font
@@ -1525,7 +1525,7 @@
 			)
 		)
 		(pin "IF_USB_DM" input
-			(at 170.18 59.69 0)
+			(at 165.1 59.69 0)
 			(uuid "0f9bb45c-1469-4f6f-aa18-46e2f5415a1c")
 			(effects
 				(font
@@ -1535,7 +1535,7 @@
 			)
 		)
 		(pin "IF_USB_DP" input
-			(at 170.18 57.15 0)
+			(at 165.1 57.15 0)
 			(uuid "594f9497-7d35-4e98-bc42-5de4960a8c02")
 			(effects
 				(font
@@ -1545,7 +1545,7 @@
 			)
 		)
 		(pin "IF_VSEL" input
-			(at 170.18 53.34 0)
+			(at 165.1 53.34 0)
 			(uuid "feee443f-3564-4556-9c52-ff3d88175754")
 			(effects
 				(font
@@ -1555,7 +1555,7 @@
 			)
 		)
 		(pin "SYS_EN" input
-			(at 170.18 63.5 0)
+			(at 165.1 63.5 0)
 			(uuid "2a3c9294-4544-4b7d-ac1d-fe07ae485ae7")
 			(effects
 				(font

@@ -201,309 +201,350 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "GrassHopperNymph:DMN2990UFA"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "DMN2990UFA"
-				(at 5.08 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "For_makeDiary:DMN2990UFA"
-				(at 5.08 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://nl.mouser.com/datasheet/3/175/1/DMN2990UFA.pdf"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "DMN2990UFA_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "DMN2990UFA_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
+		(symbol "GrassHopperNymph:DMN2990UFA" (pin_numbers (hide yes))
+		(pin_names
+			(offset 0)
+			(hide yes)
 		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "Q"
+			(at 5.08 1.905 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DMN2990UFA"
+			(at 5.08 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "GrassHopperNymph:Diodes_X2-DFN0806-3_0.8x0.6mm_P0.35mm_GSD" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMN2990UFA.pdf" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Description" "20V, 0.51A N-channel MOSFET with body diode and bidirectional gate ESD protection, X2-DFN0806-3" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "ki_keywords" "N-MOSFET transistor ESD" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "ki_fp_filters" "Diodes*X2?DFN0806*0.8x0.6mm*P0.35mm*GSD*" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(symbol "DMN2990UFA_0_1"
+			(polyline
+				(pts
+					(xy 2.54 -3.81) (xy -2.286 -3.81) (xy -2.286 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "DMN2990UFA_1_1"
+			(circle
+				(center -2.286 0)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.016 -4.318) (xy -0.889 -4.191) (xy -0.889 -3.429) (xy -0.762 -3.302)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.889 -3.81) (xy -0.254 -4.191) (xy -0.254 -3.429) (xy -0.889 -3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.254 1.905) (xy 0.254 -1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.254 0) (xy -2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 2.286) (xy 0.762 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 0.508) (xy 0.762 -0.508)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 -1.27) (xy 0.762 -2.286)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.143 -3.81) (xy 0.508 -3.429) (xy 0.508 -4.191) (xy 1.143 -3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -3.302) (xy 1.143 -3.429) (xy 1.143 -4.191) (xy 1.016 -4.318)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 1.651 0)
+				(radius 2.794)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 2.54) (xy 2.54 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.54 1.778)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 2.54 -1.778)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.54 -3.81)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin input line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "G"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "G"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 -5.08 90)
+				(length 2.54)
+				(name "S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 5.08 270)
+				(length 2.54)
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 		(symbol "PCM_LED_AKL:LED_0402"
 			(body_styles demorgan)
 			(pin_numbers
@@ -2415,32 +2456,32 @@
 		(uuid "a75d8d7e-3b01-4ec9-b911-27b0401f4f4b")
 	)
 	(label "LED_G"
-		(at 93.98 69.85 0)
+		(at 93.98 69.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "b73c8a4e-7db4-4cad-9e07-eb457d8d5ee7")
 	)
 	(label "LED_R"
-		(at 93.98 34.29 0)
+		(at 93.98 34.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "b940c255-9f0e-40ad-8900-4b77a7ed7c55")
 	)
 	(label "LED_B"
-		(at 91.44 104.14 0)
+		(at 91.44 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "c97ace88-92dc-42db-936c-14d6a1ae218c")
 	)
@@ -2504,67 +2545,67 @@
 	)
 	(hierarchical_label "IF_LED_BLUE"
 		(shape input)
-		(at 44.45 118.11 0)
+		(at 44.45 118.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "0da654ae-2e31-4c72-9ac9-1f89a1e8dfd1")
 	)
 	(hierarchical_label "IF_LED_GREEN"
 		(shape input)
-		(at 43.18 82.55 0)
+		(at 43.18 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "2610f784-3513-49e3-b9bf-71e819bf2af8")
 	)
 	(hierarchical_label "IF_LED_RED"
 		(shape input)
-		(at 45.72 46.99 0)
+		(at 45.72 46.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "42ada7ab-7eb3-4319-b7f6-bffeb486ae7c")
 	)
 	(hierarchical_label "IF_MODE_DFU"
 		(shape input)
-		(at 129.54 105.41 0)
+		(at 129.54 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "5e273291-0b40-434f-9b76-3fc8bb769971")
 	)
 	(hierarchical_label "NRF91_USR"
 		(shape input)
-		(at 129.54 86.36 0)
+		(at 129.54 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "96eac243-8bf4-4e8d-99ea-8f7840710f2d")
 	)
 	(hierarchical_label "IF_LED_PWR"
 		(shape input)
-		(at 41.91 151.13 0)
+		(at 41.91 151.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "9b0d7b1c-caba-4e53-85ce-633c64c6903e")
 	)
@@ -2602,7 +2643,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "GrassHopperNymph:DMN2990UFA"
+		(property "Footprint" "GrassHopperNymph:Diodes_X2-DFN0806-3_0.8x0.6mm_P0.35mm_GSD"
 			(at 80.01 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -2613,7 +2654,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://nl.mouser.com/datasheet/3/175/1/DMN2990UFA.pdf"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMN2990UFA.pdf"
 			(at 74.93 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -2624,7 +2665,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "20V, 0.51A N-channel MOSFET with body diode and bidirectional gate ESD protection, X2-DFN0806-3"
 			(at 74.93 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -2635,13 +2676,13 @@
 				)
 			)
 		)
-		(pin "3"
+		(pin "D"
 			(uuid "38dab2c6-984c-4f98-8922-0c2740e2525f")
 		)
-		(pin "1"
+		(pin "G"
 			(uuid "88886202-006b-42de-9831-501a0a805a9a")
 		)
-		(pin "2"
+		(pin "S"
 			(uuid "cdd91874-932b-436d-9305-786bd3d87622")
 		)
 		(instances
@@ -2677,7 +2718,6 @@
 		)
 		(property "Value" "2K"
 			(at 162.5601 40.64 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2837,7 +2877,6 @@
 		)
 		(property "Value" "2K"
 			(at 162.5601 50.8 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2929,7 +2968,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "GrassHopperNymph:DMN2990UFA"
+		(property "Footprint" "GrassHopperNymph:Diodes_X2-DFN0806-3_0.8x0.6mm_P0.35mm_GSD"
 			(at 80.01 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -2940,7 +2979,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://nl.mouser.com/datasheet/3/175/1/DMN2990UFA.pdf"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMN2990UFA.pdf"
 			(at 74.93 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -2951,7 +2990,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "20V, 0.51A N-channel MOSFET with body diode and bidirectional gate ESD protection, X2-DFN0806-3"
 			(at 74.93 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -2962,13 +3001,13 @@
 				)
 			)
 		)
-		(pin "3"
+		(pin "D"
 			(uuid "98e47ec3-5ce4-44fa-8ff1-1fc0241f31d0")
 		)
-		(pin "1"
+		(pin "G"
 			(uuid "1fc62560-fa7f-4df1-affb-6c593d0e5d24")
 		)
-		(pin "2"
+		(pin "S"
 			(uuid "2a1ea6c0-e87d-49f1-b506-4ae2df72f3e1")
 		)
 		(instances
@@ -3004,7 +3043,6 @@
 		)
 		(property "Value" "1K"
 			(at 156.2101 107.95 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3182,7 +3220,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "GrassHopperNymph:DMN2990UFA"
+		(property "Footprint" "GrassHopperNymph:Diodes_X2-DFN0806-3_0.8x0.6mm_P0.35mm_GSD"
 			(at 76.2 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -3193,7 +3231,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://nl.mouser.com/datasheet/3/175/1/DMN2990UFA.pdf"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMN2990UFA.pdf"
 			(at 71.12 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -3204,7 +3242,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "20V, 0.51A N-channel MOSFET with body diode and bidirectional gate ESD protection, X2-DFN0806-3"
 			(at 71.12 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -3215,13 +3253,13 @@
 				)
 			)
 		)
-		(pin "3"
+		(pin "D"
 			(uuid "8640998c-b713-4d54-9380-d5fdf8c178cd")
 		)
-		(pin "1"
+		(pin "G"
 			(uuid "e2ae27db-68f4-40c3-9d44-27bceee2ea5b")
 		)
-		(pin "2"
+		(pin "S"
 			(uuid "6d62a09f-2e51-4d16-8344-20833d0ff102")
 		)
 		(instances
@@ -3413,7 +3451,6 @@
 		)
 		(property "Value" "1M"
 			(at 63.5001 161.29 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3573,7 +3610,6 @@
 		)
 		(property "Value" "1K"
 			(at 158.7501 88.9 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3741,7 +3777,6 @@
 		)
 		(property "Value" "1M"
 			(at 64.7701 127 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3901,7 +3936,6 @@
 		)
 		(property "Value" "1M"
 			(at 67.3101 92.71 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4073,7 +4107,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "GrassHopperNymph:DMN2990UFA"
+		(property "Footprint" "GrassHopperNymph:Diodes_X2-DFN0806-3_0.8x0.6mm_P0.35mm_GSD"
 			(at 77.47 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -4084,7 +4118,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://nl.mouser.com/datasheet/3/175/1/DMN2990UFA.pdf"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMN2990UFA.pdf"
 			(at 72.39 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -4095,7 +4129,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "20V, 0.51A N-channel MOSFET with body diode and bidirectional gate ESD protection, X2-DFN0806-3"
 			(at 72.39 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -4106,13 +4140,13 @@
 				)
 			)
 		)
-		(pin "3"
+		(pin "D"
 			(uuid "47512ad1-4d27-4b93-81fd-594f29f7f0df")
 		)
-		(pin "1"
+		(pin "G"
 			(uuid "94b1d4dd-eb94-4e34-8310-0d0724775848")
 		)
-		(pin "2"
+		(pin "S"
 			(uuid "4debea2e-bd98-4daa-a04a-413de10db10b")
 		)
 		(instances
@@ -4226,7 +4260,6 @@
 		)
 		(property "Value" "1M"
 			(at 67.3101 55.88 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4472,7 +4505,6 @@
 		)
 		(property "Value" "2K"
 			(at 162.5601 45.72 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

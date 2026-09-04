@@ -523,612 +523,694 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "GrassHopperNymph:DMN2990UFA"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "DMN2990UFA"
-				(at 5.08 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "For_makeDiary:DMN2990UFA"
-				(at 5.08 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://nl.mouser.com/datasheet/3/175/1/DMN2990UFA.pdf"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "DMN2990UFA_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "DMN2990UFA_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
+		(symbol "GrassHopperNymph:DMN2990UFA" (pin_numbers (hide yes))
+		(pin_names
+			(offset 0)
+			(hide yes)
 		)
-		(symbol "GrassHopperNymph:DMP22D4UFA"
-			(pin_numbers
-				(hide yes)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "Q"
+			(at 5.08 1.905 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "DMP22D4UFA"
-				(at 5.08 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "For_makeDiary:DMP22D4UFA"
-				(at 5.08 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.mouser.com/ds/2/115/DMP22D4UFA-219166.pdf?srsltid=AfmBOop-z8qkWNOWWqztbbsXZ_av38kSY_l_oS41QTwX7HPVtx8er0ib"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "P-MOSFET transistor, drain/source/gate"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET simulation"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "DMP22D4UFA_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "DMP22D4UFA_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
 		)
+		(property "Value" "DMN2990UFA"
+			(at 5.08 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "GrassHopperNymph:Diodes_X2-DFN0806-3_0.8x0.6mm_P0.35mm_GSD" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMN2990UFA.pdf" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Description" "20V, 0.51A N-channel MOSFET with body diode and bidirectional gate ESD protection, X2-DFN0806-3" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "ki_keywords" "N-MOSFET transistor ESD" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "ki_fp_filters" "Diodes*X2?DFN0806*0.8x0.6mm*P0.35mm*GSD*" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(symbol "DMN2990UFA_0_1"
+			(polyline
+				(pts
+					(xy 2.54 -3.81) (xy -2.286 -3.81) (xy -2.286 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "DMN2990UFA_1_1"
+			(circle
+				(center -2.286 0)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.016 -4.318) (xy -0.889 -4.191) (xy -0.889 -3.429) (xy -0.762 -3.302)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.889 -3.81) (xy -0.254 -4.191) (xy -0.254 -3.429) (xy -0.889 -3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.254 1.905) (xy 0.254 -1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.254 0) (xy -2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 2.286) (xy 0.762 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 0.508) (xy 0.762 -0.508)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 -1.27) (xy 0.762 -2.286)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.143 -3.81) (xy 0.508 -3.429) (xy 0.508 -4.191) (xy 1.143 -3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -3.302) (xy 1.143 -3.429) (xy 1.143 -4.191) (xy 1.016 -4.318)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 1.651 0)
+				(radius 2.794)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 2.54) (xy 2.54 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.54 1.778)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 2.54 -1.778)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.54 -3.81)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin input line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "G"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "G"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 -5.08 90)
+				(length 2.54)
+				(name "S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 5.08 270)
+				(length 2.54)
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+		(symbol "GrassHopperNymph:DMP22D4UFA" (pin_numbers (hide yes))
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "Q"
+			(at 5.08 1.905 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DMP22D4UFA"
+			(at 5.08 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "GrassHopperNymph:Diodes_X2-DFN0806-3_0.8x0.6mm_P0.35mm_GSD" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMP22D4UFA.pdf" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "Description" "20V, 0.33A P-channel MOSFET with body diode and bidirectional gate ESD protection, X2-DFN0806-3" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "ki_keywords" "P-MOSFET transistor ESD" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(property "ki_fp_filters" "Diodes*X2?DFN0806*0.8x0.6mm*P0.35mm*GSD*" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
+		(symbol "DMP22D4UFA_0_1"
+			(polyline
+				(pts
+					(xy 2.54 -3.81) (xy -2.286 -3.81) (xy -2.286 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "DMP22D4UFA_1_1"
+			(circle
+				(center -2.286 0)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.016 -4.318) (xy -0.889 -4.191) (xy -0.889 -3.429) (xy -0.762 -3.302)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.889 -3.81) (xy -0.254 -4.191) (xy -0.254 -3.429) (xy -0.889 -3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.254 1.905) (xy 0.254 -1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.254 0) (xy -2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 2.286) (xy 0.762 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 0.508) (xy 0.762 -0.508)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 -1.27) (xy 0.762 -2.286)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.143 -3.81) (xy 0.508 -3.429) (xy 0.508 -4.191) (xy 1.143 -3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -3.302) (xy 1.143 -3.429) (xy 1.143 -4.191) (xy 1.016 -4.318)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 1.651 0)
+				(radius 2.794)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 2.54) (xy 2.54 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.54 1.778)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 2.54 -1.778)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.54 -3.81)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin input line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "G"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "G"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 -5.08 90)
+				(length 2.54)
+				(name "S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 5.08 270)
+				(length 2.54)
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 		(symbol "PCM_4ms_Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -4041,46 +4123,16 @@
 		(uuid "011921cc-963f-4c6b-a058-c19617e83401")
 	)
 	(junction
-		(at 52.07 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "116eeab6-159d-4c49-8348-9fb277f5f2b4")
-	)
-	(junction
-		(at 50.8 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "13bed90d-51c6-42a9-8dff-030d0dd3e7d0")
-	)
-	(junction
-		(at 52.07 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1e5eb305-f6d1-410a-8992-672d7458255a")
-	)
-	(junction
 		(at 220.98 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1fc77106-7134-4328-8a65-a85fa2fa15c3")
 	)
 	(junction
-		(at 52.07 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "26a70cb1-a187-4151-a515-4300da9c410e")
-	)
-	(junction
 		(at 194.31 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2710ae41-6422-4704-8ff3-c25e34acdc86")
-	)
-	(junction
-		(at 52.07 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "271d8d0b-95f2-4c7d-9967-9186d24f3ca6")
 	)
 	(junction
 		(at 52.07 110.49)
@@ -4093,12 +4145,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "37c54406-4799-467b-b2da-9eda974835e6")
-	)
-	(junction
-		(at 52.07 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "491d4ff8-0404-40a2-9a04-54408d1893b4")
 	)
 	(junction
 		(at 52.07 115.57)
@@ -4155,34 +4201,16 @@
 		(uuid "97b99dba-eeb9-465b-bb37-fb6f43ddedf7")
 	)
 	(junction
-		(at 52.07 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "98cb5334-884d-413d-b508-3aa39bf952dd")
-	)
-	(junction
 		(at 86.36 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9f7bf674-7bda-4303-b076-a197c74a9558")
 	)
 	(junction
-		(at 53.34 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bec27125-a703-4d39-ae09-4ae981c6d22b")
-	)
-	(junction
 		(at 186.69 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c4498558-cda8-41bc-940b-d3197bd7903f")
-	)
-	(junction
-		(at 53.34 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c64796c6-66dc-49f4-a830-7ef0e4399fd2")
 	)
 	(junction
 		(at 48.26 31.75)
@@ -4215,12 +4243,6 @@
 		(uuid "db66280b-886c-4d90-9802-a8b93c14f720")
 	)
 	(junction
-		(at 52.07 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "df27f797-3279-4aa4-afbb-ec01d546a63f")
-	)
-	(junction
 		(at 39.37 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4231,12 +4253,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e1139d7f-1f38-4598-914f-ad984361fcf1")
-	)
-	(junction
-		(at 55.88 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f6600ca9-5ae2-4a3e-805a-d38c6d325875")
 	)
 	(junction
 		(at 63.5 31.75)
@@ -4310,7 +4326,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 59.69) (xy 52.07 59.69)
+			(xy 40.64 59.69) (xy 66.04 59.69)
 		)
 		(stroke
 			(width 0)
@@ -4360,7 +4376,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 80.01) (xy 53.34 80.01)
+			(xy 40.64 80.01) (xy 66.04 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4397,16 +4413,6 @@
 			(type default)
 		)
 		(uuid "12ce699f-79fc-4bf9-8d68-8d847d447ad4")
-	)
-	(wire
-		(pts
-			(xy 53.34 77.47) (xy 66.04 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "145c988f-8340-4c11-bb46-da2ba9434e2c")
 	)
 	(wire
 		(pts
@@ -4460,7 +4466,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 69.85) (xy 50.8 69.85)
+			(xy 40.64 69.85) (xy 66.04 69.85)
 		)
 		(stroke
 			(width 0)
@@ -4487,16 +4493,6 @@
 			(type default)
 		)
 		(uuid "1ca21063-08a7-4ebb-bdb3-05f92550ae60")
-	)
-	(wire
-		(pts
-			(xy 52.07 76.2) (xy 53.34 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d51b933-edbe-48b3-8daa-fb464454f459")
 	)
 	(wire
 		(pts
@@ -4540,26 +4536,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 64.77) (xy 66.04 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26adee0e-3958-49df-9d49-a4bbdb2c8764")
-	)
-	(wire
-		(pts
-			(xy 52.07 66.04) (xy 52.07 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "277bb8ca-f084-4d6e-8a7d-2eaa97f6f0cf")
-	)
-	(wire
-		(pts
 			(xy 43.18 118.11) (xy 52.07 118.11)
 		)
 		(stroke
@@ -4567,16 +4543,6 @@
 			(type default)
 		)
 		(uuid "28e43a31-d90c-46e4-91bb-d25e9cdbe2fa")
-	)
-	(wire
-		(pts
-			(xy 43.18 64.77) (xy 55.88 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2caec019-e71a-41e7-ac8e-1b6dc7d4518e")
 	)
 	(wire
 		(pts
@@ -4660,16 +4626,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 78.74) (xy 53.34 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3eb0c82f-53f1-4094-9c60-8929fbce51a9")
-	)
-	(wire
-		(pts
 			(xy 27.94 87.63) (xy 66.04 87.63)
 		)
 		(stroke
@@ -4687,16 +4643,6 @@
 			(type default)
 		)
 		(uuid "41f51b11-5eb8-4be3-a5e9-7e68a3473bec")
-	)
-	(wire
-		(pts
-			(xy 52.07 67.31) (xy 66.04 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42621dd7-c369-4f88-92d2-296c204f47b1")
 	)
 	(wire
 		(pts
@@ -4720,13 +4666,13 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 72.39) (xy 66.04 72.39)
+			(xy 40.64 64.77) (xy 66.04 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4a4143b9-8632-489b-8d5e-1d99841d0f6d")
+		(uuid "4c022e4b-4437-4383-ab6c-085e7e0a1f45")
 	)
 	(wire
 		(pts
@@ -4797,16 +4743,6 @@
 			(type default)
 		)
 		(uuid "513360c9-520c-4a45-a377-c5e3ab22430d")
-	)
-	(wire
-		(pts
-			(xy 52.07 53.34) (xy 52.07 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5561a608-1113-43c5-9853-56f6e140a5f4")
 	)
 	(wire
 		(pts
@@ -4890,16 +4826,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 54.61) (xy 52.07 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6fd3d627-aabb-4521-8afe-ee3dbaf6531f")
-	)
-	(wire
-		(pts
 			(xy 199.39 137.16) (xy 213.36 137.16)
 		)
 		(stroke
@@ -4910,33 +4836,13 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 74.93) (xy 52.07 74.93)
+			(xy 40.64 74.93) (xy 66.04 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7210390e-4bb4-44ee-ae6c-7abcd78daa5b")
-	)
-	(wire
-		(pts
-			(xy 52.07 57.15) (xy 66.04 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "729bcff9-4b46-4d8a-88a1-d18d4fef5293")
-	)
-	(wire
-		(pts
-			(xy 43.18 54.61) (xy 52.07 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75596592-9e83-44bd-b38d-9dab2322fed2")
 	)
 	(wire
 		(pts
@@ -4967,16 +4873,6 @@
 			(type default)
 		)
 		(uuid "7751c6b1-27d2-4612-9ab7-ae2263c75043")
-	)
-	(wire
-		(pts
-			(xy 52.07 68.58) (xy 50.8 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "796def53-5dc0-4fac-b1c2-234629e8604d")
 	)
 	(wire
 		(pts
@@ -5030,16 +4926,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 74.93) (xy 66.04 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83913a24-133f-43f2-a197-5e5ea3c99ec0")
-	)
-	(wire
-		(pts
 			(xy 52.07 115.57) (xy 66.04 115.57)
 		)
 		(stroke
@@ -5047,16 +4933,6 @@
 			(type default)
 		)
 		(uuid "8afb9761-e8ec-4cf9-be66-8860784b3704")
-	)
-	(wire
-		(pts
-			(xy 52.07 63.5) (xy 55.88 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c5157a2-ca3f-4a20-b4e3-913ee1fd9a57")
 	)
 	(wire
 		(pts
@@ -5090,16 +4966,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 71.12) (xy 52.07 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94e1b21b-0aad-4c92-a5e2-e36b29315b06")
-	)
-	(wire
-		(pts
 			(xy 58.42 31.75) (xy 63.5 31.75)
 		)
 		(stroke
@@ -5120,16 +4986,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 60.96) (xy 52.07 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96470126-bf1a-41e4-a556-6d80bbf2fdae")
-	)
-	(wire
-		(pts
 			(xy 162.56 138.43) (xy 186.69 138.43)
 		)
 		(stroke
@@ -5140,27 +4996,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 58.42) (xy 52.07 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b5af904-dd0a-496a-9979-0a7a9616d36b")
-	)
-	(wire
-		(pts
-			(xy 52.07 59.69) (xy 66.04 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9bbafc26-d275-4d18-a0f8-cf3c9adc491b")
-	)
-	(wire
-		(pts
-			(xy 50.8 53.34) (xy 52.07 53.34)
+			(xy 40.64 54.61) (xy 66.04 54.61)
 		)
 		(stroke
 			(width 0)
@@ -5190,26 +5026,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 69.85) (xy 66.04 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a717f071-18e1-426c-afc6-3de8edc4bba3")
-	)
-	(wire
-		(pts
-			(xy 53.34 80.01) (xy 66.04 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab3458a6-4401-49f6-8ec8-7e93b650e3d4")
-	)
-	(wire
-		(pts
 			(xy 132.08 133.35) (xy 152.4 133.35)
 		)
 		(stroke
@@ -5227,16 +5043,6 @@
 			(type default)
 		)
 		(uuid "abbb3718-62b4-4c83-9ca8-6bc92215a307")
-	)
-	(wire
-		(pts
-			(xy 52.07 62.23) (xy 66.04 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "afb0a135-1e6e-4dc7-bd8b-5a84d92aa023")
 	)
 	(wire
 		(pts
@@ -5260,7 +5066,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 72.39) (xy 52.07 72.39)
+			(xy 40.64 72.39) (xy 66.04 72.39)
 		)
 		(stroke
 			(width 0)
@@ -5340,6 +5146,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 57.15) (xy 66.04 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c38c69a1-d1ed-40e9-98a5-e31c8249840b")
+	)
+	(wire
+		(pts
 			(xy 186.69 138.43) (xy 186.69 143.51)
 		)
 		(stroke
@@ -5380,7 +5196,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 77.47) (xy 53.34 77.47)
+			(xy 40.64 77.47) (xy 66.04 77.47)
 		)
 		(stroke
 			(width 0)
@@ -5397,16 +5213,6 @@
 			(type default)
 		)
 		(uuid "d4c98b4f-2c36-4208-ad08-11764aa4c928")
-	)
-	(wire
-		(pts
-			(xy 52.07 73.66) (xy 52.07 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e01a82d2-438b-427a-b92b-4b2eee9db8f4")
 	)
 	(wire
 		(pts
@@ -5430,16 +5236,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 57.15) (xy 52.07 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea0dc1a5-1e1d-49de-a9b9-10b6e1f327f7")
-	)
-	(wire
-		(pts
 			(xy 220.98 129.54) (xy 229.87 129.54)
 		)
 		(stroke
@@ -5460,7 +5256,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 62.23) (xy 52.07 62.23)
+			(xy 40.64 62.23) (xy 66.04 62.23)
 		)
 		(stroke
 			(width 0)
@@ -5520,16 +5316,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 55.88) (xy 52.07 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6265258-9e48-462a-8370-319e5cec2d0d")
-	)
-	(wire
-		(pts
 			(xy 33.02 46.99) (xy 63.5 46.99)
 		)
 		(stroke
@@ -5580,7 +5366,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 67.31) (xy 52.07 67.31)
+			(xy 40.64 67.31) (xy 66.04 67.31)
 		)
 		(stroke
 			(width 0)
@@ -5599,12 +5385,12 @@
 		(uuid "12fa6646-0dd3-4bb7-a488-612f0b565714")
 	)
 	(label "P0.21"
-		(at 132.08 110.49 0)
+		(at 138.43 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "1432a330-394b-48a8-86e5-7c046dcf9433")
 	)
@@ -5759,12 +5545,12 @@
 		(uuid "5809a1d3-cd74-4cac-8303-9e9aaa4738a0")
 	)
 	(label "P0.23"
-		(at 132.08 115.57 0)
+		(at 138.43 115.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "5be1c424-4cf1-47f8-97f8-848ac9caf738")
 	)
@@ -5899,12 +5685,12 @@
 		(uuid "b3cbefb5-8bef-4317-8cfe-15d1392f5bb2")
 	)
 	(label "P0.24"
-		(at 132.08 118.11 0)
+		(at 138.43 118.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "b74634ba-24be-4066-9746-b934c3359950")
 	)
@@ -5949,12 +5735,12 @@
 		(uuid "c4c79a3a-d0a6-4bfe-91de-a7ed56e64fae")
 	)
 	(label "P0.22"
-		(at 132.08 113.03 0)
+		(at 138.43 113.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "c7f37efd-07c8-4e7d-98d3-df3ae9eb6496")
 	)
@@ -5979,12 +5765,12 @@
 		(uuid "cf8c1e7a-a609-4be5-af79-5b10fe956933")
 	)
 	(label "P0.25"
-		(at 132.08 120.65 0)
+		(at 138.43 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "d1c62e02-8569-4a98-9741-bcc4ebddcdb3")
 	)
@@ -6196,23 +5982,23 @@
 	)
 	(hierarchical_label "P0.15{slash}AIN2"
 		(shape input)
-		(at 27.94 92.71 0)
+		(at 27.94 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "0e7a6a0d-d5bc-4468-8ca4-0339e95f8cb1")
 	)
 	(hierarchical_label "P0.00"
 		(shape input)
-		(at 50.8 53.34 0)
+		(at 40.64 54.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "12c72197-5454-45a9-aa81-52fa3826145b")
 	)
@@ -6240,56 +6026,56 @@
 	)
 	(hierarchical_label "P0.19{slash}AIN6"
 		(shape input)
-		(at 27.94 102.87 0)
+		(at 27.94 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "2fc6a162-eb4a-4e68-bb07-9a0cac6628a2")
 	)
 	(hierarchical_label "P0.17{slash}AIN4"
 		(shape input)
-		(at 27.94 97.79 0)
+		(at 27.94 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "34cce7f5-3b10-45f8-ac69-c5ce49526f28")
 	)
 	(hierarchical_label "P0.07"
 		(shape input)
-		(at 52.07 71.12 0)
+		(at 40.64 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "3af00fda-348d-4e67-a6d7-4a5cdb6dfd9d")
 	)
 	(hierarchical_label "P0.01"
 		(shape input)
-		(at 52.07 55.88 0)
+		(at 40.64 57.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "3ca062e3-5b3e-4043-a09a-def2224b60f8")
 	)
 	(hierarchical_label "P0.13{slash}AIN0"
 		(shape input)
-		(at 27.94 87.63 0)
+		(at 27.94 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "40fea686-5740-4a5f-8bd9-dafbc25420a7")
 	)
@@ -6306,12 +6092,12 @@
 	)
 	(hierarchical_label "P0.20{slash}AIN7"
 		(shape input)
-		(at 27.94 105.41 0)
+		(at 27.94 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "4b56a265-3e7e-488a-9c1b-8441ade06078")
 	)
@@ -6328,12 +6114,12 @@
 	)
 	(hierarchical_label "NRF91_RXD"
 		(shape input)
-		(at 27.94 85.09 0)
+		(at 27.94 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "66ae55d3-dcdf-4ca7-80b3-f06b186c5276")
 	)
@@ -6350,23 +6136,23 @@
 	)
 	(hierarchical_label "P0.04"
 		(shape input)
-		(at 52.07 63.5 0)
+		(at 40.64 64.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "72336589-5c8e-49cd-b7c7-a945bc5a0a2f")
 	)
 	(hierarchical_label "P0.14{slash}AIN1"
 		(shape input)
-		(at 27.94 90.17 0)
+		(at 27.94 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "737f7808-266b-4f3e-8d49-9d6be363747f")
 	)
@@ -6394,12 +6180,12 @@
 	)
 	(hierarchical_label "P0.09"
 		(shape input)
-		(at 52.07 76.2 0)
+		(at 40.64 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "7ef4172f-4d62-458e-b3f3-9e02eac64b29")
 	)
@@ -6416,12 +6202,12 @@
 	)
 	(hierarchical_label "P0.02"
 		(shape input)
-		(at 52.07 58.42 0)
+		(at 40.64 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "935a51e3-5625-46d8-a8bf-038286c4427a")
 	)
@@ -6438,12 +6224,12 @@
 	)
 	(hierarchical_label "P0.18{slash}AIN5"
 		(shape input)
-		(at 27.94 100.33 0)
+		(at 27.94 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "9899c5cc-c1db-4e88-a36c-d5d47fbbe03a")
 	)
@@ -6460,34 +6246,34 @@
 	)
 	(hierarchical_label "NRF91_TXD"
 		(shape input)
-		(at 27.94 82.55 0)
+		(at 27.94 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "ab2f0f63-ad16-451a-a548-ae173b7bc2d2")
 	)
 	(hierarchical_label "P0.10"
 		(shape input)
-		(at 52.07 78.74 0)
+		(at 40.64 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "ad4ed346-5b9d-4d79-8592-29e2932f8c98")
 	)
 	(hierarchical_label "P0.03"
 		(shape input)
-		(at 52.07 60.96 0)
+		(at 40.64 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "aeb7e74a-eaa6-4273-80b1-aca360ed7792")
 	)
@@ -6515,34 +6301,34 @@
 	)
 	(hierarchical_label "P0.06"
 		(shape input)
-		(at 52.07 68.58 0)
+		(at 40.64 69.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "da39c9d9-f8e3-46b8-ab85-54403eefe4a0")
 	)
 	(hierarchical_label "P0.05"
 		(shape input)
-		(at 52.07 66.04 0)
+		(at 40.64 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "e1943c3d-6371-4ded-baac-6e09e823c770")
 	)
 	(hierarchical_label "P0.16{slash}AIN3"
 		(shape input)
-		(at 27.94 95.25 0)
+		(at 27.94 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "e549f609-c94a-49e4-889a-a05f7a4ede8f")
 	)
@@ -6581,12 +6367,12 @@
 	)
 	(hierarchical_label "P0.08"
 		(shape input)
-		(at 52.07 73.66 0)
+		(at 40.64 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "fa42712b-6d46-44de-b1f3-b0ba0f90193e")
 	)
@@ -6772,7 +6558,6 @@
 		)
 		(property "Value" "10K"
 			(at 196.85 114.3001 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7010,7 +6795,6 @@
 		)
 		(property "Value" "100nF"
 			(at 160.02 148.5901 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7092,7 +6876,6 @@
 		)
 		(property "Value" "TestPoint"
 			(at 43.18 129.5401 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7171,7 +6954,6 @@
 		)
 		(property "Value" "TestPoint"
 			(at 43.18 134.6201 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7250,7 +7032,6 @@
 		)
 		(property "Value" "100nF"
 			(at 67.31 20.3201 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7332,7 +7113,6 @@
 		)
 		(property "Value" "1K"
 			(at 169.672 143.764 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7424,7 +7204,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "GrassHopperNymph:DMN2990UFA"
+		(property "Footprint" "GrassHopperNymph:Diodes_X2-DFN0806-3_0.8x0.6mm_P0.35mm_GSD"
 			(at 201.93 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -7435,7 +7215,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://nl.mouser.com/datasheet/3/175/1/DMN2990UFA.pdf"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMN2990UFA.pdf"
 			(at 196.85 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -7446,7 +7226,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "20V, 0.51A N-channel MOSFET with body diode and bidirectional gate ESD protection, X2-DFN0806-3"
 			(at 196.85 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -7457,13 +7237,13 @@
 				)
 			)
 		)
-		(pin "3"
+		(pin "D"
 			(uuid "c0e74ce8-08ab-4e47-976d-2243928804eb")
 		)
-		(pin "1"
+		(pin "G"
 			(uuid "9c7dfe0f-2503-4537-8d78-cda2908edf46")
 		)
-		(pin "2"
+		(pin "S"
 			(uuid "6578f87f-3d91-483a-839c-55f1ee2ce686")
 		)
 		(instances
@@ -7587,7 +7367,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "GrassHopperNymph:DMN2990UFA"
+		(property "Footprint" "GrassHopperNymph:Diodes_X2-DFN0806-3_0.8x0.6mm_P0.35mm_GSD"
 			(at 223.52 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -7598,7 +7378,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://nl.mouser.com/datasheet/3/175/1/DMN2990UFA.pdf"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMN2990UFA.pdf"
 			(at 218.44 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -7609,7 +7389,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "20V, 0.51A N-channel MOSFET with body diode and bidirectional gate ESD protection, X2-DFN0806-3"
 			(at 218.44 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -7620,13 +7400,13 @@
 				)
 			)
 		)
-		(pin "3"
+		(pin "D"
 			(uuid "62a461c8-dc84-4ce2-9569-459c864b05ca")
 		)
-		(pin "1"
+		(pin "G"
 			(uuid "a2b7e1cf-780f-4c10-823e-d06bb02087f7")
 		)
-		(pin "2"
+		(pin "S"
 			(uuid "9d816e33-cc16-4644-b290-f4fb11f37999")
 		)
 		(instances
@@ -7740,7 +7520,6 @@
 		)
 		(property "Value" "TestPoint"
 			(at 157.48 139.6999 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7897,7 +7676,6 @@
 		)
 		(property "Value" "0R"
 			(at 180.3399 78.74 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7979,7 +7757,6 @@
 		)
 		(property "Value" "1M"
 			(at 60.96 168.9101 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8061,7 +7838,6 @@
 		)
 		(property "Value" "TestPoint"
 			(at 157.48 137.1599 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8296,7 +8072,6 @@
 		)
 		(property "Value" "TestPoint"
 			(at 157.48 134.6199 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8457,7 +8232,6 @@
 		)
 		(property "Value" "10uF"
 			(at 44.45 34.2901 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8632,7 +8406,6 @@
 		)
 		(property "Value" "100K"
 			(at 191.7701 124.46 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8795,7 +8568,6 @@
 		)
 		(property "Value" "4.7uF"
 			(at 138.43 49.5301 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9111,7 +8883,6 @@
 		)
 		(property "Value" "TestPoint"
 			(at 44.45 162.5601 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9268,7 +9039,6 @@
 		)
 		(property "Value" "1uF"
 			(at 21.59 34.2901 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9441,7 +9211,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "GrassHopperNymph:DMP22D4UFA"
+		(property "Footprint" "GrassHopperNymph:Diodes_X2-DFN0806-3_0.8x0.6mm_P0.35mm_GSD"
 			(at 201.93 127 0)
 			(hide yes)
 			(show_name no)
@@ -9452,7 +9222,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/ds/2/115/DMP22D4UFA-219166.pdf?srsltid=AfmBOop-z8qkWNOWWqztbbsXZ_av38kSY_l_oS41QTwX7HPVtx8er0ib"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMP22D4UFA.pdf"
 			(at 196.85 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -9463,7 +9233,7 @@
 				)
 			)
 		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
+		(property "Description" "20V, 0.33A P-channel MOSFET with body diode and bidirectional gate ESD protection, X2-DFN0806-3"
 			(at 196.85 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -9474,13 +9244,13 @@
 				)
 			)
 		)
-		(pin "1"
+		(pin "G"
 			(uuid "a0799a8c-1f7c-4524-99a7-698c69c7d686")
 		)
-		(pin "2"
+		(pin "S"
 			(uuid "6b97c27d-ad14-4705-b805-5e11745c2b01")
 		)
-		(pin "3"
+		(pin "D"
 			(uuid "9d2a37ab-2308-460b-83b1-f3ecb4999d00")
 		)
 		(instances
@@ -9516,7 +9286,6 @@
 		)
 		(property "Value" "4.7uF"
 			(at 77.47 20.3201 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10170,7 +9939,6 @@
 		)
 		(property "Value" "1uF"
 			(at 35.56 34.2901 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10411,7 +10179,6 @@
 		)
 		(property "Value" "10uF"
 			(at 54.61 34.2901 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10571,7 +10338,6 @@
 		)
 		(property "Value" "TestPoint"
 			(at 43.18 132.0801 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10650,7 +10416,6 @@
 		)
 		(property "Value" "10K"
 			(at 60.96 36.8301 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10732,7 +10497,6 @@
 		)
 		(property "Value" "TestPoint"
 			(at 44.45 160.0201 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10811,7 +10575,6 @@
 		)
 		(property "Value" "TestPoint"
 			(at 44.45 165.1001 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

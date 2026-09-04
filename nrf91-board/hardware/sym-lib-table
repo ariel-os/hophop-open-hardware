@@ -1,8 +1,4 @@
 (sym_lib_table
-	(version 7)
- (lib (name "GrassHopperNymph")
-         (type "KiCad")
-         (uri "${KIPRJMOD}/Symbols/GrasshopperNymph.kicad_sym")
-         (options "")
-         (descr ""))
+  (version 7)
+  (lib (name "GrassHopperNymph") (type "KiCad") (uri "${KIPRJMOD}/libs/symbols/GrassHopperNymph.kicad_sym") (options "") (descr "HopHop project libraries"))
 )

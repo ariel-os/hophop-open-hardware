@@ -1,8 +1,4 @@
 (fp_lib_table
-    (version 7)
-    (lib (name "GrassHopperNymph")
-         (type "KiCad")
-         (uri "${KIPRJMOD}/Footprints/GrassHopperNymph.pretty")
-         (options "")
-         (descr ""))
+  (version 7)
+  (lib (name "GrassHopperNymph") (type "KiCad") (uri "${KIPRJMOD}/libs/footprints/GrassHopperNymph.pretty") (options "") (descr "HopHop project libraries"))
 )
