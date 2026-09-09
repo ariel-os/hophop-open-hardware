@@ -13,9 +13,9 @@
 (fp_line (start 0.75 0.58) (end -0.75 0.58) (stroke (width 0.05) (type default)) (layer "F.CrtYd"))
 (fp_line (start -0.75 0.58) (end -0.75 -0.58) (stroke (width 0.05) (type default)) (layer "F.CrtYd"))
 (fp_poly (pts (xy -0.76 -0.175) (xy -0.96 -0.295) (xy -0.96 -0.055)) (stroke (width 0.12) (type solid)) (fill solid) (layer "F.SilkS"))
-(pad "G" smd roundrect (at -0.3125 -0.175) (size 0.375 0.2) (layers "F.Cu" "F.Mask" "F.Paste") (roundrect_rratio 0.25))
-(pad "S" smd roundrect (at -0.3125 0.175) (size 0.375 0.2) (layers "F.Cu" "F.Mask" "F.Paste") (roundrect_rratio 0.25))
-(pad "D" smd roundrect (at 0.2625 0) (size 0.475 0.45) (layers "F.Cu" "F.Mask" "F.Paste") (roundrect_rratio 0.25))
-(model "${KICAD10_3DMODEL_DIR}/HopHop_Package_DFN_QFN.3dshapes/Diodes_X2-DFN0806-3_0.8x0.6mm_P0.35mm_GSD.step"
+(pad "G" smd rect (at -0.3125 -0.175) (size 0.375 0.2) (layers "F.Cu" "F.Mask" "F.Paste"))
+(pad "S" smd rect (at -0.3125 0.175) (size 0.375 0.2) (layers "F.Cu" "F.Mask" "F.Paste"))
+(pad "D" smd rect (at 0.2625 0) (size 0.475 0.45) (layers "F.Cu" "F.Mask" "F.Paste"))
+(model "${KIPRJMOD}/libs/3dmodels/HopHop_Package_DFN_QFN.3dshapes/Diodes_X2-DFN0806-3_0.8x0.6mm_P0.35mm_GSD.step"
   (offset (xyz 0 0 0)) (scale (xyz 1 1 1)) (rotate (xyz 0 0 0)))
 )

@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "HopHop_Package_BGA") (type "KiCad") (uri "${KIPRJMOD}/libs/footprints/HopHop_Package_BGA.pretty") (options "") (descr "HopHop Package BGA"))
   (lib (name "HopHop_Package_DFN_QFN") (type "KiCad") (uri "${KIPRJMOD}/libs/footprints/HopHop_Package_DFN_QFN.pretty") (options "") (descr "HopHop Package DFN QFN"))
+  (lib (name "HopHop_Connector") (type "KiCad") (uri "${KIPRJMOD}/libs/footprints/HopHop_Connector.pretty") (options "") (descr "HopHop connectors"))
 )

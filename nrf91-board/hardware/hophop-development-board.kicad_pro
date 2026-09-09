@@ -533,8 +533,8 @@
   "schematic": {
     "annotate_start_num": 0,
     "annotation": {
-      "method": 0,
-      "sort_order": 0
+      "method": 1,
+      "sort_order": 1
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
@@ -666,7 +666,7 @@
         "uuid": "18409950-a1da-4356-97dd-5c7c844a6b0c"
       }
     ],
-    "used_designators": "SW1-2,Y1,#PWR1-75,C1-34,D1-8,U1-7,Q1-8,J1-5,VSYS1-12,R1-37,TP1-16,#FLG1-3,#Q2,#NetPort13,#NetPort15-17,#NetPort23,L1-5,X1",
+    "used_designators": "R1-37,R201-211,R301-310,R401-406,R501-508,#PWR1-80,#PWR101-105,#PWR201-227,#PWR301-310,#PWR401-412,#PWR501-520,#PWR601-605,Y1,Y401,C1-34,C201-205,C401-414,C501-510,D1-8,D201-203,D301-302,D501,U1-7,U201-202,U401,U501,Q1-8,Q201,Q301-304,Q501-503,TP1-16,TP201-203,TP401-403,TP501-509,VSYS1-12,J1-5,J201-202,J501,J601-602,#Q2,#FLG1-6,#FLG101-105,#FLG201-203,#FLG401,#FLG501,X1,L1-5,L201,L401-402,L501,#NetPort13,#NetPort15-17,#NetPort23,SW1-2,SW301-302",
     "variants": []
   },
   "sheets": [
