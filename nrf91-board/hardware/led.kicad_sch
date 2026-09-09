@@ -12,12 +12,13 @@
 		(comment 1 "Designer: Edwin Schokkenbroek")
 	)
 	(lib_symbols
-		(symbol "Device:R_US"
+		(symbol "Device:R_Small"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(offset 0)
+				(offset 0.254)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -25,17 +26,17 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
-				(at 2.54 0 90)
+				(at 0 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
 					)
 				)
 			)
-			(property "Value" "R_US"
-				(at -2.54 0 90)
+			(property "Value" "R_Small"
+				(at 1.778 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -45,7 +46,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 1.016 -0.254 90)
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -66,7 +67,7 @@
 					)
 				)
 			)
-			(property "Description" "Resistor, US symbol"
+			(property "Description" "Resistor, small symbol"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -77,7 +78,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "R res resistor"
+			(property "ki_keywords" "R resistor"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -99,61 +100,12 @@
 					)
 				)
 			)
-			(symbol "R_US_0_1"
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 0 2.54)
-					)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
 					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -161,10 +113,10 @@
 					)
 				)
 			)
-			(symbol "R_US_1_1"
+			(symbol "R_Small_1_1"
 				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
+					(at 0 2.54 270)
+					(length 0.762)
 					(name ""
 						(effects
 							(font
@@ -181,8 +133,8 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
+					(at 0 -2.54 90)
+					(length 0.762)
 					(name ""
 						(effects
 							(font
@@ -201,350 +153,403 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "HopHop_Transistor_FET:DMN2990UFA" (pin_numbers (hide yes))
-		(pin_names
-			(offset 0)
-			(hide yes)
+		(symbol "HopHop_Transistor_FET:DMN2990UFA"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "DMN2990UFA"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "HopHop_Package_DFN_QFN:Diodes_X2-DFN0806-3_0.8x0.6mm_P0.35mm_GSD"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMN2990UFA.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "20V, 0.51A N-channel MOSFET with body diode and bidirectional gate ESD protection, X2-DFN0806-3"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "N-MOSFET transistor ESD"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Diodes*X2?DFN0806*0.8x0.6mm*P0.35mm*GSD*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "DMN2990UFA_0_1"
+				(polyline
+					(pts
+						(xy 2.54 -3.81) (xy -2.286 -3.81) (xy -2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "DMN2990UFA_1_1"
+				(circle
+					(center -2.286 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -4.318) (xy -0.889 -4.191) (xy -0.889 -3.429) (xy -0.762 -3.302)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 -3.81) (xy -0.254 -4.191) (xy -0.254 -3.429) (xy -0.889 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.143 -3.81) (xy 0.508 -3.429) (xy 0.508 -4.191) (xy 1.143 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.302) (xy 1.143 -3.429) (xy 1.143 -4.191) (xy 1.016 -4.318)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -3.81)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
 		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "Q"
-			(at 5.08 1.905 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DMN2990UFA"
-			(at 5.08 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "HopHop_Package_DFN_QFN:Diodes_X2-DFN0806-3_0.8x0.6mm_P0.35mm_GSD" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMN2990UFA.pdf" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
-		(property "Description" "20V, 0.51A N-channel MOSFET with body diode and bidirectional gate ESD protection, X2-DFN0806-3" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
-		(property "ki_keywords" "N-MOSFET transistor ESD" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
-		(property "ki_fp_filters" "Diodes*X2?DFN0806*0.8x0.6mm*P0.35mm*GSD*" (at 0 0 0) (hide yes) (effects (font (size 1.27 1.27))))
-		(symbol "DMN2990UFA_0_1"
-			(polyline
-				(pts
-					(xy 2.54 -3.81) (xy -2.286 -3.81) (xy -2.286 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "DMN2990UFA_1_1"
-			(circle
-				(center -2.286 0)
-				(radius 0.254)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.016 -4.318) (xy -0.889 -4.191) (xy -0.889 -3.429) (xy -0.762 -3.302)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.889 -3.81) (xy -0.254 -4.191) (xy -0.254 -3.429) (xy -0.889 -3.81)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0.254 1.905) (xy 0.254 -1.905)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0.254 0) (xy -2.54 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0.762 2.286) (xy 0.762 1.27)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0.762 0.508) (xy 0.762 -0.508)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0.762 -1.27) (xy 0.762 -2.286)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.143 -3.81) (xy 0.508 -3.429) (xy 0.508 -4.191) (xy 1.143 -3.81)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 -3.302) (xy 1.143 -3.429) (xy 1.143 -4.191) (xy 1.016 -4.318)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 1.651 0)
-				(radius 2.794)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 2.54) (xy 2.54 1.778)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 2.54 1.778)
-				(radius 0.254)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(circle
-				(center 2.54 -1.778)
-				(radius 0.254)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 2.54 -3.81)
-				(radius 0.254)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin input line
-				(at -5.08 0 0)
-				(length 2.54)
-				(name "G"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "G"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 -5.08 90)
-				(length 2.54)
-				(name "S"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "S"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 5.08 270)
-				(length 2.54)
-				(name "D"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "D"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
 		(symbol "PCM_LED_AKL:LED_0402"
 			(body_styles demorgan)
 			(pin_numbers
@@ -1726,16 +1731,16 @@
 		(uuid "0ed141c5-fe46-49dd-a534-7ef616e03764")
 	)
 	(junction
-		(at 168.91 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1d4abf32-a61e-416c-b51c-169e04008b28")
-	)
-	(junction
 		(at 64.77 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1ef3e1ed-f90a-4147-820f-d389e421b879")
+	)
+	(junction
+		(at 168.91 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23263800-fb39-485a-9a90-d58c41821412")
 	)
 	(junction
 		(at 77.47 90.17)
@@ -1794,16 +1799,6 @@
 			(type default)
 		)
 		(uuid "067fc726-cd42-477e-8a03-ca058e0f7c96")
-	)
-	(wire
-		(pts
-			(xy 167.64 48.26) (xy 172.72 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "115ae9b6-2818-4e60-9158-e770cb2c9729")
 	)
 	(wire
 		(pts
@@ -1867,13 +1862,23 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 105.41) (xy 168.91 105.41)
+			(xy 162.56 105.41) (xy 168.91 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "354a22a0-62b0-446d-8e86-361b1147a64b")
+	)
+	(wire
+		(pts
+			(xy 64.77 90.17) (xy 67.31 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a76754b-ac91-449d-a451-4a45fb651e0a")
 	)
 	(wire
 		(pts
@@ -1907,6 +1912,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 43.18) (xy 172.72 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d6ceb48-fdff-4c23-addb-0c3c28d46dd7")
+	)
+	(wire
+		(pts
 			(xy 62.23 113.03) (xy 67.31 113.03)
 		)
 		(stroke
@@ -1917,7 +1932,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 38.1) (xy 160.02 38.1)
+			(xy 148.59 38.1) (xy 161.29 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1937,7 +1952,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 43.18) (xy 160.02 43.18)
+			(xy 148.59 43.18) (xy 161.29 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1957,13 +1972,13 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 38.1) (xy 172.72 38.1)
+			(xy 64.77 53.34) (xy 67.31 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "643dc94d-535c-42e6-8d95-121e12e42c59")
+		(uuid "65ae5273-8250-4980-b8ff-e0ff1de1f3ad")
 	)
 	(wire
 		(pts
@@ -1984,6 +1999,26 @@
 			(type default)
 		)
 		(uuid "692eed73-b2b9-4a92-bc77-c7eea1f05b1d")
+	)
+	(wire
+		(pts
+			(xy 60.96 158.75) (xy 63.5 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d4d8f26-be3d-4edc-8c08-eb60d28973f0")
+	)
+	(wire
+		(pts
+			(xy 166.37 38.1) (xy 172.72 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f1556ec-d23c-4a5c-8686-eb5bcc94c1cf")
 	)
 	(wire
 		(pts
@@ -2167,7 +2202,17 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 48.26) (xy 160.02 48.26)
+			(xy 166.37 48.26) (xy 172.72 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a30d4f0d-3cc2-47be-af65-329eabf7dcc4")
+	)
+	(wire
+		(pts
+			(xy 148.59 48.26) (xy 161.29 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2207,16 +2252,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 43.18) (xy 172.72 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b06e57ea-5225-42d5-bfe4-eaf736f2473d")
-	)
-	(wire
-		(pts
 			(xy 163.83 86.36) (xy 166.37 86.36)
 		)
 		(stroke
@@ -2237,6 +2272,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 124.46) (xy 64.77 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c51d8f10-4df8-4250-9086-704ddaacc62b")
+	)
+	(wire
+		(pts
 			(xy 166.37 86.36) (xy 166.37 83.82)
 		)
 		(stroke
@@ -2247,7 +2292,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 105.41) (xy 153.67 105.41)
+			(xy 129.54 105.41) (xy 157.48 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2337,7 +2382,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 86.36) (xy 156.21 86.36)
+			(xy 129.54 86.36) (xy 157.48 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2695,7 +2740,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "Device:R_Small")
 		(at 163.83 38.1 270)
 		(unit 1)
 		(body_style 1)
@@ -2728,7 +2773,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
-			(at 163.576 39.116 90)
+			(at 163.83 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2749,7 +2794,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "Resistor, small symbol"
 			(at 163.83 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -2854,7 +2899,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "Device:R_Small")
 		(at 163.83 48.26 270)
 		(unit 1)
 		(body_style 1)
@@ -2887,7 +2932,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
-			(at 163.576 49.276 90)
+			(at 163.83 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2908,7 +2953,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "Resistor, small symbol"
 			(at 163.83 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -3020,8 +3065,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 157.48 105.41 270)
+		(lib_id "Device:R_Small")
+		(at 160.02 105.41 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3031,7 +3076,7 @@
 		(dnp no)
 		(uuid "3c8a1a89-1e9d-4738-b5ef-fd105e0cbab9")
 		(property "Reference" "R35"
-			(at 159.258 107.442 90)
+			(at 161.798 107.442 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3042,7 +3087,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 156.2101 107.95 0)
+			(at 158.7501 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3053,7 +3098,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
-			(at 157.226 106.426 90)
+			(at 160.02 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3064,7 +3109,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 105.41 0)
+			(at 160.02 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3074,8 +3119,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
-			(at 157.48 105.41 0)
+		(property "Description" "Resistor, small symbol"
+			(at 160.02 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3428,8 +3473,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 64.77 158.75 270)
+		(lib_id "Device:R_Small")
+		(at 66.04 158.75 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3439,7 +3484,7 @@
 		(dnp no)
 		(uuid "86e46c95-9d01-4e42-a713-cc291dffb2a1")
 		(property "Reference" "R36"
-			(at 66.548 160.782 90)
+			(at 67.818 160.782 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3450,7 +3495,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 63.5001 161.29 0)
+			(at 64.7701 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3461,7 +3506,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
-			(at 64.516 159.766 90)
+			(at 66.04 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3472,7 +3517,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 158.75 0)
+			(at 66.04 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3482,8 +3527,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
-			(at 64.77 158.75 0)
+		(property "Description" "Resistor, small symbol"
+			(at 66.04 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3587,7 +3632,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "Device:R_Small")
 		(at 160.02 86.36 270)
 		(unit 1)
 		(body_style 1)
@@ -3620,7 +3665,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
-			(at 159.766 87.376 90)
+			(at 160.02 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3641,7 +3686,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "Resistor, small symbol"
 			(at 160.02 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -3754,8 +3799,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 66.04 124.46 270)
+		(lib_id "Device:R_Small")
+		(at 67.31 124.46 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3765,7 +3810,7 @@
 		(dnp no)
 		(uuid "97b043f5-5a78-40af-b014-54b90f9de63e")
 		(property "Reference" "R32"
-			(at 67.818 126.492 90)
+			(at 69.088 126.492 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3776,7 +3821,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 64.7701 127 0)
+			(at 66.0401 127 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3787,7 +3832,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
-			(at 65.786 125.476 90)
+			(at 67.31 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3798,7 +3843,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 124.46 0)
+			(at 67.31 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3808,8 +3853,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
-			(at 66.04 124.46 0)
+		(property "Description" "Resistor, small symbol"
+			(at 67.31 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3913,8 +3958,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 68.58 90.17 270)
+		(lib_id "Device:R_Small")
+		(at 69.85 90.17 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3924,7 +3969,7 @@
 		(dnp no)
 		(uuid "a04ae2c1-10e3-4b27-9eb4-6f9026098c72")
 		(property "Reference" "R31"
-			(at 70.358 92.202 90)
+			(at 71.628 92.202 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3935,7 +3980,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 67.3101 92.71 0)
+			(at 68.5801 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3946,7 +3991,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
-			(at 68.326 91.186 90)
+			(at 69.85 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3957,7 +4002,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 90.17 0)
+			(at 69.85 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3967,8 +4012,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
-			(at 68.58 90.17 0)
+		(property "Description" "Resistor, small symbol"
+			(at 69.85 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4237,8 +4282,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 68.58 53.34 270)
+		(lib_id "Device:R_Small")
+		(at 69.85 53.34 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4248,7 +4293,7 @@
 		(dnp no)
 		(uuid "cc280d8f-de62-4e63-a544-bddf5ad037fb")
 		(property "Reference" "R29"
-			(at 70.358 55.372 90)
+			(at 71.628 55.372 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4259,7 +4304,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 67.3101 55.88 0)
+			(at 68.5801 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4270,7 +4315,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
-			(at 68.326 54.356 90)
+			(at 69.85 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4281,7 +4326,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 53.34 0)
+			(at 69.85 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4291,8 +4336,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
-			(at 68.58 53.34 0)
+		(property "Description" "Resistor, small symbol"
+			(at 69.85 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4482,7 +4527,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "Device:R_Small")
 		(at 163.83 43.18 270)
 		(unit 1)
 		(body_style 1)
@@ -4515,7 +4560,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
-			(at 163.576 44.196 90)
+			(at 163.83 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4536,7 +4581,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "Resistor, small symbol"
 			(at 163.83 43.18 0)
 			(hide yes)
 			(show_name no)

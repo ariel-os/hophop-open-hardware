@@ -1,5 +1,0 @@
-Checking component 'HopHop_Transistor_FET:DMN2990UFA':
-Checking component 'HopHop_Transistor_FET:DMP22D4UFA':
-Checking component 'HopHop_Regulator_Switching:TPS63901YCJ':
-Checking component 'HopHop_Battery_Management:BQ25180YBG':
-Checking component 'HopHop_Regulator_Linear:TPS7A0228YCH':
