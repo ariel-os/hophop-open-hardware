@@ -1411,238 +1411,170 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_MEC_5E"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 0.635 5.715 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_MEC_5E"
-				(at 0 -3.175 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.apem.com/medias/download/MEC_switches_serie_MULTIMEC5E.pdf"
-				(at 0 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "MEC 5E single pole normally-open tactile switch"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SW*MEC*5G*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SW_MEC_5E_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.54 2.54) (xy -2.286 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.286 3.81) (xy 2.286 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -1.778 2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.81) (xy 0 5.588)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.778 2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 2.54 2.54) (xy 2.286 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
+		(symbol "Switch:SW_Push"
+		(pin_numbers
+			(hide yes)
 		)
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "SW"
+			(at 1.27 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 0 -1.524 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "switch normally-open pushbutton push-button"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "SW_Push_0_1"
+			(circle
+				(center -2.032 0)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 1.27) (xy 0 3.048)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.032 0)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 1.27) (xy -2.54 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -1765,12 +1697,7 @@
 		(color 0 0 0 0)
 		(uuid "10e91b17-3d4d-425c-892d-c5088862d409")
 	)
-	(junction
-		(at 127 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3f41f9d5-4fe6-4081-a44a-c97f51d876dc")
-	)
+
 	(junction
 		(at 60.96 149.86)
 		(diameter 0)
@@ -1795,12 +1722,7 @@
 		(color 0 0 0 0)
 		(uuid "886e4458-c7aa-4f92-9d08-fc8ad53dc985")
 	)
-	(junction
-		(at 128.27 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9c14b983-3e90-4d49-911f-c16bc1c6e242")
-	)
+
 	(junction
 		(at 77.47 85.09)
 		(diameter 0)
@@ -1829,16 +1751,7 @@
 		)
 		(uuid "04f4bd21-76a4-48d7-908e-bfe2f33fc4d7")
 	)
-	(wire
-		(pts
-			(xy 144.78 114.3) (xy 144.78 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "067fc726-cd42-477e-8a03-ca058e0f7c96")
-	)
+
 	(wire
 		(pts
 			(xy 74.93 118.11) (xy 74.93 120.65)
@@ -2209,16 +2122,7 @@
 		)
 		(uuid "95e5448e-eb00-4941-9d3b-34f3abc058d0")
 	)
-	(wire
-		(pts
-			(xy 127 114.3) (xy 129.54 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96ef0b8c-af3f-4538-b32f-1d27c52b4696")
-	)
+
 	(wire
 		(pts
 			(xy 64.77 77.47) (xy 69.85 77.47)
@@ -2339,16 +2243,7 @@
 		)
 		(uuid "c51d8f10-4df8-4250-9086-704ddaacc62b")
 	)
-	(wire
-		(pts
-			(xy 127 116.84) (xy 127 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7a9cf39-c821-4a0b-a0f8-caad366fc5dd")
-	)
+
 	(wire
 		(pts
 			(xy 118.11 135.89) (xy 120.65 135.89)
@@ -2389,19 +2284,10 @@
 		)
 		(uuid "db66afb3-1c4f-4752-bf4f-ce1c19ba7188")
 	)
+
 	(wire
 		(pts
-			(xy 130.81 138.43) (xy 128.27 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df09d5dc-33b1-4c7a-8028-95df344da5db")
-	)
-	(wire
-		(pts
-			(xy 139.7 114.3) (xy 144.78 114.3)
+			(xy 139.7 116.84) (xy 144.78 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2409,16 +2295,7 @@
 		)
 		(uuid "e9c9e56b-955d-442b-a408-7513fa3dec8d")
 	)
-	(wire
-		(pts
-			(xy 128.27 138.43) (xy 128.27 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb61dd29-041d-4a47-a5ee-30f34b5d29f0")
-	)
+
 	(wire
 		(pts
 			(xy 116.84 116.84) (xy 119.38 116.84)
@@ -2489,16 +2366,7 @@
 		)
 		(uuid "33511940-640f-470d-860c-6f1ca4150788")
 	)
-	(label ""
-		(at 129.54 114.3 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "494fa2c5-03c2-42c5-8205-7d7f673cbc4d")
-	)
+
 	(label "LED_G"
 		(at 96.52 80.01 0)
 		(effects
@@ -3657,84 +3525,7 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "power:GND")
-		(at 140.97 138.43 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "91f4a660-1114-4b93-82a3-618c7a493cc3")
-		(property "Reference" "#PWR0308"
-			(at 140.97 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 140.97 142.24 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 140.97 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 140.97 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "009fa6ea-21d9-4fd2-b848-aa101e83f3d9")
-		)
-		(instances
-			(project "hophop-development-board"
-				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/7f501c0b-af37-4662-879a-7c6bd745f962"
-					(reference "#PWR0308")
-					(unit 1)
-				)
-			)
-		)
-	)
+
 	(symbol
 		(lib_id "Device:R_Small")
 		(at 121.92 116.84 270)
@@ -3815,7 +3606,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_MEC_5E")
+		(lib_id "Switch:SW_Push")
 		(at 134.62 116.84 0)
 		(unit 1)
 		(body_style 1)
@@ -3836,7 +3627,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MEC_5E"
+		(property "Value" "PTS810SJM250SMTR LFS"
 			(at 134.62 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3846,18 +3637,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_MEC_5GSH9"
-			(at 134.62 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.apem.com/storage/datasheets/files/MEC_switches_serie_MULTIMEC5E/media/MEC-switches-serie-MULTIMEC5E.pdf"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS810"
 			(at 134.62 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -3868,7 +3648,18 @@
 				)
 			)
 		)
-		(property "Description" "MEC 5E single pole normally-open tactile switch"
+		(property "Datasheet" "https://www.ckswitches.com/media/1476/pts810.pdf"
+			(at 134.62 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "C&K PTS810 SPST-NO tactile switch, 4.2 x 3.2 mm, 2.5 mm height, 1.6 N"
 			(at 134.62 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -3879,7 +3670,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "APEM / MEC"
+		(property "Manufacturer" "C&K / Littelfuse"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -3890,7 +3681,7 @@
 				)
 			)
 		)
-		(property "MPN" "5ESH920"
+		(property "MPN" "PTS810SJM250SMTR LFS"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -3901,16 +3692,12 @@
 				)
 			)
 		)
+
+
 		(pin "1"
-			(uuid "720ced42-50f8-43a2-9bfe-ab434302a075")
-		)
-		(pin "4"
-			(uuid "b2ffe3df-ffeb-4beb-97cc-b8caa63a7740")
-		)
-		(pin "2"
 			(uuid "aeeea45f-5c78-4833-9bbf-36d87a7a7aca")
 		)
-		(pin "3"
+		(pin "2"
 			(uuid "21fe945d-c5e2-4287-b4e8-f890460a805e")
 		)
 		(instances
@@ -4495,8 +4282,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_MEC_5E")
-		(at 135.89 138.43 0)
+		(lib_id "Switch:SW_Push")
+		(at 135.89 135.89 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4516,7 +4303,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_MEC_5E"
+		(property "Value" "PTS810SJM250SMTR LFS"
 			(at 135.89 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4526,18 +4313,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_MEC_5GSH9"
-			(at 135.89 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.apem.com/storage/datasheets/files/MEC_switches_serie_MULTIMEC5E/media/MEC-switches-serie-MULTIMEC5E.pdf"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS810"
 			(at 135.89 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -4548,8 +4324,8 @@
 				)
 			)
 		)
-		(property "Description" "MEC 5E single pole normally-open tactile switch"
-			(at 135.89 138.43 0)
+		(property "Datasheet" "https://www.ckswitches.com/media/1476/pts810.pdf"
+			(at 135.89 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4559,7 +4335,18 @@
 				)
 			)
 		)
-		(property "Manufacturer" "APEM / MEC"
+		(property "Description" "C&K PTS810 SPST-NO tactile switch, 4.2 x 3.2 mm, 2.5 mm height, 1.6 N"
+			(at 135.89 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "C&K / Littelfuse"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -4570,7 +4357,7 @@
 				)
 			)
 		)
-		(property "MPN" "5ESH920"
+		(property "MPN" "PTS810SJM250SMTR LFS"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -4581,16 +4368,12 @@
 				)
 			)
 		)
+
+
 		(pin "1"
-			(uuid "0e393155-91ef-4b46-b6c6-af09a828be73")
-		)
-		(pin "4"
-			(uuid "1a221a26-f495-462e-9f8d-5791a5106856")
-		)
-		(pin "2"
 			(uuid "8a52228d-b3dd-4eea-a4c6-11a078cc6bd6")
 		)
-		(pin "3"
+		(pin "2"
 			(uuid "5264a161-a068-4cc8-b8a9-83887eaa7c0f")
 		)
 		(instances

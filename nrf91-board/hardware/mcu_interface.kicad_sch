@@ -4689,7 +4689,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "HopHop_Connector:TestPoint_Pad_D1.0mm_Compact"
 			(at 26.67 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -6153,7 +6153,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "HopHop_Connector:TestPoint_Pad_D1.0mm_Compact"
 			(at 26.67 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -6939,7 +6939,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "HopHop_Connector:TestPoint_Pad_D1.0mm_Compact"
 			(at 26.67 53.34 0)
 			(hide yes)
 			(show_name no)
