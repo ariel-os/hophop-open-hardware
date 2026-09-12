@@ -4,6 +4,8 @@ For KiCad 10.0 or newer. The project-root tables use `${KIPRJMOD}/libs`, so no a
 
 # Attribution
 
+The project-local `JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal` footprint is copied from KiCad's `Connector_JST` library, with its 3D model path and offset adapted. Its geometry remains under the KiCad library license below. The matching STEP model comes from Mark Harris's Celestial Altium Library; see its [source, alignment and separate license](3dmodels/HopHop_Connector.3dshapes/JST_PH_S2B-PH-SM4-TB/README.md).
+
 `symbols/HopHop_MCU_Nordic.kicad_sym` is an unmodified, byte-for-byte copy of `MCU_Nordic.kicad_symdir/nRF9151-LAxx.kicad_sym` from [KiCad symbols merge request !4932](https://gitlab.com/kicad/libraries/kicad-symbols/-/merge_requests/4932), “Add Nordic nRF9151 SiP”, merged 2026-09-07. This copy bridges the gap until the distributed official symbol libraries contain MCU_Nordic:nRF9151-LAxx.
 
 The power drawings are derived from KiCad's `power:VDD`. The custom IC drawings are derived from KiCad's `Regulator_Switching:TPS63900` and `Battery_Management:BQ25173DSG`; MOSFET drawings are derived from `Transistor_FET:DMG1012T`, with P-channel polarity adapted.

@@ -5341,7 +5341,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1c816efc-7e0d-4727-bec0-cfbd411bb5cf")
-		(property "Reference" "R211"
+		(property "Reference" "R212"
 			(at 175.768 115.062 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5403,7 +5403,7 @@
 		(instances
 			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
-					(reference "R211")
+					(reference "R212")
 					(unit 1)
 				)
 			)
@@ -5421,7 +5421,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "246f4bc2-7d04-41c0-bab0-2f72ad39b685")
-		(property "Reference" "R210"
+		(property "Reference" "R211"
 			(at 169.164 114.554 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5483,7 +5483,7 @@
 		(instances
 			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
-					(reference "R210")
+					(reference "R211")
 					(unit 1)
 				)
 			)
@@ -5501,7 +5501,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b5e5707-7da0-4107-b3a0-8a85f3886708")
-		(property "Reference" "#PWR0216"
+		(property "Reference" "#PWR0217"
 			(at 24.13 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -5561,7 +5561,7 @@
 		(instances
 			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
-					(reference "#PWR0216")
+					(reference "#PWR0217")
 					(unit 1)
 				)
 			)
@@ -6600,7 +6600,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56ed3520-182f-4619-a1cc-14592b1e59dd")
-		(property "Reference" "#PWR0225"
+		(property "Reference" "#PWR0226"
 			(at 172.72 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -6660,7 +6660,7 @@
 		(instances
 			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
-					(reference "#PWR0225")
+					(reference "#PWR0226")
 					(unit 1)
 				)
 			)
@@ -6679,7 +6679,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "574767fa-43e0-43cc-ba45-8751c48f1889")
-		(property "Reference" "#PWR0224"
+		(property "Reference" "#PWR0225"
 			(at 160.02 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -6739,7 +6739,7 @@
 		(instances
 			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
-					(reference "#PWR0224")
+					(reference "#PWR0225")
 					(unit 1)
 				)
 			)
@@ -6837,7 +6837,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d04afe2-ec7c-4126-9345-aa351f5e1a6a")
-		(property "Reference" "#PWR0219"
+		(property "Reference" "#PWR0220"
 			(at 124.46 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -6897,7 +6897,7 @@
 		(instances
 			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
-					(reference "#PWR0219")
+					(reference "#PWR0220")
 					(unit 1)
 				)
 			)
@@ -7215,7 +7215,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "63acd307-d6c4-48ce-b806-ac3b32a2ae05")
-		(property "Reference" "R208"
+		(property "Reference" "R209"
 			(at 189.23 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7279,7 +7279,7 @@
 		(instances
 			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
-					(reference "R208")
+					(reference "R209")
 					(unit 1)
 				)
 			)
@@ -7474,7 +7474,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "70220939-70eb-4c6c-bd72-1468c8a0c553")
-		(property "Reference" "#PWR0221"
+		(property "Reference" "#PWR0222"
 			(at 127 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -7534,7 +7534,7 @@
 		(instances
 			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
-					(reference "#PWR0221")
+					(reference "#PWR0222")
 					(unit 1)
 				)
 			)
@@ -7552,7 +7552,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "75bef3bc-9737-4eab-b89c-8e75ce6c0412")
-		(property "Reference" "R212"
+		(property "Reference" "R208"
 			(at 175.26 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7616,7 +7616,7 @@
 		(instances
 			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
-					(reference "R212")
+					(reference "R208")
 					(unit 1)
 				)
 			)
@@ -7634,7 +7634,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "78d6ecc9-2409-4eaf-b73e-42a2da2ae41a")
-		(property "Reference" "R209"
+		(property "Reference" "R210"
 			(at 138.43 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7698,7 +7698,7 @@
 		(instances
 			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
-					(reference "R209")
+					(reference "R210")
 					(unit 1)
 				)
 			)
@@ -7726,7 +7726,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MX1.25-2P-SLIM"
+		(property "Value" "JST PH S2B-PH-SM4-TB"
 			(at 253.746 42.926 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7737,7 +7737,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HopHop_Connector:JMECONN_5001-MX0125A-02R1-00_1x02-1MP_P1.25mm_Horizontal"
+		(property "Footprint" "HopHop_Connector:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
 			(at 246.38 44.196 90)
 			(hide yes)
 			(show_name no)
@@ -7748,7 +7748,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.jmeconn.com/uploads/file/20230713/5a1441c875bbf83919cd64a3cb002b67.pdf"
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf"
 			(at 246.38 44.196 90)
 			(hide yes)
 			(show_name no)
@@ -7759,7 +7759,7 @@
 				)
 			)
 		)
-		(property "Description" "Slim MX1.25 2-pin connector; JMECONN drawing 5001-MX0125A-02R1-00; mounting tabs grounded"
+		(property "Description" "JST PH 2-pin 2.00 mm horizontal SMD battery connector; pin 1 +BATT, pin 2 GND; mounting tabs grounded"
 			(at 246.38 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -7803,7 +7803,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "JMECONN"
+		(property "Manufacturer" "JST"
 			(at 251.46 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -7814,7 +7814,7 @@
 				)
 			)
 		)
-		(property "MPN" "5001-MX0125A-02R1-00"
+		(property "MPN" "S2B-PH-SM4-TB"
 			(at 251.46 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -7855,7 +7855,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "862f824e-3ef5-4303-8d91-da8b0553073a")
-		(property "Reference" "#PWR0228"
+		(property "Reference" "#PWR0216"
 			(at 172.72 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -7915,7 +7915,7 @@
 		(instances
 			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
-					(reference "#PWR0228")
+					(reference "#PWR0216")
 					(unit 1)
 				)
 			)
@@ -9054,7 +9054,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bc4a4e6b-67b5-4f51-9e15-53544c608fc0")
-		(property "Reference" "#PWR0223"
+		(property "Reference" "#PWR0224"
 			(at 140.97 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -9114,7 +9114,7 @@
 		(instances
 			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
-					(reference "#PWR0223")
+					(reference "#PWR0224")
 					(unit 1)
 				)
 			)
@@ -9289,7 +9289,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bf87a60a-ccc2-4b5d-9bf9-9361ab48969c")
-		(property "Reference" "#PWR0217"
+		(property "Reference" "#PWR0218"
 			(at 191.77 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -9349,7 +9349,7 @@
 		(instances
 			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
-					(reference "#PWR0217")
+					(reference "#PWR0218")
 					(unit 1)
 				)
 			)
@@ -9528,7 +9528,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5dd45f1-8def-4b05-97be-d321f267d910")
-		(property "Reference" "#PWR0226"
+		(property "Reference" "#PWR0227"
 			(at 177.8 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -9588,7 +9588,7 @@
 		(instances
 			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
-					(reference "#PWR0226")
+					(reference "#PWR0227")
 					(unit 1)
 				)
 			)
@@ -9835,7 +9835,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea6d7539-8ae3-4d01-94f8-c937351509d7")
-		(property "Reference" "#PWR0227"
+		(property "Reference" "#PWR0228"
 			(at 182.88 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -9895,7 +9895,7 @@
 		(instances
 			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
-					(reference "#PWR0227")
+					(reference "#PWR0228")
 					(unit 1)
 				)
 			)
@@ -9912,7 +9912,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eaa2035b-260d-451f-8d3d-81acfd7e21ac")
-		(property "Reference" "#PWR0222"
+		(property "Reference" "#PWR0223"
 			(at 187.96 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -9972,7 +9972,7 @@
 		(instances
 			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
-					(reference "#PWR0222")
+					(reference "#PWR0223")
 					(unit 1)
 				)
 			)
@@ -10066,7 +10066,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f87b573a-8e56-4871-a549-f0beb2dacec4")
-		(property "Reference" "#PWR0218"
+		(property "Reference" "#PWR0219"
 			(at 201.93 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -10126,7 +10126,7 @@
 		(instances
 			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
-					(reference "#PWR0218")
+					(reference "#PWR0219")
 					(unit 1)
 				)
 			)
@@ -10223,7 +10223,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe322de2-add8-49fb-aa72-a57003ae30a7")
-		(property "Reference" "#PWR0220"
+		(property "Reference" "#PWR0221"
 			(at 190.5 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -10283,7 +10283,7 @@
 		(instances
 			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/83b0296c-9313-4aa5-ba47-e2036a5a8231"
-					(reference "#PWR0220")
+					(reference "#PWR0221")
 					(unit 1)
 				)
 			)

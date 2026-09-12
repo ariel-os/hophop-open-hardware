@@ -2291,6 +2291,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "DEC5 removed, this means we need\nnRF52820 Dxx or later silicon rev."
+		(exclude_from_sim no)
+		(at 73.914 81.534 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "53be79cb-ebf6-4835-8627-c83afdaee4a5")
+	)
 	(junction
 		(at 189.23 64.77)
 		(diameter 0)
@@ -2420,6 +2430,10 @@
 		(uuid "4d6e2712-0e30-4e43-8196-4615d6d74ed6")
 	)
 	(no_connect
+		(at 140.97 81.28)
+		(uuid "51a66d91-bbe6-4c76-88e2-e120576f8c99")
+	)
+	(no_connect
 		(at 184.15 124.46)
 		(uuid "d85e2ee4-1870-46a0-8fb7-93d35614c501")
 	)
@@ -2476,16 +2490,6 @@
 			(type default)
 		)
 		(uuid "1076ae3e-fce3-4662-a44a-d30359f83470")
-	)
-	(wire
-		(pts
-			(xy 113.03 69.85) (xy 140.97 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10c39873-b474-49f1-aa10-86ec42c086cd")
 	)
 	(wire
 		(pts
@@ -2699,16 +2703,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 67.31) (xy 106.68 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4000a952-cf77-4cf2-9865-579a8a223631")
-	)
-	(wire
-		(pts
 			(xy 124.46 53.34) (xy 124.46 55.88)
 		)
 		(stroke
@@ -2919,26 +2913,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 69.85) (xy 113.03 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "626972d3-cde4-40bc-a923-df40ca40927b")
-	)
-	(wire
-		(pts
-			(xy 106.68 86.36) (xy 106.68 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64ffdbc5-9348-43cb-9388-c3ce9332a662")
-	)
-	(wire
-		(pts
 			(xy 41.91 40.64) (xy 57.15 40.64)
 		)
 		(stroke
@@ -3039,16 +3013,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 86.36) (xy 113.03 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79d1c2b1-c49c-4462-adb8-c12f63cb7b52")
-	)
-	(wire
-		(pts
 			(xy 156.21 132.08) (xy 156.21 134.62)
 		)
 		(stroke
@@ -3089,13 +3053,13 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 69.85) (xy 140.97 81.28)
+			(xy 143.51 72.39) (xy 143.51 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "85aa7aad-95e7-4b6f-bac3-2a21c581eeb8")
+		(uuid "85c8d797-4ade-44cf-8b04-910eb334d6aa")
 	)
 	(wire
 		(pts
@@ -3216,16 +3180,6 @@
 			(type default)
 		)
 		(uuid "acb300c5-278a-4b64-8664-a6c2bce8f82e")
-	)
-	(wire
-		(pts
-			(xy 143.51 81.28) (xy 143.51 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aeedefe0-8453-45e9-ad37-3e246111f317")
 	)
 	(wire
 		(pts
@@ -3396,16 +3350,6 @@
 			(type default)
 		)
 		(uuid "ccba0fb8-62ce-4670-b03d-5e1984d1399e")
-	)
-	(wire
-		(pts
-			(xy 106.68 67.31) (xy 106.68 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce01e221-3a46-4d12-bef4-0ebcd868d262")
 	)
 	(wire
 		(pts
@@ -5092,7 +5036,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "59588c2e-6100-4ab9-bfd8-720e45adeb90")
-		(property "Reference" "R404"
+		(property "Reference" "R405"
 			(at 36.83 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5154,7 +5098,7 @@
 		(instances
 			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/4b5c740b-258c-4362-9ea7-a59b59553ce2"
-					(reference "R404")
+					(reference "R405")
 					(unit 1)
 				)
 			)
@@ -5242,86 +5186,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 106.68 83.82 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "6557ab76-eae2-46c7-971a-3e6faf622704")
-		(property "Reference" "C409"
-			(at 106.68 94.615 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "DNP"
-			(at 104.394 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 106.68 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 106.68 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 106.68 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0738a7e1-6329-49eb-b3f0-35674bcead9f")
-		)
-		(pin "1"
-			(uuid "ba89d403-93a3-4b02-ba9e-bd2a0d47c931")
-		)
-		(instances
-			(project "hophop-development-board"
-				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/4b5c740b-258c-4362-9ea7-a59b59553ce2"
-					(reference "C409")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 176.53 45.72 90)
 		(unit 1)
@@ -5332,7 +5196,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6a348e56-a215-4f73-820e-78e0a1740866")
-		(property "Reference" "R405"
+		(property "Reference" "R404"
 			(at 173.99 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5394,7 +5258,7 @@
 		(instances
 			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/4b5c740b-258c-4362-9ea7-a59b59553ce2"
-					(reference "R405")
+					(reference "R404")
 					(unit 1)
 				)
 			)
@@ -5473,85 +5337,6 @@
 			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/4b5c740b-258c-4362-9ea7-a59b59553ce2"
 					(reference "#PWR0411")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 113.03 88.9 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "70773593-b8ce-48fd-95dd-c1dcc87d7bb8")
-		(property "Reference" "#PWR0408"
-			(at 113.03 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 113.03 92.71 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 113.03 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "57a7ee50-9ecf-44a1-8212-831a547a6e77")
-		)
-		(instances
-			(project "hophop-development-board"
-				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/4b5c740b-258c-4362-9ea7-a59b59553ce2"
-					(reference "#PWR0408")
 					(unit 1)
 				)
 			)
@@ -6660,86 +6445,6 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 113.03 83.82 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "b855f449-7ee3-4a47-8d9c-72b46adaeffc")
-		(property "Reference" "C410"
-			(at 113.03 94.615 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "DNP"
-			(at 110.49 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 113.03 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 113.03 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b3971455-35a9-4f5b-a065-89e14d8d032d")
-		)
-		(pin "1"
-			(uuid "5d8cd19f-4d4e-468c-b75d-23710bd14cbb")
-		)
-		(instances
-			(project "hophop-development-board"
-				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/4b5c740b-258c-4362-9ea7-a59b59553ce2"
-					(reference "C410")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
 		(at 118.11 83.82 0)
 		(mirror x)
 		(unit 1)
@@ -6970,85 +6675,6 @@
 			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/4b5c740b-258c-4362-9ea7-a59b59553ce2"
 					(reference "R402")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 106.68 88.9 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d005e378-09d5-47f6-94e2-56c9ce69320f")
-		(property "Reference" "#PWR0407"
-			(at 106.68 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 106.68 92.71 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 106.68 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 106.68 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 106.68 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d93e03d8-b919-47e3-a732-04fed05b53f0")
-		)
-		(instances
-			(project "hophop-development-board"
-				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/4b5c740b-258c-4362-9ea7-a59b59553ce2"
-					(reference "#PWR0407")
 					(unit 1)
 				)
 			)
