@@ -2217,7 +2217,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b7f9aa1-fc9c-466d-80ed-64490e2c79df")
-		(property "Reference" "#PWR0605"
+		(property "Reference" "#PWR0604"
 			(at 210.82 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -2277,7 +2277,7 @@
 		(instances
 			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/75ef7fec-155c-471e-8b5f-c1cc8c1494a2"
-					(reference "#PWR0605")
+					(reference "#PWR0604")
 					(unit 1)
 				)
 			)
@@ -2373,7 +2373,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1393a9f-4acd-41b2-94c1-47d87eb4eb8a")
-		(property "Reference" "#PWR0603"
+		(property "Reference" "#PWR0605"
 			(at 99.06 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -2433,7 +2433,7 @@
 		(instances
 			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/75ef7fec-155c-471e-8b5f-c1cc8c1494a2"
-					(reference "#PWR0603")
+					(reference "#PWR0605")
 					(unit 1)
 				)
 			)
@@ -2584,7 +2584,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9036e77-8891-45c9-abcd-916478675e7d")
-		(property "Reference" "#PWR0604"
+		(property "Reference" "#PWR0602"
 			(at 200.66 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -2644,7 +2644,7 @@
 		(instances
 			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/75ef7fec-155c-471e-8b5f-c1cc8c1494a2"
-					(reference "#PWR0604")
+					(reference "#PWR0602")
 					(unit 1)
 				)
 			)
@@ -2662,7 +2662,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb0e56b8-7860-40f3-84c6-7a4ca71cb1c1")
-		(property "Reference" "#PWR0602"
+		(property "Reference" "#PWR0603"
 			(at 96.52 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -2722,7 +2722,7 @@
 		(instances
 			(project "hophop-development-board"
 				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/75ef7fec-155c-471e-8b5f-c1cc8c1494a2"
-					(reference "#PWR0602")
+					(reference "#PWR0603")
 					(unit 1)
 				)
 			)
