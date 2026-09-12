@@ -4470,12 +4470,6 @@
 		(uuid "23ed862c-0dbb-472e-9f1b-afc68e0464e4")
 	)
 	(junction
-		(at 134.62 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2f9c9627-2458-4417-9c5c-f8a58a743ccc")
-	)
-	(junction
 		(at 96.52 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4681,7 +4675,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 74.93) (xy 134.62 74.93)
+			(xy 132.08 74.93) (xy 137.16 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4998,16 +4992,6 @@
 			(type default)
 		)
 		(uuid "3ef2abbe-3416-4536-ab98-95c5b121b195")
-	)
-	(wire
-		(pts
-			(xy 134.62 72.39) (xy 134.62 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f7f9feb-bc84-44b7-971a-45984b318892")
 	)
 	(wire
 		(pts
@@ -5361,16 +5345,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 74.93) (xy 137.16 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a7ce688-6eee-453a-8515-4dafce2cdc70")
-	)
-	(wire
-		(pts
 			(xy 190.5 82.55) (xy 187.96 82.55)
 		)
 		(stroke
@@ -5611,16 +5585,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 72.39) (xy 134.62 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d09cba9b-961c-4d4e-b826-014a017a51c5")
-	)
-	(wire
-		(pts
 			(xy 90.17 105.41) (xy 90.17 100.33)
 		)
 		(stroke
@@ -5628,16 +5592,6 @@
 			(type default)
 		)
 		(uuid "d215fc26-6ac6-40e4-8ff6-588dc37b3ebb")
-	)
-	(wire
-		(pts
-			(xy 109.22 88.9) (xy 109.22 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dde8900c-f096-42c5-852c-1b22ef0081c9")
 	)
 	(wire
 		(pts
@@ -5688,16 +5642,6 @@
 			(type default)
 		)
 		(uuid "e5d15d46-8724-472c-8162-10dbe51222d0")
-	)
-	(wire
-		(pts
-			(xy 109.22 72.39) (xy 111.76 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e71843df-a64a-4679-8889-000477275e6a")
 	)
 	(wire
 		(pts
@@ -5849,7 +5793,7 @@
 		)
 		(uuid "fbbe6661-2127-4b6b-9356-79d8a4ccc4cf")
 	)
-	(label "nRESET"
+	(label "~{RESET}"
 		(at 86.36 59.69 0)
 		(effects
 			(font
@@ -5859,7 +5803,7 @@
 		)
 		(uuid "28f87658-9aca-4726-abfe-4ad5067f152e")
 	)
-	(label "nRESET"
+	(label "~{RESET}"
 		(at 71.12 59.69 180)
 		(effects
 			(font
@@ -6707,7 +6651,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF/16V"
 			(at 101.6 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6949,7 +6893,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF/16V"
 			(at 187.96 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7817,84 +7761,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 109.22 88.9 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "660d588c-41f0-4e34-a344-055cac7de222")
-		(property "Reference" "#PWR0514"
-			(at 109.22 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 109.22 92.71 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 109.22 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.22 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cd3b829a-86fe-490e-b0f4-568d6b2f6fd5")
-		)
-		(instances
-			(project "hophop-development-board"
-				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/bd8cfe04-1488-41b5-8430-2dccaca50007"
-					(reference "#PWR0514")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 185.42 45.72 0)
 		(mirror y)
 		(unit 1)
@@ -7995,7 +7861,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "nRF9151-LAxx"
+		(property "Value" "nRF9151-LACA"
 			(at 164.7033 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8030,6 +7896,28 @@
 		)
 		(property "Description" "Low power SiP with integrated LTE-M/NB-IoT and DECT NR+ modem, and GNSS, 1.7..5.5V, 1 MB flash, 256 kB RAM,  LGA-80-33EP"
 			(at 162.814 165.354 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Nordic Semiconductor"
+			(at 162.56 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "nRF9151-LACA-R7"
+			(at 162.56 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8570,7 +8458,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF/10V"
 			(at 118.11 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8877,85 +8765,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 114.3 72.39 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "9cd84909-29e9-49e3-b0ea-26b2af52dd35")
-		(property "Reference" "R506"
-			(at 111.76 69.85 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DNP"
-			(at 118.11 69.85 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 114.3 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 114.3 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "47c0b4b6-60b3-4dd1-855d-8bfce17441f5")
-		)
-		(pin "1"
-			(uuid "e6a55abe-b050-4075-930b-aff4e8734f04")
-		)
-		(instances
-			(project "hophop-development-board"
-				(path "/18409950-a1da-4356-97dd-5c7c844a6b0c/bd8cfe04-1488-41b5-8430-2dccaca50007"
-					(reference "R506")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 147.32 40.64 180)
 		(unit 1)
@@ -8977,7 +8786,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "4.7uF/10V"
 			(at 149.86 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9450,7 +9259,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1uF/10V"
 			(at 99.06 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9697,7 +9506,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "4.7uF/10V"
 			(at 176.53 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9938,7 +9747,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1uF/10V"
 			(at 107.95 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10258,7 +10067,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF/10V"
 			(at 128.27 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)

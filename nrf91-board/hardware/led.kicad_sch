@@ -1412,169 +1412,169 @@
 			(embedded_fonts no)
 		)
 		(symbol "Switch:SW_Push"
-		(pin_numbers
-			(hide yes)
-		)
-		(pin_names
-			(offset 1.016)
-			(hide yes)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "SW"
-			(at 1.27 2.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+			(pin_numbers
+				(hide yes)
 			)
-		)
-		(property "Value" "SW_Push"
-			(at 0 -1.524 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
 			)
-		)
-		(property "Footprint" ""
-			(at 0 5.08 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 5.08 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_keywords" "switch normally-open pushbutton push-button"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(symbol "SW_Push_0_1"
-			(circle
-				(center -2.032 0)
-				(radius 0.508)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 1.27) (xy 0 3.048)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 2.032 0)
-				(radius 0.508)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 1.27) (xy -2.54 1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin passive line
-				(at -5.08 0 0)
-				(length 2.54)
-				(name "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
+					(justify left)
 				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
 			)
-			(pin passive line
-				(at 5.08 0 180)
-				(length 2.54)
-				(name "2"
-					(effects
-						(font
-							(size 1.27 1.27)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
 						)
 					)
 				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
 						)
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
-		(embedded_fonts no)
-	)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -1697,7 +1697,6 @@
 		(color 0 0 0 0)
 		(uuid "10e91b17-3d4d-425c-892d-c5088862d409")
 	)
-
 	(junction
 		(at 60.96 149.86)
 		(diameter 0)
@@ -1722,7 +1721,6 @@
 		(color 0 0 0 0)
 		(uuid "886e4458-c7aa-4f92-9d08-fc8ad53dc985")
 	)
-
 	(junction
 		(at 77.47 85.09)
 		(diameter 0)
@@ -1751,7 +1749,6 @@
 		)
 		(uuid "04f4bd21-76a4-48d7-908e-bfe2f33fc4d7")
 	)
-
 	(wire
 		(pts
 			(xy 74.93 118.11) (xy 74.93 120.65)
@@ -1804,7 +1801,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 135.89) (xy 128.27 135.89)
+			(xy 125.73 135.89) (xy 130.81 135.89)
 		)
 		(stroke
 			(width 0)
@@ -1884,7 +1881,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 116.84) (xy 127 116.84)
+			(xy 124.46 116.84) (xy 129.54 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2094,16 +2091,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 135.89) (xy 130.81 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ef0bd6e-6433-437d-818b-6ba7ba9d0c8a")
-	)
-	(wire
-		(pts
 			(xy 62.23 46.99) (xy 64.77 46.99)
 		)
 		(stroke
@@ -2122,7 +2109,6 @@
 		)
 		(uuid "95e5448e-eb00-4941-9d3b-34f3abc058d0")
 	)
-
 	(wire
 		(pts
 			(xy 64.77 77.47) (xy 69.85 77.47)
@@ -2185,16 +2171,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 116.84) (xy 129.54 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab976e2b-10e9-4f55-946b-abff0ed6f6c5")
-	)
-	(wire
-		(pts
 			(xy 64.77 77.47) (xy 64.77 81.28)
 		)
 		(stroke
@@ -2243,7 +2219,6 @@
 		)
 		(uuid "c51d8f10-4df8-4250-9086-704ddaacc62b")
 	)
-
 	(wire
 		(pts
 			(xy 118.11 135.89) (xy 120.65 135.89)
@@ -2284,7 +2259,6 @@
 		)
 		(uuid "db66afb3-1c4f-4752-bf4f-ce1c19ba7188")
 	)
-
 	(wire
 		(pts
 			(xy 139.7 116.84) (xy 144.78 116.84)
@@ -2295,7 +2269,6 @@
 		)
 		(uuid "e9c9e56b-955d-442b-a408-7513fa3dec8d")
 	)
-
 	(wire
 		(pts
 			(xy 116.84 116.84) (xy 119.38 116.84)
@@ -2366,7 +2339,6 @@
 		)
 		(uuid "33511940-640f-470d-860c-6f1ca4150788")
 	)
-
 	(label "LED_G"
 		(at 96.52 80.01 0)
 		(effects
@@ -2580,7 +2552,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "2K"
 			(at 82.55 135.89 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3525,7 +3497,6 @@
 			)
 		)
 	)
-
 	(symbol
 		(lib_id "Device:R_Small")
 		(at 121.92 116.84 270)
@@ -3692,8 +3663,6 @@
 				)
 			)
 		)
-
-
 		(pin "1"
 			(uuid "aeeea45f-5c78-4833-9bbf-36d87a7a7aca")
 		)
@@ -3969,7 +3938,7 @@
 				)
 			)
 		)
-		(property "Value" "Green"
+		(property "Value" "150060VS75000"
 			(at 86.4235 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3990,7 +3959,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060VS75000.pdf"
 			(at 86.36 138.43 90)
 			(hide yes)
 			(show_name no)
@@ -4001,7 +3970,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol"
+		(property "Description" "LED bright green 0603, 570 nm, Vf 2.0 V typ, WL-SMCW"
 			(at 86.36 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -4013,6 +3982,28 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 86.36 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 86.36 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "150060VS75000"
 			(at 86.36 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -4368,8 +4359,6 @@
 				)
 			)
 		)
-
-
 		(pin "1"
 			(uuid "8a52228d-b3dd-4eea-a4c6-11a078cc6bd6")
 		)

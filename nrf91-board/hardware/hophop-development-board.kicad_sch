@@ -1673,7 +1673,7 @@
 				(justify left)
 			)
 		)
-		(pin "NR91_RXD" input
+		(pin "NRF91_RXD" input
 			(at 194.31 68.58 180)
 			(uuid "e1a62ebb-6a70-4be0-b863-834836aacb2f")
 			(effects
@@ -2375,7 +2375,7 @@
 		)
 		(uuid "bd8cfe04-1488-41b5-8430-2dccaca50007")
 		(property "Sheetname" "NRF9151 module Sheet"
-			(at 116.84 121.92 0)
+			(at 112.776 103.632 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2386,7 +2386,7 @@
 			)
 		)
 		(property "Sheetfile" "nrf9151_module.kicad_sch"
-			(at 113.03 203.4036 0)
+			(at 113.03 227.838 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

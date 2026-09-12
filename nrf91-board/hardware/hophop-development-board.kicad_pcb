@@ -356,7 +356,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF/16V"
 			(at 0 1.16 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -516,7 +516,7 @@
 				)
 			)
 		)
-		(property "Value" "nRF9151-LAxx"
+		(property "Value" "nRF9151-LACA"
 			(at 0 6.5 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -554,7 +554,33 @@
 					(thickness 0.15)
 				)
 			)
+		)		(property "Manufacturer" "Nordic Semiconductor"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6534f732-f26d-4c51-ab81-afe74ed7121e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
 		)
+		(property "MPN" "nRF9151-LACA-R7"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "28fa3d2b-1a09-42db-bfdf-a607104ba4c8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+
 		(property ki_fp_filters "*LGA*33EP*12.1x11.1mm*P0.5mm*")
 		(path "/bd8cfe04-1488-41b5-8430-2dccaca50007/72af371d-4e9b-4d01-a3a1-6f21bb9668c2")
 		(sheetname "/NRF9151 module Sheet/")
@@ -1560,7 +1586,7 @@
 			(size 0.3 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/MCU Interface Sheet/NR91_RXD")
+			(net "/MCU Interface Sheet/NRF91_RXD")
 			(pinfunction "P0.12_72")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.05)
@@ -2089,7 +2115,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF/16V"
 			(at 0 1.16 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2248,7 +2274,7 @@
 				)
 			)
 		)
-		(property "Value" "12p"
+		(property "Value" "12pF/50V"
 			(at 0 1.16 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2910,7 +2936,7 @@
 			(size 0.54 0.64)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/MCU Interface Sheet/NR91_RXD")
+			(net "/MCU Interface Sheet/NRF91_RXD")
 			(pintype "passive")
 			(uuid "cca9428f-161a-417a-9d4e-323ee6ae31da")
 		)
@@ -3421,7 +3447,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "4.7uF/10V"
 			(at 0 1.16 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -5131,7 +5157,7 @@
 			(property pad_prop_castellated)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/MCU Interface Sheet/NR91_RXD")
+			(net "/MCU Interface Sheet/NRF91_RXD")
 			(uuid "ef0cb665-456e-4a3c-bba5-6c85f8ecea4c")
 		)
 		(pad "18" thru_hole oval
@@ -5140,7 +5166,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/MCU Interface Sheet/NR91_RXD")
+			(net "/MCU Interface Sheet/NRF91_RXD")
 			(uuid "ddb2987f-0420-4f5e-bd52-bd8ec367d679")
 		)
 		(pad "19" thru_hole oval
@@ -5722,7 +5748,7 @@
 				)
 			)
 		)
-		(property "Value" "D_TVS"
+		(property "Value" "PESD5V0U1UA"
 			(at 0.1 1.9 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -5734,7 +5760,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.nexperia.com/product/PESD5V0U1UA"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5747,7 +5773,7 @@
 				)
 			)
 		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode, small symbol"
+		(property "Description" "Unidirectional ultra-low-capacitance ESD diode, 5 V, 2 pF, SOD-323"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5759,7 +5785,33 @@
 					(thickness 0.15)
 				)
 			)
+		)		(property "Manufacturer" "Nexperia"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1fbbb1b4-f14a-4c17-ad34-6425378ae1da")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
 		)
+		(property "MPN" "PESD5V0U1UA"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "468a24ed-b05a-409b-98f4-6a61afc0bffc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/83b0296c-9313-4aa5-ba47-e2036a5a8231/6a531c76-87fc-47c3-9b96-6b7f45034b3f")
 		(sheetname "/PSU Sheet/")
@@ -5958,7 +6010,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D202-A1)")
+			(net "Net-(D202-K)")
 			(pinfunction "A1_1")
 			(pintype "passive")
 			(uuid "44b8dbd6-632f-41b1-9542-b6cf70bcda14")
@@ -7105,7 +7157,7 @@
 				)
 			)
 		)
-		(property "Value" "47nF"
+		(property "Value" "47nF/16V"
 			(at 0 1.16 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -7823,7 +7875,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1uF/10V"
 			(at 0 1.16 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8387,7 +8439,7 @@
 				)
 			)
 		)
-		(property "Value" "22 uF"
+		(property "Value" "22uF/6.3V"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9319,7 +9371,7 @@
 			(size 0.54 0.64)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D203-A2)")
+			(net "Net-(D203-K)")
 			(pintype "passive")
 			(uuid "8a8709bf-273e-4104-87e5-9cc0d236ddb4")
 		)
@@ -9362,7 +9414,7 @@
 				)
 			)
 		)
-		(property "Value" "10 uF"
+		(property "Value" "10uF/10V"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9521,7 +9573,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1uF/10V"
 			(at 0 1.16 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -10024,7 +10076,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "4.7uF/10V"
 			(at 0 1.16 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -10183,7 +10235,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF/16V"
 			(at 0 1.16 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -10342,7 +10394,7 @@
 				)
 			)
 		)
-		(property "Value" "Green"
+		(property "Value" "150060VS75000"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10354,7 +10406,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060VS75000.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10365,7 +10417,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol"
+		(property "Description" "LED bright green 0603, 570 nm, Vf 2.0 V typ, WL-SMCW"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10375,7 +10427,33 @@
 					(size 1.27 1.27)
 				)
 			)
+		)		(property "Manufacturer" "Wurth Elektronik"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9fad45da-fb72-440a-bff3-fad5dc00bcb6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
 		)
+		(property "MPN" "150060VS75000"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1d6126a9-3f3a-48f9-818c-63729f81fc81")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 0 0 0)
 			(layer "F.SilkS")
@@ -10565,7 +10643,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1uF/10V"
 			(at 0 1.16 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -10724,7 +10802,7 @@
 				)
 			)
 		)
-		(property "Value" "nRF52820-QDxx"
+		(property "Value" "nRF52820-QDAA"
 			(at 0 3.8 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -10757,7 +10835,33 @@
 					(size 1.27 1.27)
 				)
 			)
+		)		(property "Manufacturer" "Nordic Semiconductor"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4c3a0773-74c8-44f3-8f97-e2593f2cbc3f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
 		)
+		(property "MPN" "nRF52820-QDAA-R"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9658274e-6a83-401e-90ba-fbd9132870b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+
 		(property "KiLib_Generator" "package/no_lead"
 			(at 0 0 180)
 			(layer "F.SilkS")
@@ -12240,7 +12344,7 @@
 				)
 			)
 		)
-		(property "Value" "1 uF"
+		(property "Value" "1uF/10V"
 			(at 0 1.16 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12399,7 +12503,7 @@
 				)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF/10V"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -12558,7 +12662,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "4.7uF/10V"
 			(at 0 1.16 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12876,7 +12980,7 @@
 				)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF/10V"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -13035,7 +13139,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10K"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -15405,7 +15509,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF/16V"
 			(at 0 1.16 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15882,7 +15986,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF/16V"
 			(at 0 1.16 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -16027,11 +16131,11 @@
 	(footprint "Diode_SMD:D_SOD-323"
 		(layer "F.Cu")
 		(uuid "bbbb3bfe-fbb4-4a1e-ab54-8fbf3cc45171")
-		(at 114.45 87.05)
+		(at 114.45 87.05 180)
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D201"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(uuid "3d2e6c01-4c40-4355-a603-9127a75c732d")
 			(effects
@@ -16041,8 +16145,8 @@
 				)
 			)
 		)
-		(property "Value" "D_TVS"
-			(at 0.1 1.9 0)
+		(property "Value" "PESD5V0S1UA"
+			(at 0.1 1.9 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3bd7e460-b001-44b9-8d03-58e3a1cab423")
@@ -16053,8 +16157,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "https://www.nexperia.com/product/PESD5V0S1UA"
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -16066,8 +16170,8 @@
 				)
 			)
 		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode, small symbol"
-			(at 0 0 0)
+		(property "Description" "Unidirectional ESD/TVS diode, 5 V standoff, SOD-323, IEC 61000-4-5 surge rated"
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -16078,7 +16182,33 @@
 					(thickness 0.15)
 				)
 			)
+		)		(property "Manufacturer" "Nexperia"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c2a2980b-de32-4b97-8f6e-0fb42b761742")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
 		)
+		(property "MPN" "PESD5V0S1UA"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5dd7df5c-033c-4c2f-9217-ab89e4f79501")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/83b0296c-9313-4aa5-ba47-e2036a5a8231/ad0860f2-fac2-4b45-8670-f8b681787f31")
 		(sheetname "/PSU Sheet/")
@@ -16273,21 +16403,21 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.05 0)
+			(at -1.05 0 180)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "GND")
+			(net "VBUS")
 			(pinfunction "A1_1")
 			(pintype "passive")
 			(uuid "db4a99bf-6d91-4289-873e-0b3209621d11")
 		)
 		(pad "2" smd roundrect
-			(at 1.05 0)
+			(at 1.05 0 180)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "VBUS")
+			(net "GND")
 			(pinfunction "A2_2")
 			(pintype "passive")
 			(uuid "56565643-127a-47b4-87e6-2844428beeeb")
@@ -16481,7 +16611,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "4.7uF/10V"
 			(at 0 1.16 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16845,7 +16975,7 @@
 			(size 0.3 1.15)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D203-A2)")
+			(net "Net-(D203-K)")
 			(pinfunction "D+_A6")
 			(pintype "bidirectional")
 			(uuid "f85224af-c543-4328-8e6f-44f2eda05953")
@@ -16855,7 +16985,7 @@
 			(size 0.3 1.15)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D202-A1)")
+			(net "Net-(D202-K)")
 			(pinfunction "D-_A7")
 			(pintype "bidirectional")
 			(uuid "dbb0d327-4715-46db-bdb6-0a051787d056")
@@ -16925,7 +17055,7 @@
 			(size 0.3 1.15)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D203-A2)")
+			(net "Net-(D203-K)")
 			(pinfunction "D+_B6")
 			(pintype "bidirectional")
 			(uuid "2652956d-0e85-44ca-b25e-d2711feefa2a")
@@ -16935,7 +17065,7 @@
 			(size 0.3 1.15)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D202-A1)")
+			(net "Net-(D202-K)")
 			(pinfunction "D-_B7")
 			(pintype "bidirectional")
 			(uuid "d49a80df-305e-49e7-a64e-d394709aa3b9")
@@ -17048,7 +17178,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "2K"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -17193,11 +17323,11 @@
 	(footprint "Diode_SMD:D_SOD-323"
 		(layer "F.Cu")
 		(uuid "ca601940-025b-453c-8eaf-404d9f1e7455")
-		(at 111.95 84.15 90)
+		(at 111.95 84.15 270)
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D203"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(uuid "9ccdc844-d563-466e-acaf-7e7c9bfb453b")
 			(effects
@@ -17207,8 +17337,8 @@
 				)
 			)
 		)
-		(property "Value" "D_TVS"
-			(at 0.1 1.9 90)
+		(property "Value" "PESD5V0U1UA"
+			(at 0.1 1.9 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d5236ddd-66a5-4876-b911-b8c1094387a7")
@@ -17219,8 +17349,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 90)
+		(property "Datasheet" "https://www.nexperia.com/product/PESD5V0U1UA"
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -17232,8 +17362,8 @@
 				)
 			)
 		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode, small symbol"
-			(at 0 0 90)
+		(property "Description" "Unidirectional ultra-low-capacitance ESD diode, 5 V, 2 pF, SOD-323"
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -17244,7 +17374,33 @@
 					(thickness 0.15)
 				)
 			)
+		)		(property "Manufacturer" "Nexperia"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dc5571e5-8920-4080-8bdf-d28035ef838f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
 		)
+		(property "MPN" "PESD5V0U1UA"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "464ecd99-fa63-4b95-8640-9ce16292fee7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/83b0296c-9313-4aa5-ba47-e2036a5a8231/2f782329-9431-4b63-979a-66a3633815e4")
 		(sheetname "/PSU Sheet/")
@@ -17439,21 +17595,21 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.05 0 90)
+			(at -1.05 0 270)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "GND")
+			(net "Net-(D203-K)")
 			(pinfunction "A1_1")
 			(pintype "passive")
 			(uuid "dc7acc20-3d9e-42a0-b79c-e2957daefddd")
 		)
 		(pad "2" smd roundrect
-			(at 1.05 0 90)
+			(at 1.05 0 270)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D203-A2)")
+			(net "GND")
 			(pinfunction "A2_2")
 			(pintype "passive")
 			(uuid "30e3d913-605b-43b8-a2d6-16712f5b5b0c")
@@ -17846,7 +18002,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1uF/10V"
 			(at 0 1.16 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -18005,7 +18161,7 @@
 				)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10uF/10V"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -19118,7 +19274,7 @@
 				)
 			)
 		)
-		(property "Value" "100pF"
+		(property "Value" "100pF/50V"
 			(at 0 1.16 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -19277,7 +19433,7 @@
 				)
 			)
 		)
-		(property "Value" "12p"
+		(property "Value" "12pF/50V"
 			(at 0 1.16 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -19552,7 +19708,7 @@
 			(size 0.54 0.64)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D202-A1)")
+			(net "Net-(D202-K)")
 			(pintype "passive")
 			(uuid "5b45755e-38d2-449a-a8e1-f8bd11a3721c")
 		)
@@ -50720,7 +50876,7 @@
 		(end 110.349999 121.699999)
 		(width 0.15)
 		(layer "F.Cu")
-		(net "/MCU Interface Sheet/NR91_RXD")
+		(net "/MCU Interface Sheet/NRF91_RXD")
 		(uuid "03086a73-c0d4-4fe0-a84c-2ed1c4ee5ea7")
 	)
 	(segment
@@ -50728,7 +50884,7 @@
 		(end 113.299999 110.399999)
 		(width 0.1)
 		(layer "F.Cu")
-		(net "/MCU Interface Sheet/NR91_RXD")
+		(net "/MCU Interface Sheet/NRF91_RXD")
 		(uuid "12bcc2c1-d591-448d-8f08-45e84115c9e5")
 	)
 	(segment
@@ -50736,7 +50892,7 @@
 		(end 113.349999 109.399999)
 		(width 0.1)
 		(layer "F.Cu")
-		(net "/MCU Interface Sheet/NR91_RXD")
+		(net "/MCU Interface Sheet/NRF91_RXD")
 		(uuid "272c9721-b6a8-499d-80b5-644ab7ca3c9d")
 	)
 	(segment
@@ -50744,7 +50900,7 @@
 		(end 110.499999 121.549999)
 		(width 0.15)
 		(layer "F.Cu")
-		(net "/MCU Interface Sheet/NR91_RXD")
+		(net "/MCU Interface Sheet/NRF91_RXD")
 		(uuid "37e30177-419a-4e83-bed5-dc12d0e8313b")
 	)
 	(segment
@@ -50752,7 +50908,7 @@
 		(end 110.349999 121.849999)
 		(width 0.15)
 		(layer "F.Cu")
-		(net "/MCU Interface Sheet/NR91_RXD")
+		(net "/MCU Interface Sheet/NRF91_RXD")
 		(uuid "4d83f94f-082b-4ac4-8f4b-7026bba19b39")
 	)
 	(segment
@@ -50760,7 +50916,7 @@
 		(end 110.274998 121.774998)
 		(width 0.15)
 		(layer "F.Cu")
-		(net "/MCU Interface Sheet/NR91_RXD")
+		(net "/MCU Interface Sheet/NRF91_RXD")
 		(uuid "50cd0ea4-8831-45b5-9c1c-7069d015b55e")
 	)
 	(segment
@@ -50768,7 +50924,7 @@
 		(end 111.249999 112.449999)
 		(width 0.1)
 		(layer "F.Cu")
-		(net "/MCU Interface Sheet/NR91_RXD")
+		(net "/MCU Interface Sheet/NRF91_RXD")
 		(uuid "526c5662-1e9f-46be-926a-384c3fd47627")
 	)
 	(segment
@@ -50776,7 +50932,7 @@
 		(end 110.149999 121.499999)
 		(width 0.15)
 		(layer "F.Cu")
-		(net "/MCU Interface Sheet/NR91_RXD")
+		(net "/MCU Interface Sheet/NRF91_RXD")
 		(uuid "5f95012a-b1bc-4322-bc52-35ccbadc2104")
 	)
 	(segment
@@ -50784,7 +50940,7 @@
 		(end 116.449999 111.549999)
 		(width 0.15)
 		(layer "F.Cu")
-		(net "/MCU Interface Sheet/NR91_RXD")
+		(net "/MCU Interface Sheet/NRF91_RXD")
 		(uuid "66833d58-f64f-4f66-bec5-e255f83bbda3")
 	)
 	(segment
@@ -50792,7 +50948,7 @@
 		(end 110.35 121.875)
 		(width 0.15)
 		(layer "F.Cu")
-		(net "/MCU Interface Sheet/NR91_RXD")
+		(net "/MCU Interface Sheet/NRF91_RXD")
 		(uuid "6e451408-73a9-487b-a393-51936feb53e0")
 	)
 	(segment
@@ -50800,7 +50956,7 @@
 		(end 116.45 111.56)
 		(width 0.15)
 		(layer "F.Cu")
-		(net "/MCU Interface Sheet/NR91_RXD")
+		(net "/MCU Interface Sheet/NRF91_RXD")
 		(uuid "73005bb5-2b2c-47c4-b052-709d95dc3e87")
 	)
 	(segment
@@ -50808,7 +50964,7 @@
 		(end 110.349999 121.849999)
 		(width 0.15)
 		(layer "F.Cu")
-		(net "/MCU Interface Sheet/NR91_RXD")
+		(net "/MCU Interface Sheet/NRF91_RXD")
 		(uuid "7672d204-7366-4c18-a390-385972e845a1")
 	)
 	(segment
@@ -50816,7 +50972,7 @@
 		(end 110.499999 121.249999)
 		(width 0.15)
 		(layer "F.Cu")
-		(net "/MCU Interface Sheet/NR91_RXD")
+		(net "/MCU Interface Sheet/NRF91_RXD")
 		(uuid "78c011ad-f49a-4ac7-9ee4-d50c03120759")
 	)
 	(segment
@@ -50824,7 +50980,7 @@
 		(end 110.649999 121.099999)
 		(width 0.15)
 		(layer "F.Cu")
-		(net "/MCU Interface Sheet/NR91_RXD")
+		(net "/MCU Interface Sheet/NRF91_RXD")
 		(uuid "89a1bf58-33aa-4dfa-8716-188bb0433dec")
 	)
 	(segment
@@ -50832,7 +50988,7 @@
 		(end 110.749999 114.599999)
 		(width 0.1)
 		(layer "F.Cu")
-		(net "/MCU Interface Sheet/NR91_RXD")
+		(net "/MCU Interface Sheet/NRF91_RXD")
 		(uuid "9d6b1dda-a577-45c0-bf97-fbd7fcfacead")
 	)
 	(segment
@@ -50840,7 +50996,7 @@
 		(end 111.199999 112.549999)
 		(width 0.1)
 		(layer "F.Cu")
-		(net "/MCU Interface Sheet/NR91_RXD")
+		(net "/MCU Interface Sheet/NRF91_RXD")
 		(uuid "9df8f91c-062a-4e62-b856-720eef966acb")
 	)
 	(segment
@@ -50848,7 +51004,7 @@
 		(end 116.444998 111.554999)
 		(width 0.15)
 		(layer "F.Cu")
-		(net "/MCU Interface Sheet/NR91_RXD")
+		(net "/MCU Interface Sheet/NRF91_RXD")
 		(uuid "a06c1986-616a-438e-9f8f-4f682637c9fa")
 	)
 	(segment
@@ -50856,7 +51012,7 @@
 		(end 113.299999 109.449999)
 		(width 0.1)
 		(layer "F.Cu")
-		(net "/MCU Interface Sheet/NR91_RXD")
+		(net "/MCU Interface Sheet/NRF91_RXD")
 		(uuid "a7474bf6-d39b-4186-908d-5a1a66ad0eea")
 	)
 	(segment
@@ -50864,7 +51020,7 @@
 		(end 111.199999 114.149999)
 		(width 0.1)
 		(layer "F.Cu")
-		(net "/MCU Interface Sheet/NR91_RXD")
+		(net "/MCU Interface Sheet/NRF91_RXD")
 		(uuid "caebc368-cf86-4dba-b705-ca4e1f2b2b1a")
 	)
 	(segment
@@ -50872,7 +51028,7 @@
 		(end 110.199999 121.699999)
 		(width 0.15)
 		(layer "F.Cu")
-		(net "/MCU Interface Sheet/NR91_RXD")
+		(net "/MCU Interface Sheet/NRF91_RXD")
 		(uuid "d387533f-e204-43b9-8c71-647f7a5a9d60")
 	)
 	(segment
@@ -50880,7 +51036,7 @@
 		(end 111.249999 112.499999)
 		(width 0.1)
 		(layer "F.Cu")
-		(net "/MCU Interface Sheet/NR91_RXD")
+		(net "/MCU Interface Sheet/NRF91_RXD")
 		(uuid "ecda796a-d8b4-4f1b-979a-b62215f4e642")
 	)
 	(segment
@@ -50888,7 +51044,7 @@
 		(end 110.199999 121.549999)
 		(width 0.15)
 		(layer "F.Cu")
-		(net "/MCU Interface Sheet/NR91_RXD")
+		(net "/MCU Interface Sheet/NRF91_RXD")
 		(uuid "f264039d-320d-4b26-8719-7613a0c0f411")
 	)
 	(via
@@ -50900,7 +51056,7 @@
 			(front yes)
 			(back yes)
 		)
-		(net "/MCU Interface Sheet/NR91_RXD")
+		(net "/MCU Interface Sheet/NRF91_RXD")
 		(uuid "0f88d246-2ea6-4c5f-8871-50ab6c46794d")
 	)
 	(via
@@ -50912,7 +51068,7 @@
 			(front yes)
 			(back yes)
 		)
-		(net "/MCU Interface Sheet/NR91_RXD")
+		(net "/MCU Interface Sheet/NRF91_RXD")
 		(uuid "304dd8b4-de2e-4007-ba97-2bd1aa8128df")
 	)
 	(via
@@ -50924,7 +51080,7 @@
 			(front yes)
 			(back yes)
 		)
-		(net "/MCU Interface Sheet/NR91_RXD")
+		(net "/MCU Interface Sheet/NRF91_RXD")
 		(uuid "4eed2589-485c-4d75-8c5a-24ce017229b1")
 	)
 	(via
@@ -50936,7 +51092,7 @@
 			(front yes)
 			(back yes)
 		)
-		(net "/MCU Interface Sheet/NR91_RXD")
+		(net "/MCU Interface Sheet/NRF91_RXD")
 		(uuid "51414976-34a4-4f32-ac04-0b70cd69c0cc")
 	)
 	(via
@@ -50948,7 +51104,7 @@
 			(front yes)
 			(back yes)
 		)
-		(net "/MCU Interface Sheet/NR91_RXD")
+		(net "/MCU Interface Sheet/NRF91_RXD")
 		(uuid "57baa112-6aad-4938-a71f-328f899a7beb")
 	)
 	(via
@@ -50960,7 +51116,7 @@
 			(front yes)
 			(back yes)
 		)
-		(net "/MCU Interface Sheet/NR91_RXD")
+		(net "/MCU Interface Sheet/NRF91_RXD")
 		(uuid "b1f2ac53-7f3f-45b3-80c5-f4504218481c")
 	)
 	(via
@@ -50972,7 +51128,7 @@
 			(front yes)
 			(back yes)
 		)
-		(net "/MCU Interface Sheet/NR91_RXD")
+		(net "/MCU Interface Sheet/NRF91_RXD")
 		(uuid "b9f63383-8bce-49ae-adf7-f362c8069cfc")
 	)
 	(segment
@@ -50980,7 +51136,7 @@
 		(end 114.999999 110.049999)
 		(width 0.1)
 		(layer "B.Cu")
-		(net "/MCU Interface Sheet/NR91_RXD")
+		(net "/MCU Interface Sheet/NRF91_RXD")
 		(uuid "1cea5b96-08eb-4d23-a002-f79450418323")
 	)
 	(segment
@@ -50988,7 +51144,7 @@
 		(end 115.799999 111.349999)
 		(width 0.1)
 		(layer "B.Cu")
-		(net "/MCU Interface Sheet/NR91_RXD")
+		(net "/MCU Interface Sheet/NRF91_RXD")
 		(uuid "24e59b6f-7390-443c-99f0-403220a92a8c")
 	)
 	(segment
@@ -50996,7 +51152,7 @@
 		(end 114.999999 109.999999)
 		(width 0.1)
 		(layer "B.Cu")
-		(net "/MCU Interface Sheet/NR91_RXD")
+		(net "/MCU Interface Sheet/NRF91_RXD")
 		(uuid "3ce7bd64-09c0-436c-acff-0d9d7808eea3")
 	)
 	(segment
@@ -51004,7 +51160,7 @@
 		(end 115.799999 111.699999)
 		(width 0.1)
 		(layer "B.Cu")
-		(net "/MCU Interface Sheet/NR91_RXD")
+		(net "/MCU Interface Sheet/NRF91_RXD")
 		(uuid "49f43599-a9a8-4ad8-9902-e8323b260181")
 	)
 	(segment
@@ -51012,7 +51168,7 @@
 		(end 115.749999 111.299999)
 		(width 0.1)
 		(layer "B.Cu")
-		(net "/MCU Interface Sheet/NR91_RXD")
+		(net "/MCU Interface Sheet/NRF91_RXD")
 		(uuid "5aaa2de0-1b43-473c-afff-4c1b66000d77")
 	)
 	(segment
@@ -51020,7 +51176,7 @@
 		(end 115.749999 110.799999)
 		(width 0.1)
 		(layer "B.Cu")
-		(net "/MCU Interface Sheet/NR91_RXD")
+		(net "/MCU Interface Sheet/NRF91_RXD")
 		(uuid "6a921e31-ee03-4b8b-babc-f04e06d7eb52")
 	)
 	(segment
@@ -51028,7 +51184,7 @@
 		(end 110.699999 121.049999)
 		(width 0.1)
 		(layer "B.Cu")
-		(net "/MCU Interface Sheet/NR91_RXD")
+		(net "/MCU Interface Sheet/NRF91_RXD")
 		(uuid "7aafb831-4ba0-4b3d-a5d8-b9a6c05c8f3c")
 	)
 	(segment
@@ -51036,7 +51192,7 @@
 		(end 110.649999 121.099999)
 		(width 0.1)
 		(layer "B.Cu")
-		(net "/MCU Interface Sheet/NR91_RXD")
+		(net "/MCU Interface Sheet/NRF91_RXD")
 		(uuid "a79c9b35-3491-4d10-a7a8-f7662659eff1")
 	)
 	(segment
@@ -51044,7 +51200,7 @@
 		(end 114.749999 109.749999)
 		(width 0.1)
 		(layer "B.Cu")
-		(net "/MCU Interface Sheet/NR91_RXD")
+		(net "/MCU Interface Sheet/NRF91_RXD")
 		(uuid "b5106cc6-815b-41fc-a94b-bf4364db36b0")
 	)
 	(segment
@@ -51052,7 +51208,7 @@
 		(end 110.749999 120.099999)
 		(width 0.1)
 		(layer "B.Cu")
-		(net "/MCU Interface Sheet/NR91_RXD")
+		(net "/MCU Interface Sheet/NRF91_RXD")
 		(uuid "bd6a5e54-b7c0-4183-83e0-da9f3f456bc3")
 	)
 	(segment
@@ -51060,7 +51216,7 @@
 		(end 115.899999 111.799999)
 		(width 0.1)
 		(layer "B.Cu")
-		(net "/MCU Interface Sheet/NR91_RXD")
+		(net "/MCU Interface Sheet/NRF91_RXD")
 		(uuid "d01affb8-2158-4b40-a792-037921c271c7")
 	)
 	(segment
@@ -51068,7 +51224,7 @@
 		(end 110.699999 120.149999)
 		(width 0.1)
 		(layer "B.Cu")
-		(net "/MCU Interface Sheet/NR91_RXD")
+		(net "/MCU Interface Sheet/NRF91_RXD")
 		(uuid "f21f0346-6b90-4d01-8b73-f5de462534bb")
 	)
 	(segment
@@ -51076,7 +51232,7 @@
 		(end 106.349999 125.999999)
 		(width 0.15)
 		(layer "In2.Cu")
-		(net "/MCU Interface Sheet/NR91_RXD")
+		(net "/MCU Interface Sheet/NRF91_RXD")
 		(uuid "11acfd9f-52ec-4076-85d7-a34ddd71a9f4")
 	)
 	(segment
@@ -51084,7 +51240,7 @@
 		(end 106.299999 125.999999)
 		(width 0.15)
 		(layer "In2.Cu")
-		(net "/MCU Interface Sheet/NR91_RXD")
+		(net "/MCU Interface Sheet/NRF91_RXD")
 		(uuid "1975258c-0f24-49bd-9f83-96ebb9858322")
 	)
 	(segment
@@ -51092,7 +51248,7 @@
 		(end 110.149999 121.349999)
 		(width 0.15)
 		(layer "In2.Cu")
-		(net "/MCU Interface Sheet/NR91_RXD")
+		(net "/MCU Interface Sheet/NRF91_RXD")
 		(uuid "26c6d68e-5d23-4b48-a018-d7004714f80c")
 	)
 	(segment
@@ -51100,7 +51256,7 @@
 		(end 106.249999 126.049999)
 		(width 0.15)
 		(layer "In2.Cu")
-		(net "/MCU Interface Sheet/NR91_RXD")
+		(net "/MCU Interface Sheet/NRF91_RXD")
 		(uuid "29e20d3b-eb61-430e-a0eb-6826a4b9ab01")
 	)
 	(segment
@@ -51108,7 +51264,7 @@
 		(end 106.449999 125.849999)
 		(width 0.15)
 		(layer "In2.Cu")
-		(net "/MCU Interface Sheet/NR91_RXD")
+		(net "/MCU Interface Sheet/NRF91_RXD")
 		(uuid "3891d7ba-3719-4fca-bbea-756d1c52545e")
 	)
 	(segment
@@ -51116,7 +51272,7 @@
 		(end 103.149999 129.049999)
 		(width 0.15)
 		(layer "In2.Cu")
-		(net "/MCU Interface Sheet/NR91_RXD")
+		(net "/MCU Interface Sheet/NRF91_RXD")
 		(uuid "39fd9c32-64ca-4eda-95fd-6a76ad3f6865")
 	)
 	(segment
@@ -51124,7 +51280,7 @@
 		(end 101.31 129.049999)
 		(width 0.15)
 		(layer "In2.Cu")
-		(net "/MCU Interface Sheet/NR91_RXD")
+		(net "/MCU Interface Sheet/NRF91_RXD")
 		(uuid "3a78a794-c87d-4db9-9fb3-81a9cf7b8874")
 	)
 	(segment
@@ -51132,7 +51288,7 @@
 		(end 101.299999 129.049999)
 		(width 0.15)
 		(layer "In2.Cu")
-		(net "/MCU Interface Sheet/NR91_RXD")
+		(net "/MCU Interface Sheet/NRF91_RXD")
 		(uuid "40ffc877-068b-444b-b26c-393e35ea21f5")
 	)
 	(segment
@@ -51140,7 +51296,7 @@
 		(end 109.999999 121.499999)
 		(width 0.15)
 		(layer "In2.Cu")
-		(net "/MCU Interface Sheet/NR91_RXD")
+		(net "/MCU Interface Sheet/NRF91_RXD")
 		(uuid "601b02d5-e7bc-44f4-816d-1a28c653a193")
 	)
 	(segment
@@ -51148,7 +51304,7 @@
 		(end 106.149999 126.049999)
 		(width 0.15)
 		(layer "In2.Cu")
-		(net "/MCU Interface Sheet/NR91_RXD")
+		(net "/MCU Interface Sheet/NRF91_RXD")
 		(uuid "6d3ab1a8-c24f-4664-a05a-93fd9d620516")
 	)
 	(segment
@@ -51156,7 +51312,7 @@
 		(end 106.449999 125.749999)
 		(width 0.15)
 		(layer "In2.Cu")
-		(net "/MCU Interface Sheet/NR91_RXD")
+		(net "/MCU Interface Sheet/NRF91_RXD")
 		(uuid "7723cb8d-f17b-4572-a449-47ef02ca5ae6")
 	)
 	(segment
@@ -51164,7 +51320,7 @@
 		(end 110.749999 116.949999)
 		(width 0.1)
 		(layer "In2.Cu")
-		(net "/MCU Interface Sheet/NR91_RXD")
+		(net "/MCU Interface Sheet/NRF91_RXD")
 		(uuid "a1041aa5-5477-4359-9dd4-bcccc7ead20b")
 	)
 	(segment
@@ -51172,7 +51328,7 @@
 		(end 106.399999 125.899999)
 		(width 0.15)
 		(layer "In2.Cu")
-		(net "/MCU Interface Sheet/NR91_RXD")
+		(net "/MCU Interface Sheet/NRF91_RXD")
 		(uuid "ba80b81d-b13e-442b-9bf0-87345e7a5795")
 	)
 	(segment
@@ -51180,7 +51336,7 @@
 		(end 106.399999 125.949999)
 		(width 0.15)
 		(layer "In2.Cu")
-		(net "/MCU Interface Sheet/NR91_RXD")
+		(net "/MCU Interface Sheet/NRF91_RXD")
 		(uuid "f9eec083-b0d6-434a-818c-5f6aa52e4705")
 	)
 	(segment
@@ -51188,7 +51344,7 @@
 		(end 109.999999 122.199999)
 		(width 0.15)
 		(layer "In2.Cu")
-		(net "/MCU Interface Sheet/NR91_RXD")
+		(net "/MCU Interface Sheet/NRF91_RXD")
 		(uuid "fe952a2b-6c1c-45b0-8db4-e8d98188b69f")
 	)
 	(segment
@@ -51196,7 +51352,7 @@
 		(end 113.699999 109.1)
 		(width 0.1)
 		(layer "In3.Cu")
-		(net "/MCU Interface Sheet/NR91_RXD")
+		(net "/MCU Interface Sheet/NRF91_RXD")
 		(uuid "1d86eb13-c712-4d67-8c73-e091f9fdf7f4")
 	)
 	(segment
@@ -51204,7 +51360,7 @@
 		(end 114.099999 109.25)
 		(width 0.1)
 		(layer "In3.Cu")
-		(net "/MCU Interface Sheet/NR91_RXD")
+		(net "/MCU Interface Sheet/NRF91_RXD")
 		(uuid "2a6ea5be-44c4-4a00-956a-6c0274ae7204")
 	)
 	(segment
@@ -51212,7 +51368,7 @@
 		(end 114.199999 109.3)
 		(width 0.1)
 		(layer "In3.Cu")
-		(net "/MCU Interface Sheet/NR91_RXD")
+		(net "/MCU Interface Sheet/NRF91_RXD")
 		(uuid "33470f39-9457-42c3-b364-f9c6e8d0da01")
 	)
 	(segment
@@ -51220,7 +51376,7 @@
 		(end 113.349999 109.1)
 		(width 0.1)
 		(layer "In3.Cu")
-		(net "/MCU Interface Sheet/NR91_RXD")
+		(net "/MCU Interface Sheet/NRF91_RXD")
 		(uuid "7518d6c1-a452-4504-901d-7d5fbca56410")
 	)
 	(segment
@@ -51228,7 +51384,7 @@
 		(end 114.149999 109.3)
 		(width 0.1)
 		(layer "In3.Cu")
-		(net "/MCU Interface Sheet/NR91_RXD")
+		(net "/MCU Interface Sheet/NRF91_RXD")
 		(uuid "9cdb1e2d-0879-4d8a-ac4c-0841294f5a3b")
 	)
 	(segment
@@ -51236,7 +51392,7 @@
 		(end 114.649999 109.749999)
 		(width 0.1)
 		(layer "In3.Cu")
-		(net "/MCU Interface Sheet/NR91_RXD")
+		(net "/MCU Interface Sheet/NRF91_RXD")
 		(uuid "a86624dc-62c8-4a28-b2cc-04ca181bd7b3")
 	)
 	(segment
@@ -51244,7 +51400,7 @@
 		(end 113.849999 109.25)
 		(width 0.1)
 		(layer "In3.Cu")
-		(net "/MCU Interface Sheet/NR91_RXD")
+		(net "/MCU Interface Sheet/NRF91_RXD")
 		(uuid "ab948b7e-f85b-482d-a3f0-4782249b7b1d")
 	)
 	(segment
@@ -58088,7 +58244,7 @@
 		(end 110.2 83.75)
 		(width 0.15)
 		(layer "F.Cu")
-		(net "Net-(D202-A1)")
+		(net "Net-(D202-K)")
 		(uuid "69103808-262a-4ead-a662-f0261a8c14b2")
 	)
 	(segment
@@ -58096,7 +58252,7 @@
 		(end 110.2 84.5)
 		(width 0.15)
 		(layer "F.Cu")
-		(net "Net-(D202-A1)")
+		(net "Net-(D202-K)")
 		(uuid "9528c9d4-a6b5-4a6e-80a6-c26b739bd99f")
 	)
 	(segment
@@ -58104,7 +58260,7 @@
 		(end 109.15 86.04)
 		(width 0.15)
 		(layer "F.Cu")
-		(net "Net-(D202-A1)")
+		(net "Net-(D202-K)")
 		(uuid "9adad4ad-5aaa-45df-b644-b703018bc396")
 	)
 	(segment
@@ -58112,7 +58268,7 @@
 		(end 109.15 85.55)
 		(width 0.15)
 		(layer "F.Cu")
-		(net "Net-(D202-A1)")
+		(net "Net-(D202-K)")
 		(uuid "ae59c7da-0bac-4676-aa56-0a76f38a1447")
 	)
 	(segment
@@ -58120,7 +58276,7 @@
 		(end 109.91 83.46)
 		(width 0.15)
 		(layer "F.Cu")
-		(net "Net-(D202-A1)")
+		(net "Net-(D202-K)")
 		(uuid "d0d57600-40e6-4efc-adc7-fcc16ec5b73c")
 	)
 	(segment
@@ -58128,7 +58284,7 @@
 		(end 110.91 82.15)
 		(width 0.15)
 		(layer "F.Cu")
-		(net "Net-(D202-A1)")
+		(net "Net-(D202-K)")
 		(uuid "e0d5542f-ff59-461c-bc30-b1d185f90fc9")
 	)
 	(segment
@@ -58136,7 +58292,7 @@
 		(end 109.91 82.15)
 		(width 0.15)
 		(layer "F.Cu")
-		(net "Net-(D202-A1)")
+		(net "Net-(D202-K)")
 		(uuid "ebdf32f0-53af-4131-ac95-1532a7a1da55")
 	)
 	(segment
@@ -58144,7 +58300,7 @@
 		(end 110.91 81.23)
 		(width 0.15)
 		(layer "F.Cu")
-		(net "Net-(D202-A1)")
+		(net "Net-(D202-K)")
 		(uuid "f7216479-09d6-48f8-9d3b-704c3e36f8c2")
 	)
 	(segment
@@ -64308,7 +64464,7 @@
 		(end 109.91 79.8)
 		(width 0.15)
 		(layer "F.Cu")
-		(net "Net-(D203-A2)")
+		(net "Net-(D203-K)")
 		(uuid "149308c2-f01b-4225-b653-8a6f99351813")
 	)
 	(segment
@@ -64316,7 +64472,7 @@
 		(end 111.86 86.26)
 		(width 0.15)
 		(layer "F.Cu")
-		(net "Net-(D203-A2)")
+		(net "Net-(D203-K)")
 		(uuid "3f903fcc-4fda-4bf4-9c07-7e9a20058b7e")
 	)
 	(segment
@@ -64324,7 +64480,7 @@
 		(end 111.86 86.55)
 		(width 0.15)
 		(layer "F.Cu")
-		(net "Net-(D203-A2)")
+		(net "Net-(D203-K)")
 		(uuid "4bff4c79-2676-4aa8-90ae-951b7b533a9e")
 	)
 	(segment
@@ -64332,7 +64488,7 @@
 		(end 110.41 79.8)
 		(width 0.15)
 		(layer "F.Cu")
-		(net "Net-(D203-A2)")
+		(net "Net-(D203-K)")
 		(uuid "5a5a49b3-60ba-4e9c-ace6-9cfc65af8dd2")
 	)
 	(segment
@@ -64340,7 +64496,7 @@
 		(end 109.41 80.3)
 		(width 0.15)
 		(layer "F.Cu")
-		(net "Net-(D203-A2)")
+		(net "Net-(D203-K)")
 		(uuid "5e557706-8b07-447c-9590-c1b4b1223b9b")
 	)
 	(segment
@@ -64348,7 +64504,7 @@
 		(end 110.41 79.8)
 		(width 0.15)
 		(layer "F.Cu")
-		(net "Net-(D203-A2)")
+		(net "Net-(D203-K)")
 		(uuid "9be99455-a7e2-4a50-a095-fa75f402ed51")
 	)
 	(segment
@@ -64356,7 +64512,7 @@
 		(end 111.4 83.65)
 		(width 0.15)
 		(layer "F.Cu")
-		(net "Net-(D203-A2)")
+		(net "Net-(D203-K)")
 		(uuid "9c08b3ef-4bf0-4353-85d1-e6a9eced1591")
 	)
 	(segment
@@ -64364,7 +64520,7 @@
 		(end 111.95 83.1)
 		(width 0.15)
 		(layer "F.Cu")
-		(net "Net-(D203-A2)")
+		(net "Net-(D203-K)")
 		(uuid "da4b5758-7756-43c4-805b-029988b14c59")
 	)
 	(segment
@@ -64372,7 +64528,7 @@
 		(end 111.4 85.8)
 		(width 0.15)
 		(layer "F.Cu")
-		(net "Net-(D203-A2)")
+		(net "Net-(D203-K)")
 		(uuid "f6d595e7-0db0-4965-b367-af74521a3550")
 	)
 	(via
@@ -64384,7 +64540,7 @@
 			(front yes)
 			(back yes)
 		)
-		(net "Net-(D203-A2)")
+		(net "Net-(D203-K)")
 		(uuid "66cb8f54-6c29-45f6-9a53-ff087c2e254d")
 	)
 	(via
@@ -64396,7 +64552,7 @@
 			(front yes)
 			(back yes)
 		)
-		(net "Net-(D203-A2)")
+		(net "Net-(D203-K)")
 		(uuid "9e0afc42-6fab-4f11-8e4a-b90cc573250a")
 	)
 	(segment
@@ -64404,7 +64560,7 @@
 		(end 111.95 82.25)
 		(width 0.15)
 		(layer "B.Cu")
-		(net "Net-(D203-A2)")
+		(net "Net-(D203-K)")
 		(uuid "cd0dfa4c-7703-447b-ad7f-3ec4dcf87075")
 	)
 	(segment
@@ -64412,7 +64568,7 @@
 		(end 111.95 81.34)
 		(width 0.15)
 		(layer "B.Cu")
-		(net "Net-(D203-A2)")
+		(net "Net-(D203-K)")
 		(uuid "ee846db2-4d66-4c41-9a04-d8f3b1fd3ddb")
 	)
 	(segment
