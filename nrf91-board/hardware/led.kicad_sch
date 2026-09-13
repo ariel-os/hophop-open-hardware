@@ -3155,6 +3155,28 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Kingbright"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "MPN" "APTF1616LSEEZGKQBKC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "8db00d29-1287-40e4-8c1b-d6958c531aad")
 		)
@@ -3175,11 +3197,7 @@
 				)
 			)
 		)
-	
-		(property "Manufacturer" "Kingbright" (at 0 0 0) (hide yes) (effects (font (size 1 1))))
-
-		(property "MPN" "APTF1616LSEEZGKQBKC" (at 0 0 0) (hide yes) (effects (font (size 1 1))))
-)
+	)
 	(symbol
 		(lib_id "HopHop_Transistor_FET:DMN2990UFA")
 		(at 71.12 146.05 0)

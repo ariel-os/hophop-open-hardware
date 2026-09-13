@@ -5241,6 +5241,26 @@
 		)
 		(uuid "fffd1cbe-1e85-42b6-934e-6de69543be30")
 	)
+	(label "D-"
+		(at 54.61 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "717a9937-2c61-4fa5-8ff8-32ba452802b9")
+	)
+	(label "D+"
+		(at 54.61 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "be38ab30-dd36-4ba9-acbe-fd04612448e5")
+	)
 	(hierarchical_label "IF_I2C_INT"
 		(shape input)
 		(at 151.13 55.88 180)
@@ -5263,7 +5283,7 @@
 		)
 		(uuid "57dff75b-86db-4f14-92d9-d9290bd0d4c9")
 	)
-	(hierarchical_label "IF_USB_DP"
+	(hierarchical_label "IF_USB_D+"
 		(shape input)
 		(at 100.33 43.18 0)
 		(effects
@@ -5318,7 +5338,7 @@
 		)
 		(uuid "ed8ce3e4-933e-4ec8-a2df-49a43d70b9c5")
 	)
-	(hierarchical_label "IF_USB_DM"
+	(hierarchical_label "IF_USB_D-"
 		(shape input)
 		(at 100.33 38.1 0)
 		(effects

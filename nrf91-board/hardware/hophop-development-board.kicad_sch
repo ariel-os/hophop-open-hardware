@@ -1643,26 +1643,6 @@
 				(justify right)
 			)
 		)
-		(pin "IF_USB_DM" input
-			(at 194.31 59.69 180)
-			(uuid "aa871b0e-4a9e-48c6-94bb-248aa8187d7b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "IF_USB_DP" input
-			(at 194.31 57.15 180)
-			(uuid "57ac311b-1893-4f94-939d-9314c4f898cf")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "IF_VSEL" input
 			(at 194.31 53.34 180)
 			(uuid "418734dc-066d-44b0-8fe3-e553462dd7e1")
@@ -1716,6 +1696,26 @@
 		(pin "NRF91_TXD" input
 			(at 194.31 71.12 180)
 			(uuid "4d51cf11-1702-4a3e-be24-cae29dcebe64")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IF_USB_D+" input
+			(at 194.31 57.15 180)
+			(uuid "14261293-7f14-4fce-a149-91aebc283b52")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IF_USB_D-" input
+			(at 194.31 59.69 180)
+			(uuid "c647ce09-d4e5-4fdb-a0d4-2802423cc072")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2311,26 +2311,6 @@
 				(justify right)
 			)
 		)
-		(pin "IF_USB_DM" input
-			(at 165.1 59.69 0)
-			(uuid "0f9bb45c-1469-4f6f-aa18-46e2f5415a1c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "IF_USB_DP" input
-			(at 165.1 57.15 0)
-			(uuid "594f9497-7d35-4e98-bc42-5de4960a8c02")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "IF_VSEL" input
 			(at 165.1 53.34 0)
 			(uuid "feee443f-3564-4556-9c52-ff3d88175754")
@@ -2344,6 +2324,26 @@
 		(pin "SYS_EN" input
 			(at 165.1 63.5 0)
 			(uuid "2a3c9294-4544-4b7d-ac1d-fe07ae485ae7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IF_USB_D+" input
+			(at 165.1 57.15 0)
+			(uuid "98743ee7-46d3-49d1-b026-0af342cbd0ee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IF_USB_D-" input
+			(at 165.1 59.69 0)
+			(uuid "e90680db-d039-434a-965c-45a3c0a4fe6f")
 			(effects
 				(font
 					(size 1.27 1.27)
