@@ -11,3 +11,5 @@ The project-local `JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal` footprint i
 The power drawings are derived from KiCad's `power:VDD`. The custom IC drawings are derived from KiCad's `Regulator_Switching:TPS63900` and `Battery_Management:BQ25173DSG`; MOSFET drawings are derived from `Transistor_FET:DMG1012T`, with P-channel polarity adapted.
 
 Adapted and vendored symbols are distributed under KiCad's CC-BY-SA 4.0 library license with its electronic-design exception; see [LICENSE-KiCad.md](LICENSE-KiCad.md) and the [KiCad symbol libraries](https://gitlab.com/kicad/libraries/kicad-symbols).
+
+The project-local `HopHop_LED:LED_Kingbright_APTF1616LSEEZGKQBKC` footprint is drawn from Kingbright's recommended soldering pattern, with its top view rotated 180 degrees and the original electrical pin numbering retained. See [component selection and pinout verification](../component-selection-notes.md).

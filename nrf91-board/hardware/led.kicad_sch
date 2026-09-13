@@ -3112,7 +3112,7 @@
 				)
 			)
 		)
-		(property "Value" "Lumex_SML-LX303SIUPGUSB"
+		(property "Value" "APTF1616LSEEZGKQBKC"
 			(at 117.5004 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3122,7 +3122,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Lumex_SML-LX0303SIUPGUSB"
+		(property "Footprint" "HopHop_LED:LED_Kingbright_APTF1616LSEEZGKQBKC"
 			(at 118.11 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -3133,7 +3133,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lumex.com/spec/SML-LX0303SIUPGUSB.pdf"
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APTF1616LSEEZGKQBKC.pdf"
 			(at 118.11 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -3144,7 +3144,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED, 0.8x0.8mm common anode, Alternate KiCad Library"
+		(property "Description" "Low-current RGB LED, 1.6x1.6 mm common anode; 1=A 2=RK 3=GK 4=BK; characterized at 2 mA"
 			(at 118.11 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -3175,7 +3175,11 @@
 				)
 			)
 		)
-	)
+	
+		(property "Manufacturer" "Kingbright" (at 0 0 0) (hide yes) (effects (font (size 1 1))))
+
+		(property "MPN" "APTF1616LSEEZGKQBKC" (at 0 0 0) (hide yes) (effects (font (size 1 1))))
+)
 	(symbol
 		(lib_id "HopHop_Transistor_FET:DMN2990UFA")
 		(at 71.12 146.05 0)

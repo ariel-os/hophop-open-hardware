@@ -5588,7 +5588,7 @@
 				)
 			)
 		)
-		(property "Value" "PESD5V0U1UA"
+		(property "Value" "TPD1E05U06DPYR"
 			(at 75.438 49.276 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5598,7 +5598,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "Package_SON:Texas_DPY0002A_0.6x1mm_P0.65mm"
 			(at 83.82 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -5609,7 +5609,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.nexperia.com/product/PESD5V0U1UA"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpd1e05u06.pdf"
 			(at 83.82 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -5620,7 +5620,7 @@
 				)
 			)
 		)
-		(property "Description" "Unidirectional ultra-low-capacitance ESD diode, 5 V, 2 pF, SOD-323"
+		(property "Description" "USB data unidirectional ESD protection, 5.5 V standoff, 0.5 pF typical, DPY X1SON 1.0x0.6 mm"
 			(at 83.82 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -5631,7 +5631,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Nexperia"
+		(property "Manufacturer" "Texas Instruments"
 			(at 83.82 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -5642,7 +5642,7 @@
 				)
 			)
 		)
-		(property "MPN" "PESD5V0U1UA"
+		(property "MPN" "TPD1E05U06DPYR"
 			(at 83.82 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -7383,7 +7383,7 @@
 				)
 			)
 		)
-		(property "Value" "PESD5V0U1UA"
+		(property "Value" "TPD1E05U06DPYR"
 			(at 83.82 26.67 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7393,7 +7393,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "Package_SON:Texas_DPY0002A_0.6x1mm_P0.65mm"
 			(at 83.82 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -7404,7 +7404,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.nexperia.com/product/PESD5V0U1UA"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpd1e05u06.pdf"
 			(at 83.82 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -7415,7 +7415,7 @@
 				)
 			)
 		)
-		(property "Description" "Unidirectional ultra-low-capacitance ESD diode, 5 V, 2 pF, SOD-323"
+		(property "Description" "USB data unidirectional ESD protection, 5.5 V standoff, 0.5 pF typical, DPY X1SON 1.0x0.6 mm"
 			(at 83.82 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -7426,7 +7426,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Nexperia"
+		(property "Manufacturer" "Texas Instruments"
 			(at 83.82 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -7437,7 +7437,7 @@
 				)
 			)
 		)
-		(property "MPN" "PESD5V0U1UA"
+		(property "MPN" "TPD1E05U06DPYR"
 			(at 83.82 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -8419,7 +8419,7 @@
 				)
 			)
 		)
-		(property "Value" "PESD5V0S1UA"
+		(property "Value" "PESD5V0S1ULSYL"
 			(at 76.454 30.48 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8429,7 +8429,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-882D"
 			(at 68.58 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -8440,7 +8440,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.nexperia.com/product/PESD5V0S1UA"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD5V0S1ULS.pdf"
 			(at 68.58 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -8451,7 +8451,7 @@
 				)
 			)
 		)
-		(property "Description" "Unidirectional ESD/TVS diode, 5 V standoff, SOD-323, IEC 61000-4-5 surge rated"
+		(property "Description" "VBUS unidirectional TVS, 5.5 V standoff, 15 A 8/20 us, SOD882BD 1.0x0.6 mm; compatible SOD-882D land pattern"
 			(at 68.58 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -8473,7 +8473,7 @@
 				)
 			)
 		)
-		(property "MPN" "PESD5V0S1UA"
+		(property "MPN" "PESD5V0S1ULSYL"
 			(at 68.58 27.94 0)
 			(hide yes)
 			(show_name no)
