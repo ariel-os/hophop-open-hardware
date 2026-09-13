@@ -5618,7 +5618,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SON:Texas_DPY0002A_0.6x1mm_P0.65mm"
+		(property "Footprint" "HopHop_Package_SON:Texas_DPY0002A_0.6x1mm_P0.65mm"
 			(at 83.82 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -7413,7 +7413,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SON:Texas_DPY0002A_0.6x1mm_P0.65mm"
+		(property "Footprint" "HopHop_Package_SON:Texas_DPY0002A_0.6x1mm_P0.65mm"
 			(at 83.82 33.02 0)
 			(hide yes)
 			(show_name no)

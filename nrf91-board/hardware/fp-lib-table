@@ -4,4 +4,5 @@
   (lib (name "HopHop_Package_DFN_QFN") (type "KiCad") (uri "${KIPRJMOD}/libs/footprints/HopHop_Package_DFN_QFN.pretty") (options "") (descr "HopHop Package DFN QFN"))
   (lib (name "HopHop_Connector") (type "KiCad") (uri "${KIPRJMOD}/libs/footprints/HopHop_Connector.pretty") (options "") (descr "HopHop connectors"))
   (lib (name "HopHop_LED") (type "KiCad") (uri "${KIPRJMOD}/libs/footprints/HopHop_LED.pretty") (options "") (descr "HopHop LEDs"))
+  (lib (name "HopHop_Package_SON") (type "KiCad") (uri "${KIPRJMOD}/libs/footprints/HopHop_Package_SON.pretty") (options "") (descr "HopHop SON packages"))
 )
