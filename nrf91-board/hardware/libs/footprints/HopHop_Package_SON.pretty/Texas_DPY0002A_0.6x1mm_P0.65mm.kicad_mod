@@ -145,7 +145,7 @@
 		(uuid "d7f82de7-2d2a-4d38-81d2-e3aae8a93543")
 	)
 	(embedded_fonts no)
-	(model "${KICAD10_3DMODEL_DIR}/Package_SON.3dshapes/Texas_DPY0002A_0.6x1mm_P0.65mm.step"
+	(model "${KIPRJMOD}/libs/3dmodels/HopHop_Package_SON.3dshapes/Texas_DPY0002A_0.6x1mm_P0.65mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

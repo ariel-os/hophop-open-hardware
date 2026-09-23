@@ -6303,7 +6303,7 @@
 			(uuid "31ecb08a-7f9f-47b4-a6da-39dd2c066c97")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_SON.3dshapes/Texas_DPY0002A_0.6x1mm_P0.65mm.step"
+		(model "${KIPRJMOD}/libs/3dmodels/HopHop_Package_SON.3dshapes/Texas_DPY0002A_0.6x1mm_P0.65mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -19697,7 +19697,7 @@
 			(uuid "53a34abf-7a43-436b-b042-28aee3628e5e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_SON.3dshapes/Texas_DPY0002A_0.6x1mm_P0.65mm.step"
+		(model "${KIPRJMOD}/libs/3dmodels/HopHop_Package_SON.3dshapes/Texas_DPY0002A_0.6x1mm_P0.65mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -22531,6 +22531,11 @@
 			(uuid "b77f35fe-6879-4100-855b-b92ee1f07448")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/libs/3dmodels/HopHop_LED.3dshapes/LED_Kingbright_APTF1616LSEEZGKQBKC.wrl"
+		 (offset (xyz 0 0 0))
+		 (scale (xyz 1 1 1))
+		 (rotate (xyz 0 0 0))
+		)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
