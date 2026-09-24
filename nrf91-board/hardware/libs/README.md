@@ -15,3 +15,5 @@ Adapted and vendored symbols are distributed under KiCad's CC-BY-SA 4.0 library 
 The project-local `HopHop_LED:LED_Kingbright_APTF1616LSEEZGKQBKC` footprint is drawn from Kingbright's recommended soldering pattern.
 
 `HopHop_Package_SON:Texas_DPY0002A_0.6x1mm_P0.65mm` is a project-local copy of KiCad's `Package_SON` footprint for editing the pin 1 marker. It is covered by the KiCad library license linked above.
+
+All other symbols and footprints were made by the authors of this repository based on supplied documentation and not derived from existing work.

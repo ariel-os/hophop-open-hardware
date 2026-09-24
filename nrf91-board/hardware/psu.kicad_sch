@@ -8053,7 +8053,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Cenker_CKCS201610"
+		(property "Footprint" "HopHop_Inductor_SMD:L_Murata_DFE201612E_2.0x1.6mm"
 			(at 146.05 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -8076,6 +8076,17 @@
 			)
 		)
 		(property "Description" "Inductor, small symbol"
+			(at 146.05 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "DFE201612E-2R2M=P2"
 			(at 146.05 105.41 0)
 			(hide yes)
 			(show_name no)
