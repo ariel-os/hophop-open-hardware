@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "HopHop_Inductor_SMD") (type "KiCad") (uri "${HOPHOP_LIB_DIR}/footprints/HopHop_Inductor_SMD.pretty") (options "") (descr "HopHop SMD inductors"))
+  (lib (name "HopHop_Package_BGA") (type "KiCad") (uri "${HOPHOP_LIB_DIR}/footprints/HopHop_Package_BGA.pretty") (options "") (descr "HopHop Package BGA"))
+  (lib (name "HopHop_Package_DFN_QFN") (type "KiCad") (uri "${HOPHOP_LIB_DIR}/footprints/HopHop_Package_DFN_QFN.pretty") (options "") (descr "HopHop Package DFN QFN"))
+)
