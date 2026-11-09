@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "HopHop_Mechanical")(type "KiCad")(uri "/home/jsa/01_Git/04_HopHop/hophop-open-hardware/libs/symbols/HopHop_Mechanical.kicad_sym")(options "")(descr ""))
+)

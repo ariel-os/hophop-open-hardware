@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "HopHop_Connector_PinSocket_1.27mm")(type "KiCad")(uri "${KIPRJMOD}/../../libs/footprints/HopHop_Connector_PinSocket_1.27mm")(options "")(descr ""))
+  (lib (name "HopHop_Connector_Coaxial")(type "KiCad")(uri "${KIPRJMOD}/../../libs/footprints/HopHop_Connector_Coaxial")(options "")(descr ""))
+)

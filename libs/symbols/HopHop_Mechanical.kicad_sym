@@ -1,0 +1,362 @@
+(kicad_symbol_lib
+	(version 20241209)
+	(generator "kicad_symbol_editor")
+	(generator_version "9.0")
+	(symbol "Nut"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "N"
+			(at 0 4.318 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Nut_0_1"
+			(polyline
+				(pts
+					(xy -1.5875 2.5399) (xy 1.5875 2.5399) (xy 2.8575 0) (xy 1.5875 -2.5399) (xy -1.5875 -2.5399) (xy -2.8575 0)
+					(xy -1.5875 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 0)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Screw"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(property "Reference" "S"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Screw"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Screw_0_1"
+			(polyline
+				(pts
+					(xy -1.27 1.397) (xy 1.27 1.7145)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 0.762) (xy 1.27 1.0795)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 0.127) (xy 1.27 0.4445)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -0.508) (xy 1.27 -0.1905)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -1.143) (xy 1.27 -0.8255)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -1.778) (xy 1.27 -1.4605)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -2.413) (xy 1.27 -2.0955)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -3.048) (xy 1.27 -2.7305)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -4.318) (xy -1.27 -3.048) (xy -0.9525 -2.7305) (xy -1.27 -2.413) (xy -0.9525 -2.0955) (xy -1.27 -1.778)
+					(xy -0.9525 -1.4605) (xy -1.27 -1.143) (xy -0.9525 -0.8255) (xy -1.27 -0.508) (xy -0.9525 -0.1905)
+					(xy -1.27 0.127) (xy -0.9525 0.4445) (xy -1.27 0.762) (xy -0.9525 1.0795) (xy -1.27 1.397) (xy -0.9525 1.7145)
+					(xy -0.9525 2.667) (xy -2.54 4.2545) (xy -0.635 4.2545) (xy -0.635 3.6195) (xy -0.3175 3.302) (xy 0 3.302)
+					(xy 0.3175 3.302) (xy 0.635 3.6195) (xy 0.635 4.2545) (xy 2.54 4.2545) (xy 0.9524 2.667) (xy 0.9524 2.032)
+					(xy 1.27 1.7145) (xy 0.9525 1.397) (xy 1.27 1.0795) (xy 0.9525 0.762) (xy 1.27 0.4445) (xy 0.9525 0.127)
+					(xy 1.27 -0.1905) (xy 0.9525 -0.508) (xy 1.27 -0.8255) (xy 0.9525 -1.143) (xy 1.27 -1.4605) (xy 0.9525 -1.778)
+					(xy 1.27 -2.0955) (xy 0.9525 -2.413) (xy 1.27 -2.7305) (xy 0.9525 -3.048) (xy 0.9525 -3.3655) (xy 0.635 -3.683)
+					(xy 0 -4.318)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Standoff"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(property "Reference" "SO"
+			(at 0 4.445 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Standoff"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Standoff_0_1"
+			(polyline
+				(pts
+					(xy 0.9525 3.429) (xy -0.9525 3.1115)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.9525 2.794) (xy -0.9525 2.4765)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.9525 2.159) (xy -0.9525 1.8415)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.9525 1.524) (xy -0.9525 1.2065)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 0.5715) (xy 1.27 -2.921) (xy -1.27 -2.921) (xy -1.27 0.5715) (xy -0.635 0.5715) (xy -0.635 0.889)
+					(xy -0.9525 1.2065) (xy -0.635 1.524) (xy -0.9525 1.8415) (xy -0.635 2.159) (xy -0.9525 2.4765)
+					(xy -0.635 2.794) (xy -0.9525 3.1115) (xy -0.635 3.429) (xy 0.635 3.429) (xy 0.9525 3.429) (xy 0.9525 3.429)
+					(xy 0.635 3.1115) (xy 0.9525 2.794) (xy 0.635 2.4765) (xy 0.9525 2.159) (xy 0.635 1.8415) (xy 0.9525 1.524)
+					(xy 0.635 1.2065) (xy 0.635 0.5715) (xy 1.27 0.5715)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+)
