@@ -1,0 +1,159 @@
+(footprint "Texas_DPY0002A_0.6x1mm_P0.65mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "X1SON 2 pin 0.6x1mm 0.375mm height package, https://www.ti.com/lit/ml/mpss034c/mpss034c.pdf, https://www.ti.com/lit/ds/symlink/tpd6e05u06.pdf")
+	(tags "X1SON")
+	(property "Reference" "REF**"
+		(at 0 -1.25 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "29ea8a3b-2447-4cb8-aa4d-1451b2f74ec4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Texas_DPY0002A_0.6x1mm_P0.65mm"
+		(at 0 1.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "86e20bbb-9d02-47a6-8e20-582ce418d813")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "abf8b726-4226-433a-b328-57df9c1a682d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e6b02b5e-f68a-4724-878a-2961e6745b44")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.65 -0.41)
+		(end -0.65 -0.06)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "451e9db6-3c25-402f-aaeb-5f7b22ab912d")
+	)
+	(fp_rect
+		(start -0.65 -0.45)
+		(end 0.65 0.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "6b10b99f-e33f-4e3a-a5b7-2645168d542d")
+	)
+	(fp_line
+		(start -0.4 0.3)
+		(end -0.4 -0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1235d195-0d4d-4657-ad56-d790980c11e3")
+	)
+	(fp_line
+		(start -0.3 0.3)
+		(end -0.3 -0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "638f270a-f055-4579-bddc-f89de85a2572")
+	)
+	(fp_line
+		(start -0.2 0.3)
+		(end -0.2 -0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8c3811ab-a76b-42f8-a57f-988dc89a1370")
+	)
+	(fp_rect
+		(start -0.5 -0.3)
+		(end 0.5 0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "3eb52504-9daa-4311-936f-6a3bf3d3d103")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "06be562a-41db-426a-bfc8-de0e3b0af22e")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.35 0)
+		(size 0.3 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "98116e71-00f7-40be-8f31-bfbec3c27ab4")
+	)
+	(pad "2" smd roundrect
+		(at 0.35 0)
+		(size 0.3 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "d7f82de7-2d2a-4d38-81d2-e3aae8a93543")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/libs/3dmodels/HopHop_Package_SON.3dshapes/Texas_DPY0002A_0.6x1mm_P0.65mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

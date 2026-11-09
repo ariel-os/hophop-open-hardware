@@ -1,0 +1,17 @@
+== High Level Design
+
+* Clone from Maikerdiary nrf9151
+* Feather format
+* GPS and SIM and eSIM support not needed
+* Supports Power from Solar and other DC sources
+* Charges Battery
+* Send and receive for the NR+ protocol (DECT-2020 New Radio (NR))
+* Supports and complies to ETSI TS 103 636-1
+* Complies with Dect 2020 standard frequency range
+* DECT NR+ operation is enabled on frequency bands 1, 2, 4, 9, and 22
+* With an UF.L Antenna connector
+* Provide communication protocol to communicate with other boards.
+* Does run application software on companian chip
+* Supports Expansion board following Feather Wing specifications.
+* It must be possible to measure the power consumption of the used System On a Chip (SOC).
+
