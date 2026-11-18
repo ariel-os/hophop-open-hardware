@@ -1,6 +1,16 @@
 # RF experiments: MMCX transition and SMA edge launch
 
-## Summary
+## Motivation and application
+
+In early iterations of hophop open hardware boards, we considered having an on-board chip antenna,
+but also a switchable antenna path through which a daughter board could easily take up the signal --
+to add an antenna connector, to multiple antenna connectors for antenna diversity, or into a testbed.
+
+We did not go with that design in the [Nymph](../grasshopper-nymph/) boards,
+but might come back to this in later generations --
+and either way, document the experiment and its outcome here.
+
+## Experiment summary
 
 Taking an RF signal into a daughterboard through stacked MMCX connectors works well: the path via the MMCX-pair stays within about 1 dB of a straight trace up to 6 GHz. The test boards nevertheless show strong reflections and standing waves on all four paths, the cause is the ground plane under the SMA edge launch, not the MMCX transition or the stackup. A simulation predicts that an L2 cut-out under the SMA centre pad, with vias beside it, removes the reflections. This has not been tested on a physical prototype yet.
 
