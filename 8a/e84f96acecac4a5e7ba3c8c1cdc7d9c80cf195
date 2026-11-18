@@ -1,0 +1,14 @@
+module-experiments/README.md
+  h_266fe4f058ae1a 1-59
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "8ae84f96acecac4a5e7ba3c8c1cdc7d9c80cf195",
+  "prompts": {},
+  "humans": {
+    "h_266fe4f058ae1a": {
+      "author": "Joël Schulz-Andres <joel@systemscape.de>"
+    }
+  }
+}
