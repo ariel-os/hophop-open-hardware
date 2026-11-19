@@ -1,0 +1,170 @@
+cerberus/hardware/cerberus.kicad_dru
+  s_9df763d3aa3953::t_0cb17249ec4d68 1-25
+cerberus/hardware/cerberus.kicad_pcb
+  s_9df763d3aa3953::t_dcbd88045c009c 1-47535
+cerberus/hardware/cerberus.kicad_pro
+  s_9df763d3aa3953::t_efe2f0aaaff685 1-734
+cerberus/hardware/cerberus.kicad_sch
+  s_9df763d3aa3953::t_ccdb43db01ecf7 1-5215
+cerberus/hardware/fp-lib-table
+  s_9df763d3aa3953::t_3f451972b31cdf 1-19
+cerberus/hardware/schematics/logic/application_mcu.kicad_sch
+  s_9df763d3aa3953::t_e12d50bf967d5b 1-14131
+cerberus/hardware/schematics/logic/nrf9151_modem.kicad_sch
+  s_9df763d3aa3953::t_c8e0270e65ead7 1-14393
+cerberus/hardware/schematics/logic/usb_power.kicad_sch
+  s_9df763d3aa3953::t_022cb140cc4891 1-6531
+cerberus/hardware/sym-lib-table
+  s_9df763d3aa3953::t_e41199d0538b91 1-13
+libs/3dmodels/HopHop_Button_Switch_SMD/SW_SPST_CK_PTS526SM15SMTR2.step
+  s_9df763d3aa3953::t_99b38c46b67df3 1-9452
+libs/3dmodels/HopHop_Capacitor_SMD/C_0402_1005Metric.step
+  s_9df763d3aa3953::t_234bb1550b409a 1-1123
+libs/3dmodels/HopHop_Capacitor_SMD/C_0603_1608Metric.step
+  s_9df763d3aa3953::t_00924f2a9bb716 1-1123
+libs/3dmodels/HopHop_Capacitor_SMD/C_1210_3225Metric.step
+  s_9df763d3aa3953::t_83937add7cf902 1-1123
+libs/3dmodels/HopHop_Capacitor_SMD/C_Murata_GJM03_0603Metric.step
+  s_9df763d3aa3953::t_e20ee06dff878d 1-675
+libs/3dmodels/HopHop_Connector_Coaxial/U.FL_Hirose_U.FL-R-SMT-1_Vertical.step
+  s_9df763d3aa3953::t_d2d4c935fddfc1 1-1740
+libs/3dmodels/HopHop_Connector_USB/USB_C_Receptacle_GCT_USB4216-03-A.step
+  s_9df763d3aa3953::t_13e4f38cd3f671 1-8504
+libs/3dmodels/HopHop_Crystal/Abracon_ABM11W_2.0x1.6mm.step
+  s_9df763d3aa3953::t_6ac0f8b5b2e185 1-15999
+libs/3dmodels/HopHop_Crystal/Abracon_ABS06_2.0x1.2mm.step
+  s_9df763d3aa3953::t_a386b1b6ad51fa 1-14982
+libs/3dmodels/HopHop_Diode_SMD/D_SOD-882.step
+  s_9df763d3aa3953::t_1c4bbf4bed05d4 1-880
+libs/3dmodels/HopHop_Inductor_SMD/L_0805_2012Metric.step
+  s_9df763d3aa3953::t_0f31f74eba516b 1-1123
+libs/3dmodels/HopHop_Inductor_SMD/L_Murata_BLM18_1608Metric.step
+  s_9df763d3aa3953::t_044f7cae1387e6 1-609
+libs/3dmodels/HopHop_Inductor_SMD/L_Murata_LQP03HQ_0603Metric.step
+  s_9df763d3aa3953::t_e57275ebc18576 1-609
+libs/3dmodels/HopHop_Inductor_SMD/L_TDK_MLZ1608.step
+  s_9df763d3aa3953::t_32a72a937555ef 1-609
+libs/3dmodels/HopHop_LED_SMD/LED_0603_1608Metric.step
+  s_9df763d3aa3953::t_9715a600044cd6 1-1958
+libs/3dmodels/HopHop_Package_DFN_QFN/Diodes_X2-DFN0806-3_0.8x0.6mm_P0.35mm_GSD.step
+  s_9df763d3aa3953::t_d99b5c7c2f0d00 1-560
+libs/3dmodels/HopHop_Package_DFN_QFN/Texas_SIL0008D_MicroSiP-8-1EP_2.8x3mm_P0.65mm_EP1.1x1.9mm.step
+  s_9df763d3aa3953::t_d4c8bb25f1372a 1-4122
+libs/3dmodels/HopHop_Package_DFN_QFN/VQFN-52-1EP_6x6mm_P0.4mm_EP4.7x4.7mm.step
+  s_9df763d3aa3953::t_7d3f71c32c2dc7 1-3179
+libs/3dmodels/HopHop_Package_LGA/Nordic_nRF9151-LAxx_LGA-80-33EP_12.1x11.1mm_P0.5mm.step
+  s_9df763d3aa3953::t_ea9d36ec77e44d 1-3889
+libs/3dmodels/HopHop_Package_SO/TSSOP-16_4.4x5mm_P0.65mm.step
+  s_9df763d3aa3953::t_12b62fce9dcd4f 1-5128
+libs/3dmodels/HopHop_Package_TO_SOT_SMD/Texas_DRL0008A_SOT-583-8.step
+  s_9df763d3aa3953::t_b444fc956679d3 1-1035
+libs/3dmodels/HopHop_Package_TO_SOT_SMD/Texas_DRT-3.step
+  s_9df763d3aa3953::t_0f7bce8e0f3a02 1-1192
+libs/3dmodels/HopHop_RF_Antenna/Johanson_2450AT18x100.step
+  s_9df763d3aa3953::t_927acff8054657 1-1302
+libs/3dmodels/HopHop_Resistor_SMD/R_0402_1005Metric.step
+  s_9df763d3aa3953::t_e0fd497d323112 1-1049
+libs/3dmodels/HopHop_Resistor_SMD/R_0603_1608Metric.step
+  s_9df763d3aa3953::t_418b1ee9603e45 1-1049
+libs/footprints/HopHop_Button_Switch_SMD/SW_SPST_CK_PTS526SM15SMTR2.kicad_mod
+  s_9df763d3aa3953::t_fdf33453c8299f 1-396
+libs/footprints/HopHop_Capacitor_SMD/C_0201_0603Metric_Nordic_nRF54LM20_RF.kicad_mod
+  s_9df763d3aa3953::t_dc1f40a77e00d8 1-63
+libs/footprints/HopHop_Capacitor_SMD/C_0402_1005Metric.kicad_mod
+  s_9df763d3aa3953::t_3fdb74fdb1949c 1-85
+libs/footprints/HopHop_Capacitor_SMD/C_0603_1608Metric.kicad_mod
+  s_9df763d3aa3953::t_f6ec8079dab71e 1-85
+libs/footprints/HopHop_Capacitor_SMD/C_1210_3225Metric.kicad_mod
+  s_9df763d3aa3953::t_b5f5d479c057f5 1-85
+libs/footprints/HopHop_Connector/Cerberus_Edge_2x20_P2.54mm_Castellated_Row45.72mm.kicad_mod
+  s_9df763d3aa3953::t_81c968c9e7c258 1-516
+libs/footprints/HopHop_Connector/Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical.kicad_mod
+  s_9df763d3aa3953::t_4d9b0d00c43e83 1-184
+libs/footprints/HopHop_Connector/TestPoint_Pad_D1.0mm_Compact.kicad_mod
+  s_9df763d3aa3953::t_267a79c22ba3be 1-48
+libs/footprints/HopHop_Connector_Coaxial/U.FL_Hirose_U.FL-R-SMT-1_Vertical.kicad_mod
+  s_9df763d3aa3953::t_08174bed5f662f 1-307
+libs/footprints/HopHop_Connector_USB/USB_C_Receptacle_GCT_USB4216-03-A.kicad_mod
+  s_9df763d3aa3953::t_5e70617c208cee 1-211
+libs/footprints/HopHop_Crystal/Abracon_ABM11W_2.0x1.6mm.kicad_mod
+  s_9df763d3aa3953::t_28b1a36f5a586d 1-99
+libs/footprints/HopHop_Crystal/Abracon_ABS06_2.0x1.2mm.kicad_mod
+  s_9df763d3aa3953::t_dcb6cc71d3b17b 1-97
+libs/footprints/HopHop_Diode_SMD/D_SOD-882.kicad_mod
+  s_9df763d3aa3953::t_4e42b28a3b0a4f 1-225
+libs/footprints/HopHop_Inductor_SMD/L_0201_0603Metric_Nordic_nRF54LM20_RF.kicad_mod
+  s_9df763d3aa3953::t_58114cee3f6926 1-63
+libs/footprints/HopHop_Inductor_SMD/L_0805_2012Metric.kicad_mod
+  s_9df763d3aa3953::t_b7252186cddd99 1-85
+libs/footprints/HopHop_Inductor_SMD/L_Murata_BLM18_1608Metric.kicad_mod
+  s_9df763d3aa3953::t_003982be117b2f 1-77
+libs/footprints/HopHop_Inductor_SMD/L_TDK_MLZ1608.kicad_mod
+  s_9df763d3aa3953::t_6841757aa2f2e3 1-77
+libs/footprints/HopHop_LED_SMD/LED_0603_1608Metric.kicad_mod
+  s_9df763d3aa3953::t_73317948458ae5 1-119
+libs/footprints/HopHop_MountingHole/MountingHole_2.2mm_M2.kicad_mod
+  s_9df763d3aa3953::t_e86e5186401bd6 1-77
+libs/footprints/HopHop_Package_DFN_QFN/Diodes_X2-DFN0806-3_0.8x0.6mm_P0.35mm_GSD.kicad_mod
+  s_9df763d3aa3953::t_62f4d32df328d2 1-158
+libs/footprints/HopHop_Package_DFN_QFN/Texas_SIL0008D_MicroSiP-8-1EP_2.8x3mm_P0.65mm_EP1.1x1.9mm.kicad_mod
+  s_9df763d3aa3953::t_3ed9de3240b41f 1-178
+libs/footprints/HopHop_Package_DFN_QFN/VQFN-52-1EP_6x6mm_P0.4mm_EP4.7x4.7mm_ThermalVias_Nordic_nRF54LM20.kicad_mod
+  s_9df763d3aa3953::t_9cba88cc298d50 1-544
+libs/footprints/HopHop_Package_LGA/Nordic_nRF9151-LAxx_LGA-80-33EP_12.1x11.1mm_P0.5mm.kicad_mod
+  s_9df763d3aa3953::t_ba5f5a82c5f1e0 1-1063
+libs/footprints/HopHop_Package_SO/TSSOP-16_4.4x5mm_P0.65mm.kicad_mod
+  s_9df763d3aa3953::t_2cd81ebdb7af0b 1-245
+libs/footprints/HopHop_Package_TO_SOT_SMD/Texas_DRL0008A_SOT-583-8.kicad_mod
+  s_9df763d3aa3953::t_97fd34ead4bddd 1-270
+libs/footprints/HopHop_Package_TO_SOT_SMD/Texas_DRT-3.kicad_mod
+  s_9df763d3aa3953::t_b65bc82c058613 1-195
+libs/footprints/HopHop_RF_Antenna/Johanson_2450AT18x100.kicad_mod
+  s_9df763d3aa3953::t_ce41f8af2e2b2d 1-169
+libs/footprints/HopHop_Resistor_SMD/R_0402_1005Metric.kicad_mod
+  s_9df763d3aa3953::t_54ad827bee9b9b 1-85
+libs/footprints/HopHop_Resistor_SMD/R_0603_1608Metric.kicad_mod
+  s_9df763d3aa3953::t_884f1d41a2540e 1-85
+libs/symbols/HopHop_Analog_Switch.kicad_sym
+  s_9df763d3aa3953::t_a1e483cbaf58cc 1-500
+libs/symbols/HopHop_Connector.kicad_sym
+  s_9df763d3aa3953::t_9fdf54d76ac7dc 1-1269
+libs/symbols/HopHop_Device.kicad_sym
+  s_9df763d3aa3953::t_9da8162fa8d426 1-1025
+libs/symbols/HopHop_MCU_Nordic.kicad_sym
+  s_9df763d3aa3953::t_52b9556fb0f519 1-1891
+libs/symbols/HopHop_Power.kicad_sym
+  s_9df763d3aa3953::t_0fe4c626312155 1-414
+libs/symbols/HopHop_Power_Management.kicad_sym
+  s_9df763d3aa3953::t_5f735e391f2632 1-156
+libs/symbols/HopHop_Power_Protection.kicad_sym
+  s_9df763d3aa3953::t_6b8eaa35d92789 1-222
+libs/symbols/HopHop_RF_Antenna.kicad_sym
+  s_9df763d3aa3953::t_70392e36b1efc7 1-124
+libs/symbols/HopHop_Regulator_Switching.kicad_sym
+  s_9df763d3aa3953::t_4a08305efda301 1-159
+libs/symbols/HopHop_Switch.kicad_sym
+  s_9df763d3aa3953::t_4d364afa4222b0 1-152
+libs/symbols/HopHop_Transistor_FET.kicad_sym
+  s_9df763d3aa3953::t_f4ad4c454aecc7 1-416
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "cf14f21ada3799f93630ed0cba07f18a86a3e5d3",
+  "prompts": {},
+  "humans": {
+    "h_266fe4f058ae1a": {
+      "author": "Joël Schulz-Andres <joel@systemscape.de>"
+    }
+  },
+  "sessions": {
+    "s_9df763d3aa3953": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "6a8de255-9158-4234-801d-4601e5db9c12",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Joël Schulz-Andres <joel@systemscape.de>"
+    }
+  }
+}
