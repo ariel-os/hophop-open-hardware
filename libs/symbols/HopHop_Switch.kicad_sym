@@ -1,0 +1,152 @@
+(kicad_symbol_lib
+	(version 20251024)
+	(generator "pygmy_library")
+	(symbol "PTS526SM15SMTR2"
+		(property "ki_fp_filters" "SW?SPST?CK?PTS526SM15SMTR2*"
+			(at 0 0 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "SW"
+			(at 0 8.128 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "PTS526SM15SMTR2"
+			(at 0 5.588 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" "HopHop_Button_Switch_SMD:SW_SPST_CK_PTS526SM15SMTR2"
+			(at 0 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Datasheet" "https://www.ckswitches.com/media/2780/pts526.pdf"
+			(at 0 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Description" "Momentary normally-open tactile switch, SMT 5.2x5.2mm H1.5mm"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "ki_keywords" "Momentary normally-open tactile switch"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(symbol "PTS526SM15SMTR2_1_1"
+			(circle
+				(center -2.032 0)
+				(radius 0.508)
+				(stroke (width 0) (type default))
+				(fill (type none))
+			)
+			(polyline
+				(pts (xy 0 1.27) (xy 0 3.048))
+				(stroke (width 0) (type default))
+				(fill (type none))
+			)
+			(circle
+				(center 2.032 0)
+				(radius 0.508)
+				(stroke (width 0) (type default))
+				(fill (type none))
+			)
+			(polyline
+				(pts (xy 2.54 1.27) (xy -2.54 1.27))
+				(stroke (width 0) (type default))
+				(fill (type none))
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "1"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "1"
+					(effects (font (size 1.27 1.27)))
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "2"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "3"
+					(effects (font (size 1.27 1.27)))
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "1"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "2"
+					(effects (font (size 1.27 1.27)))
+				)
+				(hide yes)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "2"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "4"
+					(effects (font (size 1.27 1.27)))
+				)
+				(hide yes)
+			)
+		)
+		(embedded_fonts no)
+		(property "Characteristics" ""
+			(at 0 0 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Package ID" "PTS526 G-leads H1.5"
+			(at 0 0 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Source" "PTS526SM15SMTR2 LFS"
+			(at 0 0 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Critical" ""
+			(at 0 0 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Notes" "SPST normally open. Pins 1 and 2 are permanently common; pins 3 and 4 are permanently common. Hidden duplicate pins preserve this topology."
+			(at 0 0 0)
+			(hide yes)
+			(effects (font (size 1.27 1.27)))
+		)
+	)
+)

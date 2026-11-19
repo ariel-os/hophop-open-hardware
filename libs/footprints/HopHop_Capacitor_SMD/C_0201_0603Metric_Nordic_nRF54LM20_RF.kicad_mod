@@ -1,0 +1,63 @@
+(footprint "C_0201_0603Metric_Nordic_nRF54LM20_RF"
+  (version 20260206)
+  (generator "pygmy_nordic_lands")
+  (layer "F.Cu")
+  (descr "Capacitor, 0201 (0603 Metric), land copied from the Nordic nRF54LM20B-QGAA reference layout (4 layers, config 1, rev 1.0, Gerbers): pads 0.27x0.30mm roundrect r0.034mm at +/-0.285mm, 0.30mm gap, 0.84mm overall, paste 1:1; mask from the board default 0.05mm (Nordic 0.076mm); no silk; KLC 0.15mm courtyard; https://www.nordicsemi.com/Products/nRF54LM20B")
+  (tags "capacitor 0201 Nordic nRF54LM20 RF matching")
+  (property "Reference" "REF**"
+    (at 0 -1.1 0)
+    (layer "F.SilkS")
+    (effects
+      (font
+        (size 1 1)
+        (thickness 0.15))))
+  (property "Value" "C_0201_0603Metric_Nordic_nRF54LM20_RF"
+    (at 0 1.1 0)
+    (layer "F.Fab")
+    (effects
+      (font
+        (size 1 1)
+        (thickness 0.15))))
+  (attr smd)
+  (duplicate_pad_numbers_are_jumpers no)
+  (fp_rect
+    (start -0.57 -0.32)
+    (end 0.57 0.32)
+    (stroke
+      (width 0.05)
+      (type solid))
+    (fill no)
+    (layer "F.CrtYd"))
+  (fp_rect
+    (start -0.3 -0.15)
+    (end 0.3 0.15)
+    (stroke
+      (width 0.1)
+      (type solid))
+    (fill no)
+    (layer "F.Fab"))
+  (fp_text user "${REFERENCE}"
+    (at 0 -0.73 0)
+    (layer "F.Fab")
+    (effects
+      (font
+        (size 0.25 0.25)
+        (thickness 0.04))))
+  (pad "1" smd roundrect
+    (at -0.285 0)
+    (size 0.27 0.3)
+    (layers "F.Cu" "F.Mask" "F.Paste")
+    (roundrect_rratio 0.125))
+  (pad "2" smd roundrect
+    (at 0.285 0)
+    (size 0.27 0.3)
+    (layers "F.Cu" "F.Mask" "F.Paste")
+    (roundrect_rratio 0.125))
+  (embedded_fonts no)
+  (model "${KIPRJMOD}/../../libs/3dmodels/HopHop_Capacitor_SMD/C_Murata_GJM03_0603Metric.step"
+    (offset
+      (xyz 0 0 0))
+    (scale
+      (xyz 1 1 1))
+    (rotate
+      (xyz 0 0 0))))

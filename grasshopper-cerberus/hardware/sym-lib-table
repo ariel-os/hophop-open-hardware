@@ -1,0 +1,13 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "HopHop_Analog_Switch")(type "KiCad")(uri "${KIPRJMOD}/../../libs/symbols/HopHop_Analog_Switch.kicad_sym")(options "")(descr ""))
+  (lib (name "HopHop_Connector")(type "KiCad")(uri "${KIPRJMOD}/../../libs/symbols/HopHop_Connector.kicad_sym")(options "")(descr ""))
+  (lib (name "HopHop_Device")(type "KiCad")(uri "${KIPRJMOD}/../../libs/symbols/HopHop_Device.kicad_sym")(options "")(descr ""))
+  (lib (name "HopHop_MCU_Nordic")(type "KiCad")(uri "${KIPRJMOD}/../../libs/symbols/HopHop_MCU_Nordic.kicad_sym")(options "")(descr ""))
+  (lib (name "HopHop_Power_Management")(type "KiCad")(uri "${KIPRJMOD}/../../libs/symbols/HopHop_Power_Management.kicad_sym")(options "")(descr ""))
+  (lib (name "HopHop_Power_Protection")(type "KiCad")(uri "${KIPRJMOD}/../../libs/symbols/HopHop_Power_Protection.kicad_sym")(options "")(descr ""))
+  (lib (name "HopHop_Regulator_Switching")(type "KiCad")(uri "${KIPRJMOD}/../../libs/symbols/HopHop_Regulator_Switching.kicad_sym")(options "")(descr ""))
+  (lib (name "HopHop_Switch")(type "KiCad")(uri "${KIPRJMOD}/../../libs/symbols/HopHop_Switch.kicad_sym")(options "")(descr ""))
+  (lib (name "HopHop_Transistor_FET")(type "KiCad")(uri "${KIPRJMOD}/../../libs/symbols/HopHop_Transistor_FET.kicad_sym")(options "")(descr ""))
+  (lib (name "HopHop_Power")(type "KiCad")(uri "${KIPRJMOD}/../../libs/symbols/HopHop_Power.kicad_sym")(options "")(descr ""))
+)
