@@ -1,0 +1,211 @@
+(footprint "USB_C_Receptacle_GCT_USB4216-03-A"
+  (version 20260206)
+  (generator "pcbnew")
+  (generator_version "10.0")
+  (layer "F.Cu")
+  (descr "USB 2.0 Type-C receptacle, fully SMT incl. shell tabs, top mount horizontal, 16 contacts, GCT USB4216 Rev A2 recommended layout; https://gct.co/files/drawings/usb4216.pdf")
+  (tags "usb usb-c 2.0 smt receptacle")
+  (property "Reference" "REF**"
+    (at 0 -5.2 0)
+    (layer "F.SilkS")
+    (uuid "1d04bc06-8bea-536c-9d24-904a2f25aff4")
+    (effects
+      (font
+        (size 1 1)
+        (thickness 0.15))))
+  (property "Value" "USB_C_Receptacle_GCT_USB4216-03-A"
+    (at 0 4.45 0)
+    (layer "F.Fab")
+    (uuid "efcc70f8-99ff-5a71-a703-9f878b6ed995")
+    (effects
+      (font
+        (size 1 1)
+        (thickness 0.15))))
+  (attr smd)
+  (duplicate_pad_numbers_are_jumpers no)
+  (fp_text user "${REFERENCE}"
+    (at 0 0 0)
+    (layer "F.Fab")
+    (uuid "7b8a6f54-2c31-59a1-a2d2-23ed597f6369")
+    (effects
+      (font
+        (size 1 1)
+        (thickness 0.15))))
+  (fp_rect
+    (start -4.47 -3.25)
+    (end 4.47 3.25)
+    (stroke
+      (width 0.1)
+      (type solid))
+    (fill none)
+    (layer "F.Fab")
+    (uuid "d3841572-80e8-59e7-a3cd-4149a24bb387"))
+  (fp_line
+    (start -4.47 3.25)
+    (end 4.47 3.25)
+    (stroke
+      (width 0.1)
+      (type solid))
+    (layer "Dwgs.User")
+    (uuid "73cda0fa-9e94-5d01-88ee-b8ec0a98c0bf"))
+  (fp_line
+    (start -4.57 -1.5499999999999998)
+    (end -4.57 0.19999999999999996)
+    (stroke
+      (width 0.12)
+      (type solid))
+    (layer "F.SilkS")
+    (uuid "dbaa50e8-d94b-5c9e-8c6f-d40e9fe876ad"))
+  (fp_line
+    (start 4.57 -1.5499999999999998)
+    (end 4.57 0.19999999999999996)
+    (stroke
+      (width 0.12)
+      (type solid))
+    (layer "F.SilkS")
+    (uuid "b6c2a180-e375-5904-a190-f62faab417d0"))
+  (fp_rect
+    (start -6.12 -4.25)
+    (end 6.12 3.5)
+    (stroke
+      (width 0.05)
+      (type solid))
+    (fill none)
+    (layer "F.CrtYd")
+    (uuid "cd7e9dd8-1f43-5ac2-9d72-01421a9061da"))
+  (pad "A1" smd roundrect
+    (at -3.2 -3.425)
+    (size 0.6 1.15)
+    (layers "F.Cu" "F.Mask" "F.Paste")
+    (roundrect_rratio 0.25)
+    (uuid "73af3e2d-5028-59bb-bcf5-819edd408ec4"))
+  (pad "B12" smd roundrect
+    (at -3.2 -3.425)
+    (size 0.6 1.15)
+    (layers "F.Cu" "F.Mask" "F.Paste")
+    (roundrect_rratio 0.25)
+    (uuid "a0967326-7cd5-52a3-af37-ebc679aa1db9"))
+  (pad "A4" smd roundrect
+    (at -2.4 -3.425)
+    (size 0.6 1.15)
+    (layers "F.Cu" "F.Mask" "F.Paste")
+    (roundrect_rratio 0.25)
+    (uuid "1ea2b115-2e79-5e2e-ad5a-9856ae3b0f35"))
+  (pad "B9" smd roundrect
+    (at -2.4 -3.425)
+    (size 0.6 1.15)
+    (layers "F.Cu" "F.Mask" "F.Paste")
+    (roundrect_rratio 0.25)
+    (uuid "ff17a464-03bc-5685-a43f-90e5625a3588"))
+  (pad "B8" smd roundrect
+    (at -1.75 -3.425)
+    (size 0.3 1.15)
+    (layers "F.Cu" "F.Mask" "F.Paste")
+    (roundrect_rratio 0.25)
+    (uuid "dcd5a756-d214-5044-a8ee-7fe5f10adb55"))
+  (pad "A5" smd roundrect
+    (at -1.25 -3.425)
+    (size 0.3 1.15)
+    (layers "F.Cu" "F.Mask" "F.Paste")
+    (roundrect_rratio 0.25)
+    (uuid "f5f2496f-23ac-5523-9158-b422ea217fdc"))
+  (pad "B7" smd roundrect
+    (at -0.75 -3.425)
+    (size 0.3 1.15)
+    (layers "F.Cu" "F.Mask" "F.Paste")
+    (roundrect_rratio 0.25)
+    (uuid "ba92dffe-412f-5600-a81f-04fa64b0e5ef"))
+  (pad "A6" smd roundrect
+    (at -0.25 -3.425)
+    (size 0.3 1.15)
+    (layers "F.Cu" "F.Mask" "F.Paste")
+    (roundrect_rratio 0.25)
+    (uuid "28b76c0e-674c-546f-8907-5dd24df007be"))
+  (pad "A7" smd roundrect
+    (at 0.25 -3.425)
+    (size 0.3 1.15)
+    (layers "F.Cu" "F.Mask" "F.Paste")
+    (roundrect_rratio 0.25)
+    (uuid "fff802d1-bf6c-55cc-9c5b-7623a2e3e0b0"))
+  (pad "B6" smd roundrect
+    (at 0.75 -3.425)
+    (size 0.3 1.15)
+    (layers "F.Cu" "F.Mask" "F.Paste")
+    (roundrect_rratio 0.25)
+    (uuid "4d35f433-6059-52d8-ace8-f3027b4453e6"))
+  (pad "A8" smd roundrect
+    (at 1.25 -3.425)
+    (size 0.3 1.15)
+    (layers "F.Cu" "F.Mask" "F.Paste")
+    (roundrect_rratio 0.25)
+    (uuid "a3ef2373-ad56-5672-96e9-8790355b5c38"))
+  (pad "B5" smd roundrect
+    (at 1.75 -3.425)
+    (size 0.3 1.15)
+    (layers "F.Cu" "F.Mask" "F.Paste")
+    (roundrect_rratio 0.25)
+    (uuid "2bf40b76-6131-5aab-8175-9456350bfe05"))
+  (pad "B4" smd roundrect
+    (at 2.4 -3.425)
+    (size 0.6 1.15)
+    (layers "F.Cu" "F.Mask" "F.Paste")
+    (roundrect_rratio 0.25)
+    (uuid "17c658ff-b160-5b01-91d2-9aa8a9907615"))
+  (pad "A9" smd roundrect
+    (at 2.4 -3.425)
+    (size 0.6 1.15)
+    (layers "F.Cu" "F.Mask" "F.Paste")
+    (roundrect_rratio 0.25)
+    (uuid "a731a126-5b6d-5d57-96f7-c711e26f4d68"))
+  (pad "B1" smd roundrect
+    (at 3.2 -3.425)
+    (size 0.6 1.15)
+    (layers "F.Cu" "F.Mask" "F.Paste")
+    (roundrect_rratio 0.25)
+    (uuid "1b990503-2875-5266-94ff-201515535e04"))
+  (pad "A12" smd roundrect
+    (at 3.2 -3.425)
+    (size 0.6 1.15)
+    (layers "F.Cu" "F.Mask" "F.Paste")
+    (roundrect_rratio 0.25)
+    (uuid "429a7493-0d7b-5567-b274-83320e366fa6"))
+  (pad "SH" smd rect
+    (at -5.095 -2.775)
+    (size 1.55 1.25)
+    (layers "F.Cu" "F.Mask" "F.Paste")
+    (uuid "36d9f251-b092-5c84-977e-e1b2f32657a9"))
+  (pad "SH" smd rect
+    (at 5.095 -2.775)
+    (size 1.55 1.25)
+    (layers "F.Cu" "F.Mask" "F.Paste")
+    (uuid "74538c32-b846-5ab2-b22f-66d47d41d09d"))
+  (pad "SH" smd rect
+    (at -5.095 1.15)
+    (size 1.55 1.5)
+    (layers "F.Cu" "F.Mask" "F.Paste")
+    (uuid "154115db-3a9b-5243-afda-24a9bfdc5d05"))
+  (pad "SH" smd rect
+    (at 5.095 1.15)
+    (size 1.55 1.5)
+    (layers "F.Cu" "F.Mask" "F.Paste")
+    (uuid "7e592430-e164-545c-870a-86c2b7b2c325"))
+  (pad "" np_thru_hole circle
+    (at -3.0 -2.15)
+    (size 0.65 0.65)
+    (drill 0.65)
+    (layers "*.Cu" "*.Mask")
+    (uuid "abf9b5a3-38dc-5c7f-a625-d74d2bb4b8aa"))
+  (pad "" np_thru_hole circle
+    (at 3.0 -2.15)
+    (size 0.65 0.65)
+    (drill 0.65)
+    (layers "*.Cu" "*.Mask")
+    (uuid "3b38b3fd-7808-5355-a911-6230e3aef192"))
+  (embedded_fonts no)
+  (model "${KIPRJMOD}/../../libs/3dmodels/HopHop_Connector_USB/USB_C_Receptacle_GCT_USB4216-03-A.step"
+    (offset
+      (xyz 0 0 0))
+    (scale
+      (xyz 1 1 1))
+    (rotate
+      (xyz 0 0 0))))

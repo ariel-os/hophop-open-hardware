@@ -1,0 +1,23 @@
+(version 1)
+(rule "Conservative clearance outside the Nordic area"
+  (condition "!A.enclosedByArea('NORDIC_REF') && !B.enclosedByArea('NORDIC_REF')")
+  (constraint clearance (min 0.25)))
+(rule "Conservative tracks, vias and holes outside the Nordic area"
+  (condition "!A.enclosedByArea('NORDIC_REF')")
+  (constraint track_width (min 0.25))
+  (constraint hole_size (min 0.4))
+  (constraint via_diameter (min 0.9))
+  (constraint annular_width (min 0.25))
+  (constraint hole_clearance (min 0.3))
+  (constraint hole_to_hole (min 0.5)))
+(rule "Nordic reference clearance"
+  (condition "A.enclosedByArea('NORDIC_REF') || B.enclosedByArea('NORDIC_REF')")
+  (constraint clearance (min 0.1)))
+(rule "Nordic reference vias and holes"
+  (condition "A.enclosedByArea('NORDIC_REF')")
+  (constraint hole_size (min 0.2))
+  (constraint via_diameter (min 0.45))
+  (constraint annular_width (min 0.1))
+  (constraint track_width (min 0.1))
+  (constraint hole_clearance (min 0.15))
+  (constraint hole_to_hole (min 0.25)))
